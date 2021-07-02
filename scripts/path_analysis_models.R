@@ -19,16 +19,16 @@ library(dplyr)
 # READ DATA
 
 # CONUS LOW HYDRAP (0 - 2) n = 553 lakes
-low_hydrap <-read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/conus_low_hydrap.csv")
+low_hydrap <-read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/conus_low_hydrap.csv")
 todrop<-names(low_hydrap)%in%c("X1","X1_1") 
 low_hydrap<-low_hydrap[!todrop]
 
 # By ECOREGION
-west <-read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/west.csv") #n = 429
-mwest <- read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/mwest.csv") #n = 482
-gplains <- read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/gplains.csv") #n = 292
-apps <- read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/apps.csv") #n = 324
-cstplains <- read_csv("~/NLA_hydro/NLA_lk_hydro/data_processed/cstplains.csv") #n = 189
+west <-read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/west.csv") #n = 429
+mwest <- read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/mwest.csv") #n = 482
+gplains <- read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/gplains.csv") #n = 292
+apps <- read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/apps.csv") #n = 324
+cstplains <- read_csv("~/NLA_hydro/NLA_hydro_driver/data_processed/cstplains.csv") #n = 189
 
 # Clean up datasets
 todrop<-names(west)%in%c("X1","X1_1") 
@@ -170,11 +170,11 @@ inspect(fit_DD_EI_min, 'r2')
 # Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_min <- capture.output(summary(fit_DD_EI_min, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_min, "~/NLA_hydro/NLA_lk_hydro/Routput/CONUS_0712_LOW_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
+write.csv(out_DD_EI_base_min, "~/NLA_hydro/NLA_hydro_driver/Routput/CONUS_0712_LOW_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_min<- standardizedSolution(fit_DD_EI_min)
-write.csv(std_parameter_se_bootstrap_min, "~/NLA_hydro/NLA_lk_hydro/Routput/CONUS_0712_LOW_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_min, "~/NLA_hydro/NLA_hydro_driver/Routput/CONUS_0712_LOW_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 #############
@@ -198,11 +198,11 @@ inspect(fit_DD_EI_west, 'r2')
 # WEST WIHTOUT INTERACTION Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_west <- capture.output(summary(fit_DD_EI_west, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_west, "~/NLA_hydro/NLA_lk_hydro/Routput/WEST_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
+write.csv(out_DD_EI_base_west, "~/NLA_hydro/NLA_hydro_driver/Routput/WEST_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_west<- standardizedSolution(fit_DD_EI_west)
-write.csv(std_parameter_se_bootstrap_west, "~/NLA_hydro/NLA_lk_hydro/Routput/WEST_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_west, "~/NLA_hydro/NLA_hydro_driver/Routput/WEST_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 
@@ -227,11 +227,11 @@ inspect(fit_DD_EI_mwest, 'r2')
 # MIDWEST WIHTOUT INTERACTION Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_mwest <- capture.output(summary(fit_DD_EI_mwest, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_mwest, "~/NLA_hydro/NLA_lk_hydro/Routput/MIDWEST_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
+write.csv(out_DD_EI_base_mwest, "~/NLA_hydro/NLA_hydro_driver/Routput/MIDWEST_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_mwest<- standardizedSolution(fit_DD_EI_mwest)
-write.csv(std_parameter_se_bootstrap_mwest, "~/NLA_hydro/NLA_lk_hydro/Routput/MIDWEST_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_mwest, "~/NLA_hydro/NLA_hydro_driver/Routput/MIDWEST_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 #############
@@ -255,11 +255,11 @@ inspect(fit_DD_EI_gplains, 'r2')
 # GREAT PLAINS WIHTOUT INTERACTION Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_gplains <- capture.output(summary(fit_DD_EI_gplains, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_gplains, "~/NLA_hydro/NLA_lk_hydro/Routput/GPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
+write.csv(out_DD_EI_base_gplains, "~/NLA_hydro/NLA_hydro_driver/Routput/GPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_WEST_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_gplains<- standardizedSolution(fit_DD_EI_gplains)
-write.csv(std_parameter_se_bootstrap_gplains, "~/NLA_hydro/NLA_lk_hydro/Routput/GPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_gplains, "~/NLA_hydro/NLA_hydro_driver/Routput/GPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 #############
@@ -283,11 +283,11 @@ inspect(fit_DD_EI_apps, 'r2')
 # APPALCHIANS WIHTOUT INTERACTION Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_apps <- capture.output(summary(fit_DD_EI_apps, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_apps, "~/NLA_hydro/NLA_lk_hydro/Routput/APPS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_apps_07_sat
+write.csv(out_DD_EI_base_apps, "~/NLA_hydro/NLA_hydro_driver/Routput/APPS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_apps_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_apps<- standardizedSolution(fit_DD_EI_apps)
-write.csv(std_parameter_se_bootstrap_apps, "~/NLA_hydro/NLA_lk_hydro/Routput/APPS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_apps, "~/NLA_hydro/NLA_hydro_driver/Routput/APPS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 #############
@@ -311,11 +311,11 @@ inspect(fit_DD_EI_cstplains, 'r2')
 # COASTAL PLAINS WIHTOUT INTERACTION Export R output
 #https://www.r-bloggers.com/export-r-output-to-a-file/
 out_DD_EI_base_cstplains <- capture.output(summary(fit_DD_EI_cstplains, standardized=TRUE, fit.measures=TRUE)) #, modindices=T
-write.csv(out_DD_EI_base_cstplains, "~/NLA_hydro/NLA_lk_hydro/Routput/CSTPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_apps_07_sat
+write.csv(out_DD_EI_base_cstplains, "~/NLA_hydro/NLA_hydro_driver/Routput/CSTPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION.csv") #summ_apps_07_sat
 
 # Standardized estimates of bootstrap model
 std_parameter_se_bootstrap_cstplains<- standardizedSolution(fit_DD_EI_cstplains)
-write.csv(std_parameter_se_bootstrap_cstplains, "~/NLA_hydro/NLA_lk_hydro/Routput/CSTPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
+write.csv(std_parameter_se_bootstrap_cstplains, "~/NLA_hydro/NLA_hydro_driver/Routput/CSTPLAINS_0712_HYDRO_DD_EI_NO_INTERACTION_std_bootstrap_CI.csv")
 
 
 

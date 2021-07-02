@@ -16,7 +16,7 @@ library(dplyr)
 ##    data were processed and created in C:\Users\Owner\Dropbox\z_EmiFergus\a_Work_computer\a_Water_Level\Analysis\a_Lake_managed_class\Rscripts\NLA0712_data_creation_between_years_USE.R
 
 # Relative path from working directory in C:/Users/Owner/Documents
-d <- read_csv("~/NLA_hydro/NLA_lk_hydro/data/NLA0712_1ha_opt1_HydrAP_all.csv")
+d <- read_csv("~/NLA_hydro/NLA_hydro_driver/data/NLA0712_1ha_opt1_HydrAP_all.csv")
 # Absolute path to original data
 #d<-read.csv("C:/Users/Owner/Dropbox/z_EmiFergus/a_Work_computer/a_Water_Level/Analysis/a_Lake_managed_class/Data/ECOREGION/ALL_ECO/NLA0712_1ha_opt1_HydAP_v9_RESAMPLED.csv")
 todrop<-names(d)%in%c("X","X.2") 
@@ -160,13 +160,13 @@ coastplains<-dat %>%
 
 #######################
 ## WRITE PROCESSED DATA FILES FOR SEM ANALYSIS
-write.csv(low_hydrap, "~/NLA_hydro/NLA_lk_hydro/data_processed/conus_low_hydrap.csv")
+write.csv(low_hydrap, "~/NLA_hydro/NLA_hydro_driver/data_processed/conus_low_hydrap.csv")
 
-write.csv(west, "~/NLA_hydro/NLA_lk_hydro/data_processed/west.csv")
-write.csv(mwest, "~/NLA_hydro/NLA_lk_hydro/data_processed/mwest.csv")
-write.csv(gplains, "~/NLA_hydro/NLA_lk_hydro/data_processed/gplains.csv")
-write.csv(apps, "~/NLA_hydro/NLA_lk_hydro/data_processed/apps.csv")
-write.csv(coastplains, "~/NLA_hydro/NLA_lk_hydro/data_processed/cstplains.csv")
+write.csv(west, "~/NLA_hydro/NLA_hydro_driver/data_processed/west.csv")
+write.csv(mwest, "~/NLA_hydro/NLA_hydro_driver/data_processed/mwest.csv")
+write.csv(gplains, "~/NLA_hydro/NLA_hydro_driver/data_processed/gplains.csv")
+write.csv(apps, "~/NLA_hydro/NLA_hydro_driver/data_processed/apps.csv")
+write.csv(coastplains, "~/NLA_hydro/NLA_hydro_driver/data_processed/cstplains.csv")
 
 
 
