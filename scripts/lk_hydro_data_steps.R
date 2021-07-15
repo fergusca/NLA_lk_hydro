@@ -160,6 +160,7 @@ coastplains<-dat %>%
 
 #######################
 ## WRITE PROCESSED DATA FILES FOR SEM ANALYSIS
+write.csv(dat, "~/NLA_hydro/NLA_hydro_driver/data_processed/conus_NLA_opt1_1716.csv")
 write.csv(low_hydrap, "~/NLA_hydro/NLA_hydro_driver/data_processed/conus_low_hydrap.csv")
 
 write.csv(west, "~/NLA_hydro/NLA_hydro_driver/data_processed/west.csv")
