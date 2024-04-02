@@ -18,7 +18,7 @@ rm(list=ls())
 ###########
 # Libraries
 ###########
-library(dplyr)
+library(tidyverse)
 library(ggplot2)
 library(ggpubr)
 
@@ -28,7 +28,7 @@ library(ggpubr)
 ##############
 
 ## Original Long-format RESAMPLED lakes (n = 696 observations of 348 lakes)
-nla07_12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
+nla07_12 <- read_csv("data_processed/nla07_12/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
 # n = 696 observations (348 lakes resampled)
 
 ##############

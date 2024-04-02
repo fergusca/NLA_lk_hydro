@@ -159,6 +159,7 @@ rm(list=ls())
 ###########
 # Libraries
 ###########
+library(tidyverse)
 library(maps)
 library(mapdata)
 library(scales)
@@ -180,7 +181,7 @@ library(caret)
 ############
 
 ## Lake isotope and drawdown data from Phil
-isodata<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/nla0712_isodrawdown_20160219.csv")
+isodata<-read_csv("data/NLA12/a_nla0712_isodrawdown_20160219.csv")
 names(isodata)
 # WHich lakes are missing isotope
 iso_na_all<-isodata[which(is.na(isodata$d18O)),]
@@ -194,34 +195,34 @@ isodata_12<- isodata[which(isodata$YEAR == 2012),] # keeps 1240 records out of 2
 setwd("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/NLA_2012_original_data")
 
 # Key variable
-key.vars<-read.csv("NLA2012_key_variables.csv") #WGT_ALL - adjusted weight?
+key.vars<-read_csv("data/NLA12/NLA2012_key_variables.csv") #WGT_ALL - adjusted weight?
 
 # Site information
-site<- read.csv("NLA2012_Site_information.csv")
+site<- read_csv("data/NLA12/NLA2012_Site_information.csv")
 
 # water chemistry
-chem <- read.csv("NLA2012_water_chemistry.csv")
+chem <- read_csv("data/NLA12/NLA2012_water_chemistry.csv")
 
 # chl-a
-chla<- read.csv("NLA2012_chlorophyll.csv")
+chla<- read_csv("data/NLA12/NLA2012_chlorophyll.csv")
 
 # toxin
-toxin <- read.csv("NLA2012_toxin.csv")
+toxin <- read_csv("data/NLA12/NLA2012_toxin.csv")
 
 # secchi
-secchi<- read.csv("NLA2012_secchi.csv")
+secchi<- read_csv("data/NLA12/NLA2012_secchi.csv")
 
 #phab
-phab<-read.csv("NLA2012_phab_metrics.csv") # there are 1018 VISIT=1 = maybe merge later
+phab<-read_csv("data/NLA12/NLA2012_phab_metrics.csv") # there are 1018 VISIT=1 = maybe merge later
 
 # condition
-condition<- read.csv("NLA2012_condition.csv")
+condition<- read_csv("data/NLA12/NLA2012_condition.csv")
 
 # visual
-visual <- read.csv("NLA2012_wide_assement_visual.csv")
+visual <- read_csv("data/NLA12/NLA2012_wide_assement_visual.csv")
 
 # landscape basin NLCD 2006 that is included in NLA 2012
-lulc<- read.csv("NLA2012_wide_landscape.csv")
+lulc<- read_csv("data/NLA12/NLA2012_wide_landscape.csv")
 
 
 ## NOTE: water chemistry, chla are missing SITE_ID
@@ -293,7 +294,7 @@ t<-isodata_12_b[which(isodata_12_b$SITE_ID=="NLA12_KS-114"),]
 #############
 ##########
 # Lake isotope data 2012 - Keep all
-write.csv(isodata_12_b,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/a_lk_iso12.csv")
+write_csv(isodata_12_b,"data_to_merge_NLA12/multimerge_nla12/a_lk_iso12.csv")
 
 ############
 #### NLA 2012 individual datasets - reduced variables
@@ -307,7 +308,7 @@ site.vars <- c("SITE_ID","VISIT_NO","UID","DATE_COL","AGGR_ECO3_2015","AGGR_ECO9
                "TNT")
 site.red<-site[site.vars]
 
-write.csv(site.red, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/a_site_info.csv")
+write_csv(site.red, "data_to_merge_NLA12/multimerge_nla12/a_site_info.csv")
 
 
 ## KEY variables - need to get depth at sample location (which I think is the approximate max depth of the lake)
@@ -315,7 +316,7 @@ names(key.vars) # n = 1138 obs
 vars.k <- c("SITE_ID","VISIT_NO","UID","INDEX_SITE_DEPTH")
 key.red <-key.vars[vars.k]
 
-write.csv(key.red, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/j_key_zmax.csv")
+write_csv(key.red, "data_to_merge_NLA12/multimerge_nla12/j_key_zmax.csv")
 
 ########
 ## Water chemistry - Used the merged data (chem.12) that has SITE_ID and VISIT_NO
@@ -347,7 +348,7 @@ names(chem.red) <- c("SITE_ID","VISIT_NO","SAM_CODE","ALUMINUM_RESULT_mgL","AMMO
 
 names(chem.red)
 
-write.csv(chem.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/b_chem.csv")
+write_csv(chem.red,"data_to_merge_NLA12/multimerge_nla12/b_chem.csv")
 
 ##########
 ## Chla - - Used the merged data (chla.12) that has SITE_ID and VISIT_NO
@@ -364,7 +365,7 @@ chla.red <- chla.12[chla.vars]
 # Renamed to include units
 names(chla.red)[names(chla.red)=="CHLL_RESULT"]<-"CHLL_RESULT_ugL"
 
-write.csv(chla.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/c_chla.csv")
+write_csv(chla.red,"data_to_merge_NLA12/multimerge_nla12/c_chla.csv")
 
 ##########
 ## Toxin
@@ -378,7 +379,7 @@ toxin.red <- toxin[toxin.vars]
 names(toxin.red)[names(toxin.red)=="MICL_RESULT"]<-"MICL_RESULT_ugL"
 names(toxin.red)
 
-write.csv(toxin.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/d_toxin.csv")
+write_csv(toxin.red,"data_to_merge_NLA12/multimerge_nla12/d_toxin.csv")
 
 ##########
 ## Secchi
@@ -390,7 +391,7 @@ secchi.vars<- c("SITE_ID","VISIT_NO",
 secchi.red<- secchi[secchi.vars]
 names(secchi.red)[names(secchi.red)=="SECCHI"]<-"SECCHI_m"
 
-write.csv(secchi.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/e_secchi.csv")
+write_csv(secchi.red,"data_to_merge_NLA12/multimerge_nla12/e_secchi.csv")
 
 
 ## Physical habitat
@@ -435,7 +436,7 @@ phab.vars<-c("SITE_ID","VISIT_NO","DATE_COL",
 
 phab.red<- phab[phab.vars]
 
-write.csv(phab.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/f_phab.csv" )
+write_csv(phab.red,"data_to_merge_NLA12/multimerge_nla12/f_phab.csv" )
 
 
 ## Visual
@@ -453,7 +454,7 @@ visual.vars<- c("SITE_ID","VISIT_NO","DATE_COL",
 
 visual.red<- visual[visual.vars]
 
-write.csv(visual.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/g_visual.csv" )
+write_csv(visual.red,"data_to_merge_NLA12/multimerge_nla12/g_visual.csv" )
 
 
 ## Condition - but this is a smaller dataset than the others so may want to join later
@@ -467,7 +468,7 @@ cond.vars<-c("SITE_ID","VISIT_NO",
 
 cond.red <- condition[cond.vars]
 
-write.csv(cond.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/lk_condition.csv" )
+write_csv(cond.red,"data_to_merge_NLA12/lk_condition.csv" )
 
 
 ## Landscape variables provided in NLA12 - only one obs per lake so merge after
@@ -490,7 +491,7 @@ lulc.vars <- c("SITE_ID","DOMGEOL_BSN", "DAMCNT_BSN","DAMDEN_BSN",
 
 lulc.red <- lulc[lulc.vars]
 
-write.csv(lulc.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/f_landscape.csv" )
+write_csv(lulc.red,"data_to_merge_NLA12/f_landscape.csv" )
 
 ############
 ###  Derived E:I estimates UPDATED 9/10/17
@@ -499,7 +500,7 @@ write.csv(lulc.red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency 
 # 9/12/18 - Updated E:I values and lake volume
 # 6/24/19 - Updated lake volume and WRT
 # 7/4/19  - Updated lake volume and WRT for 3 lakes with zmax from literature OLD E_I_nla12_19JUN19.csv
-EI<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Derived_datasets/E_I_nla12_04JUL19.csv")
+EI<- read_csv("data/NLA12/E_I_nla12_04JUL19.csv")
 
 names(EI) # n=1237 obs; 16 variables
 
@@ -577,13 +578,13 @@ summary(EI_red$RT_iso)
 #    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
 # 0.0000  0.2682  0.5188  0.8085  0.9415 27.3200      33 
 
-write.csv(EI_red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge/h_EI_24JUN19.csv") # I copied the old one and pasted one folder back (in NLA_2012 "h_EI.csv")
+write_csv(EI_red,"data_to_merge_NLA12/multimerge_nla12/h_EI_24JUN19.csv") # I copied the old one and pasted one folder back (in NLA_2012 "h_EI.csv")
 
 ###########
 # Lake morpho output - 9/11/17
 ###########
 # Lake volume and other morpho metrics - 8/30/17
-vol <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Stable_isotope_calculations/2012/Processed/NLA12_ordered_SITEID_VOLUME.csv")
+vol <- read_csv("data/NLA12/NLA12_ordered_SITEID_VOLUME.csv")
 
 # Reorder variables
 myvars<- c("SITE_ID","VISIT_NO","Volume_m3","maxDepth_derived_m","meanDepth_m","surfaceArea_sqm",
@@ -591,7 +592,7 @@ myvars<- c("SITE_ID","VISIT_NO","Volume_m3","maxDepth_derived_m","meanDepth_m","
 vol<-vol[myvars]
 names(vol)
 
-write.csv(vol, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge/i_lake_morpho_ordered.csv")
+write_csv(vol, "data_to_merge_NLA12/multimerge_nla12/i_lake_morpho_ordered.csv")
 
 
 ##############
@@ -618,7 +619,7 @@ write.csv(vol, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA
 
 # Merging based on Site ID and Visit Number. I already subset data by year so the comb of the two make for a unique ID
 #  Added all.x=TRUE to retain NAs - this makes for a larger datasets but we can then trim
-multmerge = function(mergeme){
+multimerge = function(mergeme){
   filenames=list.files(path=mergeme, full.names=TRUE)
   datalist = lapply(filenames, function(x){read.csv(file=x,header=T)})
   Reduce(function(x,y) {merge(x,y, by=c("SITE_ID","VISIT_NO"),all.x=TRUE)}, datalist) #all.x=TRUE will retain NAs
@@ -626,23 +627,20 @@ multmerge = function(mergeme){
 
 
 # Site information, water chem, chla, toxin, secchi, and visual data
-NLA12_merge_a<- multmerge("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge")
-names(NLA12_merge_a)  #1269 obs and 414 variables
+NLA12_merge_a<- multimerge("data_to_merge_NLA12/multimerge_nla12")
+names(NLA12_merge_a)  #1269 obs and 406 variables
 
 ########
-## Drop duplicates based on SITE_ID and VISIT_NO
+## Drop duplicates based on SITE_ID and VISIT_NO n =1238
 NLA12_merge_b<-NLA12_merge_a[!duplicated(NLA12_merge_a[,c(1,2)]),] # Column 1&2 (SITE_ID & VISIT_NO)
 
 #######################
 ## MANUALLY MERGE datasets that will have NAs
 #######################
 #Manually merge lake condition
-condition <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/lk_condition.csv")
+condition <- read_csv("data_to_merge_NLA12/lk_condition.csv")
 names(condition)
 summary(condition)
-
-todrop<-names(condition)%in%c("X")
-condition<-condition[!todrop]
 
 NLA12_merge_c <-merge(NLA12_merge_b, condition, by=c("SITE_ID"),all.x=TRUE) # 1103 obs (from 1194) and 405 vars
 #summary(NLA12_merge_b)
@@ -678,7 +676,7 @@ table(NLA12_merge_d$Lake_Origin_use)
 
 ######
 ## Write NLA12 merged dataset - 1238 observations and 417 variables
-write.csv(NLA12_merge_d, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_merge.csv")
+write_csv(NLA12_merge_d, "data_processed/nla12/NLA12_merge.csv")
 
 
 ##############
@@ -686,28 +684,28 @@ write.csv(NLA12_merge_d, "C:/Users/EFergus/OneDrive - Environmental Protection A
 ##############
 
 # MERGED NLA 2012 datasets
-nla12_org<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_merge.csv")
+nla12_org<- read_csv("data_processed/nla12/NLA12_merge.csv")
 
 # Tabulated NLCD 2011 Land use/land cover
-nlcd11<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Derived_datasets/NLCD2011_NLA2012_basins_sqkm_area.csv")
+nlcd11<- read_csv("data/NLA12/NLCD2011_NLA2012_basins_sqkm_area.csv")
 
 # Climate - these are the (PRISM 30 yr avg?) values (not for 2011-2012 water year)
-climate<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Derived_datasets/Avg_climate_lk_pt.csv")
+climate<-read_csv("data/NLA12/Avg_climate_lk_pt.csv")
 
 # Climate 2011-2012 dataset
-climate12_all <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/Climate data/Raw climate data 2012 for isotope parameter calc/Processed/climate_2012_all.csv")
+climate12_all <- read_csv("data/NLA12/climate_2012_all.csv")
 
 # Read landscape dataset - to get elevation in basin
 # 2/7/18
-landscape <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/f_landscape.csv")
+landscape <- read_csv("data_to_merge_NLA12/f_landscape.csv")
 
 ###########
 ## Modify datasets 
 ###########
 # NLA original plus additional data
-todrop<-names(nla12_org)%in%c("X")
+todrop<-names(nla12_org)%in%c("X","UID...400")
 nla12_org<-nla12_org[!todrop]
-write.csv(nla12_org,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge_final/a_NLA12_EI_merge_24JUN19.csv") # Copied old version one folder out
+write_csv(nla12_org,"data_processed/nla12/a_NLA12_EI_merge_24JUN19.csv") # Copied old version one folder out
 
 
 # NLCD 2011 - relabel land use/cover classes
@@ -719,7 +717,7 @@ names(nlcd11) <- c("SITE_ID", "BASINAreaSqKM", "OPEN_11_km2","ICE_11_km2",
                    "SHRUBLAND_11_km2","GRASS_11_km2", "PASTURE_11_km2","CROPS_11_km2",
                    "WDYWET_11_km2","EMHERBWET_11_km2")
 
-write.csv(nlcd11,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge_final/c_NLCD2011_NLA2012_basins_sqkm_area.csv")
+write_csv(nlcd11,"data_to_merge_NLA12/c_NLCD2011_NLA2012_basins_sqkm_area.csv")
 
 ########
 ## 8/18/17 added climate data for 2011-12 water year
@@ -786,13 +784,11 @@ myvars<- c("SITE_ID","Precip_mm_avg_yr","Precip_mm_total_yr","Temp_degC_avg_yr",
            "temp_degC_winter","precip_mm_winter","temp_degC_spring","precip_mm_spring")
 
 climate12_red <-climate12_all[myvars]
-write.csv(climate12_red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge_final/e_climate12_red.csv")
+write_csv(climate12_red,"data_to_merge_NLA12/e_climate12_red.csv")
 
 ###########
 ##  Landscape  ## - provided in NLA 2012
 names(landscape)
-todrop<-names(landscape)%in%c("X")
-landscape<-landscape[!todrop]
 
 summary(landscape[c(6:8)])
 
@@ -803,8 +799,7 @@ landscape$ELEVMEAN_BSN_m <- landscape$ELEVMEAN_BSN*0.01
 landscape$ELEVMIN_BSN_m <- landscape$ELEVMIN_BSN*0.01
 summary(landscape$ELEVMAX_BSN_m)
 
-write.csv(landscape,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge_final/f_landscape_red.csv")
-
+write_csv(landscape,"data_to_merge_NLA12/f_landscape_red.csv")
 
 ###########
 ## I copied datasets into a new folder "Data_to_merge_final"
@@ -830,9 +825,9 @@ multmerge = function(mergeme){
   Reduce(function(x,y) {merge(x,y, by=c("SITE_ID"),all.x=TRUE)}, datalist)
 }
 
-NLA12_merge_e<- multmerge("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Data_to_merge_final")
+NLA12_merge_e<- multmerge("data_to_merge_NLA12/multimerge_pt2")
 
-names(NLA12_merge_e)  # 1238  obs and 502 variables 
+names(NLA12_merge_e)  # 1238  obs and 500 variables 
 table(NLA12_merge_e$SITE_ID) # 
 table(NLA12_merge_e$VISIT_NO)
 summary(NLA12_merge_e$E_m)
@@ -859,7 +854,7 @@ n_occur_b[n_occur_b$Freq>2,]
 # 7/26/18 - added more lakes
 ###########
 # Read in morph dataset
-morph<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Derived_datasets/g_morpho_hollister_23JUL18.csv")
+morph<-read_csv("data/NLA12/g_morpho_hollister_23JUL18.csv")
 names(morph)
 
 #Rename some columns
@@ -890,6 +885,9 @@ names(NLA12_merge_f)
 ## Clean up merged dataset
 #########
 names(NLA12_merge_f)
+NLA12_merge_f<-NLA12_merge_f%>%
+  rename(UID=UID...38)
+str(NLA12_merge_f$UID)
 
 ###############
 ## Reorder variables and drop some
@@ -965,13 +963,14 @@ myvars<- c("SITE_ID","VISIT_NO","UID","SID","YEAR","DATE_COL_iso","SAMPLE_ID","S
            "VolumeDerivedZmax","FetchN","FetchE" ,"FetchSE","MaxDepthDerived","MeanDepthDerived",
            "LAT_DD83","LON_DD83","AREA_HA","INDEX_SITE_DEPTH")
 
-NLA12_merge_g<-NLA12_merge_f[myvars] 
+NLA12_merge_g<-NLA12_merge_f%>%
+  select(all_of(myvars))
 
 names(NLA12_merge_g)
 
 ######
 ## Write NLA12 merged dataset - 1238 observations and 380 variables
-write.csv(NLA12_merge_g, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_ALL_VARS_merge_24JUN19.csv") # 7/26/18 copied old version into one folder back
+write_csv(NLA12_merge_g, "data_processed/nla12/NLA12_ALL_VARS_merge_24JUN19.csv") # 7/26/18 copied old version into one folder back
 
 ################################
 #######################
@@ -983,14 +982,8 @@ write.csv(NLA12_merge_g, "C:/Users/EFergus/OneDrive - Environmental Protection A
 ########
 # Read in dataset - includes lake morpho output
 ########
-nla12_merge<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_ALL_VARS_merge_24JUN19.csv")
+nla12_all<-read_csv("data_processed/nla12/NLA12_ALL_VARS_merge_24JUN19.csv")
 
-#Dropping variables
-todrop<-names(nla12_merge)%in%c("X") 
-nla12_all<-nla12_merge[!todrop]
-
-# check to make sure updated dataset
-#test<-subset(nla12_merge,UID==8157) 
 
 #######
 ## Reorder variables
@@ -1011,10 +1004,12 @@ table(nla12_all$HYDRO_TYPE)
 #               25       394       592       219
 
 # Preprocessing of HYDRO_TYPE to label lakes not given a designation
-nla12_all$HYDRO_TYPE_f<-factor(nla12_all$HYDRO_TYPE, labels=c("Unknown","DRAINAGE","RESERVOIR","SEEPAGE"))
-table(nla12_all$HYDRO_TYPE_f)
-levels(nla12_all$HYDRO_TYPE_f)=c("Unknown","DRAINAGE","RESERVOIR","SEEPAGE")
-table(nla12_all$HYDRO_TYPE_f)
+# https://stackoverflow.com/questions/27195956/convert-na-into-a-factor-level
+library(forcats)
+nla12_all<-nla12_all%>%
+  mutate(HYDRO_TYPE_f=fct_na_value_to_level(HYDRO_TYPE,"Unknown"))
+table(test$HYDRO_TYPE_f)
+
 nla12_all$HYDRO_TYPE_f <- ordered(nla12_all$HYDRO_TYPE_f, levels=c("Unknown","SEEPAGE","DRAINAGE","RESERVOIR"))
 
 #########
@@ -1113,13 +1108,11 @@ summary(nla12_all$SLD)
 names(nla12_all)
 
 # # Rename level in TROPHIC_STATE that was blank to "Not assessed"
-levels(nla12_all$TROPHIC_STATE)
-levels(nla12_all$TROPHIC_STATE)=c("Not_assessed","EUTROPHIC","HYPEREUTROPHIC","MESOTROPHIC","OLIGOTROPHIC")
-
-#levels(nla12_all_b$TROPHIC_STATE)[levels(nla12_all_b$TROPHIC_STATE)==""] <-"Not_assessed"
+nla12_all<-nla12_all%>%
+  mutate(TROPHIC_STATE = fct_na_value_to_level(TROPHIC_STATE,"Not_assessed"))
 table(nla12_all$TROPHIC_STATE)
 #  Not_assessed      EUTROPHIC HYPEREUTROPHIC    MESOTROPHIC   OLIGOTROPHIC 
-#       37            474             88            518            113 
+#       45            474             88            518            113 
 
 ##########
 ## FILL IN VALUES WHERE MISSING LAT, LONG, AREA, MAX DEPTH
@@ -1196,7 +1189,7 @@ tail(nla12_revised[,c(1,35,405)])
 lat_na<-nla12_revised[which(is.na(nla12_revised$LATdd_use)),] #n =32 obs
 long_na<-nla12_revised[which(is.na(nla12_revised$LONdd_use)),] # n = 32
 lat_na<-lat_na[,c(1:3,38,39,377:380)]
-write.csv(lat_na,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/nla12_lat_long_NA.csv")
+write_csv(lat_na,"data_processed/nla12/nla12_lat_long_NA.csv")
 
 # USE LAT_DD83 and LONG_DD83 in dataset
 
@@ -1252,17 +1245,14 @@ nla12_revised$ECOREG_use <- ordered(nla12_revised$ECOWSA9_2015, levels=c("WMT","
 # 4/30/19 - rearranged data processing and made lake with E:I>4 NA
 # 6/24/19 - Updated Lake Volume and Water Residence times
 # FULL dataset n=1238 obs (all visits, non targets and duplicates) with 422 variables
-write.csv(nla12_revised,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_ALL_VARS_merge_transformed_depth_24JUN19.csv") # 7/26/18 copied the old version one folder back
+write_csv(nla12_revised,"data_processed/nla12/NLA12_ALL_VARS_merge_transformed_depth_24JUN19.csv") # 7/26/18 copied the old version one folder back
 
 
 ###########
 ## EXPLORE DATASET FOR ANALYSIS 
 ###########
 # Read dataset - n=1238 w/423 variables
-NLA12_org<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Modified_data/NLA12_ALL_VARS_merge_transformed_depth_24JUN19.csv")
-todrop <- names(NLA12_org)%in% c("X")
-NLA12_org <-NLA12_org[!todrop]
-
+NLA12_org<-read_csv("data_processed/nla12/NLA12_ALL_VARS_merge_transformed_depth_24JUN19.csv")
 
 # NUMBER OF LAKES with VISIT_NO = 1
 table(NLA12_org$VISIT_NO) 
@@ -1360,14 +1350,14 @@ myvars_drop <- names(nla12_full_b)%in% c("PCT_FOREST11_BSN.n","PCT_GRASS11_BSN.n
 
 nla12_full_c <- nla12_full_b[!myvars_drop]
 
-# n=1038 obs and 432 variables
+# n=1038 obs and 434 variables
 
 ###################
 ## REWRITE FILE
 ## NLA 2012 VISIT=1 with WGT_ALL >0 # n= 1038 with 437 variables
 # 10/5/18
 # 6/24/19
-write.csv(nla12_full_c,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE.csv")
+write_csv(nla12_full_c,"data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE.csv")
 
 
 ##############
@@ -1377,17 +1367,14 @@ write.csv(nla12_full_c,"C:/Users/EFergus/OneDrive - Environmental Protection Age
 ##############
 
 # LOAD processed NLA dataset with connectivity class
-nla12<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE.csv")
-
-todrop <- names(nla12)%in% c("X")
-nla12_mod <-nla12[!todrop]
+nla12<-read_csv("data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE.csv")
 
 # LOAD processed PHDI data
-phdi_12<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/Climate data/Palmer_Drought_Data/NLA12/PHDI_NLA12.csv")
+phdi_12<- read_csv("data/NLA12/PHDI_NLA12.csv")
 names(phdi_12)
 
 # MERGE NLA07 and PHDI
-test<-merge(nla12_mod,phdi_12,by="SITE_ID",all.x=TRUE)
+test<-merge(nla12,phdi_12,by="SITE_ID",all.x=TRUE)
 test<-test[!duplicated(test[,c(1)]),]
 names(test)
 
@@ -1446,7 +1433,7 @@ summary(test$SLD)
 
 ###############
 ## WRITE MODIFIED DATASET
-write.csv(test,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_24JUN19.csv")
+write_csv(test,"data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_24JUN19.csv")
 
 
 ###########################
@@ -1454,9 +1441,9 @@ write.csv(test,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA
 #  6/26/19
 
 # READ in processed NLA12 dataset
-nla12<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_24JUN19.csv")
+nla12<- read_csv("data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_24JUN19.csv")
 
-lkcat12<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/LakeCat/merged_vars_nla12.csv")
+lkcat12<-read_csv("data/NLA12/LakeCat_vars_nla12.csv")
 
 ###################
 ## MERGE NLA 2012 (n=1038 lakes) + LakeCat variables
@@ -1487,7 +1474,11 @@ summary(nla12_red$bffFlat_grad)
 # DROP EXTRA VARIABLES
 todrop<-names(nla12_red)%in%c("X","X.x","X.y","X","X.1","X.x.1","X.y.1","X.x.2",
                               "X.y.2","X.x.3","X.y.3","X.x.4","X.y.4",
-                              "VISIT_NO.y","LONdd_use.y","LATdd_use.y")
+                              "VISIT_NO.y","LONdd_use.y","LATdd_use.y",
+                              "...1","X.x...3","X.y...8",
+                              "X.x...16","X.y...19","X.x...56",
+                              "X.y...65","X.x...68","X.y...71","X.x...78",
+                              "X.y...85")
 nla12_red<-nla12_red[!todrop]
 
 # rename variables
@@ -1518,7 +1509,7 @@ names(nla12_red)
 
 ## LOAD DATA
 # Modified Drawdown for 2012 lakes (n= 1252 obs w/19 vars)
-dd<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/Additional_NLA_data/From_Phil_11FEB19/NLA12_modDD_only.csv")
+dd<-read_csv("data/NLA12/NLA12_modDD_only.csv")
 
 # MERGE NLA12 dataset with modified drawdown variables # n=1038 with 536 variables
 nla12_dd<-merge(nla12_red,dd, by=c("SITE_ID","VISIT_NO"))
@@ -1529,7 +1520,7 @@ nla12_dd<-merge(nla12_red,dd, by=c("SITE_ID","VISIT_NO"))
 ####################
 ## NLA POPULATION WEIGHTS - UPDATED 6/24/19 - processed in Analysis>NLA_weighted_calculations>Scripts>a_UPDATED_NLA_POP_WGTS_24JUN19.R
 # n=1038 with 9 variables
-nla12wt <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/Additional_NLA_data/From_Tony_42JUN19/NLA12_popwts_25JUN19.csv")
+nla12wt <- read_csv("data/NLA12/NLA12_popwts_25JUN19.csv")
 
 
 #############
@@ -1539,7 +1530,7 @@ nla12_dd_wt<-merge(nla12_dd,nla12wt,by="SITE_ID")#all.x=TRUE
 names(nla12_dd_wt)
 
 # Drop some variables
-todrop <-names(nla12_dd_wt)%in%c("X.x","X.y") #"X.1","X.1.x","X.1.y",
+todrop <-names(nla12_dd_wt)%in%c("X.x","X.y","...1.x" ,"...1.y" ) #"X.1","X.1.x","X.1.y",
 nla12_dd_wt<-nla12_dd_wt[!todrop]
 
 # Rename variables
@@ -1551,11 +1542,11 @@ names(nla12_dd_wt)[names(nla12_dd_wt)=="SITETYPE.y"] <- "SITETYPE.v2"
 
 ##########
 ## WRITE DATASET and Variables
-write.csv(nla12_dd_wt,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
+write_csv(nla12_dd_wt,"data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
 
 # Variables Names
 nla12_vars<-as.data.frame(names(nla12_dd_wt))
-write.csv(nla12_vars,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_ALL_dataset_variable_names.csv")
+write_csv(nla12_vars,"data_processed/nla12/NLA12_ALL_dataset_variable_names.csv")
 
 
 
@@ -1572,9 +1563,7 @@ write.csv(nla12_vars,"C:/Users/EFergus/OneDrive - Environmental Protection Agenc
 #   6/26/19 - Updated Population Weights (6/24/19)
 ##############
 # READ DATA - VISIT_NO=1; WGT_ALL>0 n = 1038
-nla12<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
-todrop <- names(nla12)%in% c("X")
-nla12 <- nla12[!todrop]
+nla12<-read_csv("data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
 
 ## Reduced datasets to have lakes that are larger than 4ha or 0.04 sqkm
 nla12_size_adj<-nla12[which(nla12$LKAREA_KM2_mod>=0.04),] # n = 951 lakes
@@ -1586,7 +1575,7 @@ nla12_size_adj<-nla12[which(nla12$LKAREA_KM2_mod>=0.04),] # n = 951 lakes
 #  4/30/19 - modified full dataset slightly
 # 6/16/19 - updated population weights
 ######
-#write.csv(nla12_size_adj,"M:/Net MyDocuments/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_merge_transform_SIZE_ADJUST_USE.csv")
+#write_csv(nla12_size_adj,"M:/Net MyDocuments/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_merge_transform_SIZE_ADJUST_USE.csv")
 
-write.csv(nla12_size_adj,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv")
+write_csv(nla12_size_adj,"data_processed/nla12/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv")
 

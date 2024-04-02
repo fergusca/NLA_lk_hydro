@@ -1,0 +1,1039 @@
+SITE_ID,VISIT_NO,LAKE_ORIGIN12,BENT_COND,CHLA_COND,NTL_COND,PTL_COND,DRAWDOWN_COND,LITCVR_COND,LITRIPCVR_COND,RDIS_COND,RVEG_COND,SEDHG_MTH_TOP_COND,SEDHG_TOT_BTM_COND,SEDHG_TOT_TOP_COND,CHLL_REC,CYNL_REC,MICL_REC,WSA9_LO
+NLA12_MS-116,1,MAN_MADE,Good,Poor,Good,Good,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_MS-119,1,MAN_MADE,Fair,Fair,Poor,Fair,Small,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,High,Low,CPL_MAN_MADE
+NLA12_VT-101,1,NATURAL_ENH,Good,Good,Good,Fair,Small,Good,Fair,Fair,Poor,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_TX-141,1,RESERVOIR,Poor,Poor,Good,Good,Small,Good,Fair,Fair,Fair,High,Not Assessed,Medium,Low,Low,Low,CPL_MAN_MADE
+NLA12_TX-169,1,MAN_MADE,Poor,Good,Poor,Poor,Large,Fair,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_OR-133,1,MAN_MADE,Not Assessed,Good,Good,Good,Small,Good,Good,Poor,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_OR-131,1,MAN_MADE,Not Assessed,Fair,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_TX-158,1,MAN_MADE,Poor,Fair,Poor,Poor,Small,Fair,Fair,Good,Good,Low,Not Assessed,Low,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_ID-107,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Fair,Fair,Poor,Fair,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_VT-102,1,NATURAL_ENH,Good,Good,Good,Good,Small,Fair,Poor,Fair,Poor,High,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_OR-101,1,NATURAL,Poor,Good,Poor,Poor,Medium,Good,Fair,Poor,Poor,Low,Low,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_TX-135,1,MAN_MADE,Not Assessed,Poor,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Moderate,Moderate,No Detect,CPL_MAN_MADE
+NLA12_WI-101,1,NATURAL_ENH,Not Assessed,Poor,Good,Poor,Medium,Poor,Poor,Poor,Poor,High,Medium,Medium,High,High,Low,TPL_NATURAL
+NLA12_ID-151,1,RESERVOIR,Fair,Poor,Poor,Poor,Small,Good,Good,Good,Good,Medium,Not Assessed,Low,High,High,No Detect,XER_MAN_MADE
+NLA12_TX-110,1,RESERVOIR,Not Assessed,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Medium,Not Assessed,Low,Moderate,Moderate,Low,SPL_MAN_MADE
+NLA12_WI-102,1,NATURAL_ENH,Good,Good,Good,Good,Small,Good,Fair,Poor,Fair,Medium,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_ID-109,1,RESERVOIR,Poor,Good,Good,Good,Small,Good,Good,Good,Good,Medium,Not Assessed,Low,Moderate,Low,No Detect,XER_MAN_MADE
+NLA12_ID-111,1,RESERVOIR,Poor,Good,Good,Fair,Medium,Good,Fair,Fair,Fair,Medium,Not Assessed,Low,Moderate,Moderate,Low,XER_MAN_MADE
+NLA12_VT-106,1,NATURAL,Good,Fair,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_WI-152,1,NATURAL_ENH,Good,Poor,Good,Good,Medium,Good,Fair,Poor,Fair,Low,Medium,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_WI-113,1,NATURAL,Fair,Good,Poor,Good,Small,Good,Good,Fair,Fair,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-151,1,MAN_MADE,Poor,Good,Good,Good,Small,Poor,Poor,Poor,Fair,Low,Low,Medium,Low,Low,No Detect,UMW_MAN_MADE
+NLA12_WI-117,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-139,1,NATURAL,Poor,Fair,Poor,Fair,Small,Good,Poor,Fair,Poor,Medium,Medium,Medium,Low,Moderate,Low,UMW_NATURAL
+NLA12_MI-124,1,NATURAL,Fair,Good,Good,Fair,Small,Good,Fair,Fair,Good,Medium,Low,High,Low,Low,Low,UMW_NATURAL
+NLA12_OR-106,1,RESERVOIR,Poor,Good,Good,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WI-136,1,NATURAL,Good,Poor,Good,Good,Small,Good,Poor,Fair,Poor,Not Assessed,Not Assessed,Not Assessed,Low,Low,Low,TPL_NATURAL
+NLA12_MI-109,1,NATURAL,Poor,Good,Good,Poor,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_TX-109,1,MAN_MADE,Fair,Good,Poor,Good,Small,Good,Good,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_VT-109,1,NATURAL_ENH,Good,Fair,Fair,Fair,Small,Good,Good,Good,Fair,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_MI-136,1,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Poor,Poor,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-105,1,NATURAL,Poor,Good,Good,Poor,Large,Good,Poor,Poor,Poor,High,High,Medium,Low,Moderate,Low,UMW_NATURAL
+NLA12_MI-167,1,MAN_MADE,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Low,Low,No Detect,UMW_MAN_MADE
+NLA12_WI-168,1,NATURAL,Good,Poor,Good,Good,Medium,Good,Fair,Poor,Fair,Not Assessed,Not Assessed,Not Assessed,Low,Low,Low,TPL_NATURAL
+NLA12_TX-124,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Fair,Poor,Poor,Poor,Medium,Not Assessed,Low,Moderate,Moderate,Low,SPL_MAN_MADE
+NLA12_TX-148,1,RESERVOIR,Not Assessed,Good,Good,Poor,Large,Fair,Fair,Fair,Good,Low,Not Assessed,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_WI-172,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Good,Not Assessed,Poor,Not Assessed,Not Assessed,Not Assessed,High,Low,No Detect,TPL_MAN_MADE
+NLA12_MI-108,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Poor,Poor,Poor,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_ID-149,1,NATURAL,Good,Fair,Poor,Poor,Small,Good,Fair,Good,Good,Medium,Low,Low,Moderate,Low,Low,WMT_NATURAL
+NLA12_ID-148,1,RESERVOIR,Poor,Good,Good,Fair,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_ID-103,1,NATURAL,Good,Poor,Good,Fair,Small,Good,Fair,Fair,Fair,Medium,Medium,Not Assessed,Low,Low,No Detect,WMT_NATURAL
+NLA12_MI-104,1,NATURAL,Poor,Good,Good,Good,Small,Good,Fair,Poor,Good,High,Medium,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_VT-104,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Fair,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_MI-120,1,NATURAL,Poor,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Medium,Medium,Moderate,Low,Low,UMW_NATURAL
+NLA12_TX-103,1,RESERVOIR,Not Assessed,Good,Poor,Fair,Large,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,High,No Detect,SPL_MAN_MADE
+NLA12_MI-152,1,NATURAL,Fair,Good,Poor,Fair,Large,Good,Good,Fair,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_MI-128,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Poor,Poor,Poor,High,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_MI-168,1,NATURAL,Poor,Good,Poor,Good,Small,Good,Fair,Fair,Fair,High,Medium,Medium,Moderate,Low,Low,UMW_NATURAL
+NLA12_MI-112,1,NATURAL_ENH,Poor,Good,Fair,Fair,Small,Good,Fair,Poor,Poor,Low,Low,Low,Moderate,High,Low,UMW_NATURAL
+NLA12_MI-115,1,NATURAL,Poor,Good,Good,Good,Small,Poor,Poor,Poor,Poor,High,Low,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-131,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,Medium,Moderate,Moderate,No Detect,UMW_NATURAL
+NLA12_WI-154,1,NATURAL,Good,Good,Fair,Fair,Small,Good,Fair,Good,Fair,High,Medium,High,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_NE-109,1,RESERVOIR,Fair,Good,Fair,Poor,Small,Good,Fair,Poor,Fair,Low,Not Assessed,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_NE-103,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Fair,Poor,Fair,Fair,Medium,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_NE-114,1,RESERVOIR,Not Assessed,Good,Good,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_WA-106,1,MAN_MADE,Poor,Poor,Poor,Fair,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,High,High,Low,WMT_MAN_MADE
+NLA12_NE-104,1,RESERVOIR,Fair,Good,Poor,Poor,Large,Fair,Fair,Fair,Good,High,Not Assessed,Low,High,Moderate,Low,SPL_MAN_MADE
+NLA12_MI-117,1,NATURAL,Good,Good,Good,Good,Small,Poor,Poor,Poor,Poor,Medium,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_MI-102,1,NATURAL,Poor,Good,Good,Poor,Small,Poor,Poor,Fair,Fair,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_NE-133,1,NATURAL,Good,Fair,Good,Good,Small,Fair,Fair,Fair,Good,Low,Low,Medium,Low,Low,Low,SPL_NATURAL
+NLA12_MI-110,1,NATURAL,Fair,Good,Good,Good,Small,Good,Poor,Fair,Poor,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-129,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Poor,Poor,Poor,Medium,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_VT-114,1,NATURAL_ENH,Good,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MI-123,1,NATURAL,Fair,Good,Good,Good,Small,Good,Fair,Fair,Poor,Medium,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_MI-161,1,NATURAL,Poor,Good,Good,Fair,Small,Poor,Poor,Poor,Poor,High,Medium,High,Moderate,Low,Low,UMW_NATURAL
+NLA12_WI-166,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Good,Not Assessed,Good,Medium,Medium,Medium,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_MI-165,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_MI-162,1,NATURAL,Good,Good,Good,Good,Medium,Good,Good,Good,Good,High,Low,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-132,1,NATURAL,Poor,Fair,Poor,Good,Small,Fair,Poor,Fair,Poor,Medium,Medium,High,Moderate,Low,Low,UMW_NATURAL
+NLA12_MI-118,1,NATURAL,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_WA-107,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Good,Good,Good,Good,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,WMT_MAN_MADE
+NLA12_WI-112,1,NATURAL,Good,Good,Fair,Good,Medium,Fair,Fair,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,Low,UMW_NATURAL
+NLA12_WI-108,1,NATURAL_ENH,Poor,Fair,Poor,Poor,Small,Poor,Poor,Not Assessed,Good,High,Medium,Medium,High,Moderate,Low,UMW_NATURAL
+NLA12_MI-169,1,NATURAL,Good,Good,Fair,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-148,1,MAN_MADE_AB,Fair,Good,Good,Good,Small,Good,Fair,Good,Poor,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,UMW_MAN_MADE
+NLA12_WA-129,1,NATURAL,Good,Fair,Good,Poor,Small,Good,Good,Good,Good,Low,Low,Low,Low,Low,No Detect,WMT_NATURAL
+NLA12_WI-155,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-103,1,NATURAL,Poor,Good,Fair,Poor,Small,Good,Fair,Not Assessed,Good,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-137,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_WI-151,1,NATURAL,Good,Fair,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_WI-127,1,NATURAL,Not Assessed,Fair,Poor,Poor,Small,Good,Good,Fair,Fair,Low,Low,Low,High,High,Moderate,UMW_NATURAL
+NLA12_MI-164,1,NATURAL,Good,Good,Poor,Poor,Large,Poor,Poor,Fair,Poor,High,Medium,Medium,Moderate,Low,Low,UMW_NATURAL
+NLA12_WI-104,1,NATURAL_ENH,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,High,Low,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_ID-143,1,RESERVOIR,Fair,Good,Fair,Fair,Small,Fair,Good,Good,Good,Medium,Not Assessed,Low,Moderate,Low,Low,XER_MAN_MADE
+NLA12_MI-116,1,NATURAL,Fair,Good,Good,Fair,Small,Good,Good,Fair,Good,Medium,High,High,Low,Low,Low,UMW_NATURAL
+NLA12_ID-216,1,RESERVOIR,Fair,Poor,Poor,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_WI-129,1,MAN_MADE,Fair,Fair,Good,Good,Small,Good,Good,Fair,Good,Low,Low,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_NH-115,1,NATURAL,Good,Good,Good,Good,Small,Poor,Fair,Good,Good,Medium,Low,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_MI-141,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_WA-131,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Good,Good,Fair,Poor,High,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_WI-107,1,NATURAL,Good,Fair,Good,Good,Small,Fair,Fair,Fair,Fair,High,Low,Low,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_WA-111,1,MAN_MADE,Fair,Good,Fair,Good,Small,Good,Good,Fair,Good,Low,Low,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_ID-214,1,RESERVOIR,Poor,Poor,Good,Poor,Large,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,Low,No Detect,XER_MAN_MADE
+NLA12_WI-120,1,NATURAL,Not Assessed,Poor,Fair,Good,Small,Good,Good,Poor,Good,Low,Medium,Medium,High,High,No Detect,TPL_NATURAL
+NLA12_VT-115,1,NATURAL,Fair,Good,Fair,Poor,Small,Good,Good,Good,Good,High,High,High,No Detect,Low,No Detect,NAP_NATURAL
+NLA12_WI-128,1,NATURAL,Fair,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Medium,Medium,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_MI-138,1,NATURAL,Fair,Good,Poor,Fair,Small,Poor,Good,Good,Good,High,High,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_WI-110,1,NATURAL,Fair,Good,Good,Good,Small,Fair,Fair,Fair,Good,Low,Low,Low,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_MI-122,1,NATURAL,Fair,Good,Good,Good,Medium,Poor,Poor,Fair,Poor,Low,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-133,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Low,Low,Low,Low,No Detect,UMW_NATURAL
+NLA12_MI-107,1,NATURAL,Poor,Good,Good,Fair,Small,Poor,Poor,Fair,Poor,Not Assessed,Low,Not Assessed,Low,Low,Not Assessed,UMW_NATURAL
+NLA12_MI-106,1,NATURAL,Poor,Good,Good,Fair,Small,Poor,Poor,Poor,Fair,Low,Low,Low,Low,Low,Low,UMW_NATURAL
+NLA12_MI-126,1,MAN_MADE,Fair,Good,Good,Fair,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,Low,UMW_MAN_MADE
+NLA12_ID-221,1,NATURAL,Good,Poor,Poor,Fair,Small,Fair,Poor,Good,Fair,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-218,1,NATURAL,Poor,Fair,Good,Fair,Small,Good,Good,Good,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-180,1,NATURAL,Fair,Good,Good,Good,Small,Poor,Good,Good,Good,High,Low,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_MI-130,1,MAN_MADE,Good,Good,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,UMW_MAN_MADE
+NLA12_MI-103,1,NATURAL,Poor,Good,Good,Fair,Small,Fair,Fair,Fair,Good,Medium,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_MI-142,1,NATURAL,Fair,Good,Poor,Poor,Small,Poor,Poor,Fair,Poor,Low,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_VT-110,1,NATURAL,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MI-113,1,NATURAL,Poor,Good,Good,Poor,Small,Good,Good,Fair,Good,High,Low,High,Low,Low,Low,UMW_NATURAL
+NLA12_ID-220,1,NATURAL,Good,Good,Good,Fair,Small,Good,Good,Good,Good,Medium,Medium,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_ID-205,1,NATURAL,Good,Fair,Fair,Poor,Small,Good,Good,Good,Good,High,Not Assessed,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_MI-145,1,NATURAL,Fair,Good,Fair,Fair,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_MI-172,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_WI-138,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-163,1,NATURAL,Fair,Good,Poor,Poor,Small,Good,Good,Not Assessed,Fair,Not Assessed,Medium,Not Assessed,Moderate,Moderate,Low,UMW_NATURAL
+NLA12_MI-177,1,NATURAL,Fair,Good,Good,Good,Small,Poor,Poor,Poor,Fair,Low,Low,Low,Low,Low,Low,UMW_NATURAL
+NLA12_WI-106,1,NATURAL,Poor,Fair,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_WI-171,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Poor,Poor,High,Low,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_MI-178,1,NATURAL,Fair,Good,Good,Poor,Small,Good,Good,Good,Good,High,Medium,Low,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-147,1,NATURAL,Good,Good,Poor,Fair,Small,Good,Good,Not Assessed,Poor,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_WA-147,1,NATURAL,Good,Good,Poor,Fair,Small,Fair,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WI-176,1,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Fair,Good,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-170,1,NATURAL,Fair,Good,Good,Good,Small,Fair,Poor,Poor,Fair,High,Medium,Medium,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_WY-151,1,MAN_MADE,Fair,Fair,Good,Fair,Large,Good,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WI-173,1,RESERVOIR,Fair,Fair,Fair,Poor,Small,Fair,Fair,Poor,Good,Low,Not Assessed,Low,High,High,No Detect,UMW_MAN_MADE
+NLA12_WI-188,1,NATURAL,Not Assessed,Poor,Poor,Poor,Large,Good,Good,Fair,Good,Medium,Low,Low,High,High,High,TPL_NATURAL
+NLA12_OR-167,1,NATURAL,Poor,Fair,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Medium,Medium,Moderate,Moderate,Low,WMT_NATURAL
+NLA12_WI-142,1,NATURAL,Good,Good,Poor,Fair,Small,Good,Good,Good,Good,High,Medium,High,High,Low,No Detect,UMW_NATURAL
+NLA12_WI-153,1,NATURAL,Poor,Good,Poor,Poor,Large,Good,Good,Fair,Good,High,Low,Medium,High,Moderate,Low,UMW_NATURAL
+NLA12_WI-183,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_WI-174,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Moderate,Moderate,No Detect,UMW_NATURAL
+NLA12_WI-122,1,NATURAL,Poor,Good,Good,Fair,Large,Fair,Poor,Good,Fair,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-157,1,RESERVOIR,Poor,Good,Fair,Fair,Small,Good,Fair,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Low,Low,UMW_MAN_MADE
+NLA12_CA-143,1,MAN_MADE,Fair,Good,Good,Good,Medium,Fair,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_AZ-101,1,RESERVOIR,Poor,Good,Good,Good,Small,Good,Good,Good,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_ND-115,1,RESERVOIR,Fair,Good,Fair,Fair,Small,Good,Fair,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_AZ-118,1,MAN_MADE,Poor,Good,Fair,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_UT-103,1,RESERVOIR,Not Assessed,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_AZ-130,1,RESERVOIR,Poor,Poor,Good,Fair,Large,Fair,Poor,Good,Poor,Low,Not Assessed,Low,Low,Low,Low,XER_MAN_MADE
+NLA12_FL-101,1,NATURAL,Not Assessed,Good,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,High,High,High,Low,Moderate,Low,CPL_NATURAL
+NLA12_UT-101,1,NATURAL_ENH,Poor,Poor,Good,Good,Large,Poor,Poor,Fair,Poor,Medium,Low,Low,Low,Low,No Detect,WMT_NATURAL
+NLA12_ND-112,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Low,Low,Low,Moderate,No Detect,NPL_NATURAL
+NLA12_GA-112,1,MAN_MADE,Poor,Good,Fair,Fair,Small,Fair,Fair,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,SAP_MAN_MADE
+NLA12_UT-108,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_FL-107,1,NATURAL,Good,Fair,Fair,Good,Medium,Good,Good,Fair,Poor,High,Medium,High,Low,Low,No Detect,CPL_NATURAL
+NLA12_FL-110,1,NATURAL,Good,Good,Good,Good,Medium,Poor,Poor,Fair,Poor,Medium,Medium,High,Moderate,Moderate,No Detect,CPL_NATURAL
+NLA12_FL-106,1,NATURAL,Good,Poor,Fair,Fair,Medium,Fair,Poor,Fair,Fair,High,Medium,High,Low,Low,No Detect,CPL_NATURAL
+NLA12_FL-104,1,NATURAL,Poor,Fair,Poor,Good,Medium,Good,Fair,Poor,Poor,Low,Low,Low,Moderate,Moderate,Low,CPL_NATURAL
+NLA12_CA-168,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Good,Fair,Fair,Low,Not Assessed,Medium,High,Low,Low,XER_MAN_MADE
+NLA12_OK-122,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Fair,Poor,Fair,Fair,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_KS-114,1,RESERVOIR,Good,Fair,Good,Good,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Moderate,Not Assessed,No Detect,TPL_MAN_MADE
+NLA12_CA-106,1,MAN_MADE,Not Assessed,Good,Poor,Poor,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Low,High,High,Low,XER_MAN_MADE
+NLA12_FL-114,1,NATURAL,Good,Poor,Fair,Good,Medium,Good,Fair,Fair,Fair,Medium,Medium,High,Low,Low,Low,CPL_NATURAL
+NLA12_PA-102,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Good,Poor,Fair,Poor,Not Assessed,Not Assessed,Not Assessed,Moderate,Moderate,Low,SAP_MAN_MADE
+NLA12_OK-118,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_CA-172,1,MAN_MADE,Fair,Good,Good,Good,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_AZ-127,1,RESERVOIR,Poor,Fair,Poor,Poor,Large,Poor,Poor,Good,Poor,High,Not Assessed,Medium,Moderate,Low,Low,WMT_MAN_MADE
+NLA12_KY-101,1,MAN_MADE,Fair,Good,Good,Good,Small,Poor,Fair,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_KY-107,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Good,Fair,Poor,Low,Not Assessed,Medium,High,Moderate,Low,SAP_MAN_MADE
+NLA12_NC-107,1,MAN_MADE,Poor,Poor,Fair,Good,Small,Fair,Poor,Fair,Fair,Medium,Not Assessed,Medium,Low,Low,Low,CPL_MAN_MADE
+NLA12_GA-101,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,High,Low,CPL_MAN_MADE
+NLA12_KY-103,1,MAN_MADE,Good,Not Assessed,Good,Fair,Small,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,Not Assessed,Low,Low,SAP_MAN_MADE
+NLA12_OK-293,1,MAN_MADE,Good,Poor,Poor,Poor,Large,Poor,Poor,Good,Poor,High,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_NM-132,1,RESERVOIR,Fair,Fair,Poor,Poor,Small,Good,Poor,Poor,Poor,Medium,Not Assessed,Low,Moderate,High,Low,WMT_MAN_MADE
+NLA12_SC-105,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,High,Not Assessed,High,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_SC-108,1,MAN_MADE,Good,Good,Good,Good,Medium,Good,Good,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_NM-152,1,MAN_MADE,Poor,Good,Poor,Poor,Large,Fair,Poor,Poor,Poor,Low,Low,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_CO-110,1,RESERVOIR,Poor,Good,Fair,Fair,Large,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,High,Low,SPL_MAN_MADE
+NLA12_ND-101,1,NATURAL,Poor,Good,Fair,Poor,Small,Fair,Poor,Poor,Fair,Medium,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_KY-104,1,NATURAL,Poor,Fair,Poor,Poor,Small,Good,Good,Good,Good,Medium,Medium,Medium,High,Low,Low,CPL_NATURAL
+NLA12_KS-130,1,MAN_MADE,Good,Fair,Good,Good,Small,Poor,Poor,Fair,Fair,Medium,Not Assessed,Low,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_PA-108,1,NATURAL,Poor,Poor,Fair,Good,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Low,Low,Moderate,No Detect,CPL_NATURAL
+NLA12_NC-105,1,RESERVOIR,Poor,Good,Good,Good,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_NM-105,1,MAN_MADE,Poor,Poor,Poor,Poor,Large,Poor,Poor,Poor,Poor,Low,Low,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_SD-101,1,RESERVOIR,Not Assessed,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Not Assessed,Medium,Low,Not Assessed,Low,NPL_MAN_MADE
+NLA12_NM-104,1,RESERVOIR,Fair,Good,Good,Good,Small,Good,Good,Poor,Good,High,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_KY-120,1,MAN_MADE,Poor,Poor,Poor,Poor,Medium,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_KY-122,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Fair,Fair,Poor,Medium,Not Assessed,Low,High,Low,Low,SAP_MAN_MADE
+NLA12_TN-114,1,MAN_MADE,Poor,Poor,Poor,Fair,Small,Fair,Poor,Poor,Fair,Medium,Not Assessed,Medium,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_TN-113,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Fair,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_KY-102,1,MAN_MADE,Fair,Good,Fair,Fair,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_SC-106,1,RESERVOIR,Good,Good,Good,Poor,Small,Good,Fair,Good,Fair,Low,Not Assessed,Low,Low,Low,Low,SAP_MAN_MADE
+NLA12_NC-109,1,MAN_MADE,Fair,Good,Good,Good,Small,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_NC-101,1,RESERVOIR,Poor,Good,Good,Poor,Medium,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Low,Moderate,Low,SAP_MAN_MADE
+NLA12_NC-108,1,MAN_MADE,Good,Good,Good,Fair,Small,Good,Poor,Poor,Poor,High,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_SD-138,1,NATURAL,Good,Fair,Good,Good,Small,Fair,Fair,Good,Good,Medium,High,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_NM-117,1,NATURAL,Poor,Poor,Poor,Good,Medium,Poor,Poor,Poor,Poor,High,Not Assessed,Medium,Low,Moderate,No Detect,WMT_NATURAL
+NLA12_KS-108,1,RESERVOIR,Fair,Poor,Fair,Poor,Small,Poor,Poor,Poor,Fair,Low,Not Assessed,Low,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_KY-114,1,MAN_MADE,Poor,Good,Fair,Good,Large,Good,Fair,Fair,Good,Low,Not Assessed,Medium,Low,Moderate,Low,TPL_MAN_MADE
+NLA12_NM-133,1,MAN_MADE,Fair,Not Assessed,Poor,Fair,Medium,Good,Fair,Poor,Poor,Medium,Not Assessed,Medium,Not Assessed,Low,No Detect,WMT_MAN_MADE
+NLA12_MS-107,1,MAN_MADE,Not Assessed,Fair,Fair,Poor,Large,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_MS-106,1,MAN_MADE,Not Assessed,Fair,Good,Good,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_IA-107,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Good,Fair,Good,High,Medium,Medium,High,High,Low,TPL_NATURAL
+NLA12_SD-130,1,NATURAL,Good,Poor,Poor,Poor,Small,Poor,Poor,Fair,Poor,High,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_KS-109,1,MAN_MADE,Good,Poor,Good,Good,Small,Poor,Fair,Poor,Fair,Medium,Not Assessed,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_SD-182,1,NATURAL,Good,Good,Good,Good,Small,Fair,Fair,Fair,Good,Low,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_VA-109,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Good,Poor,Fair,Low,Not Assessed,Low,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MT-113,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_KY-117,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,Low,Low,SAP_MAN_MADE
+NLA12_KS-103,1,RESERVOIR,Good,Good,Good,Good,Small,Fair,Fair,Poor,Fair,Low,Not Assessed,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_VA-116,1,MAN_MADE,Fair,Good,Good,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Not Assessed,Low,SAP_MAN_MADE
+NLA12_SD-166,1,NATURAL,Good,Poor,Good,Fair,Small,Good,Poor,Fair,Poor,Not Assessed,Not Assessed,Not Assessed,Low,Low,Low,TPL_NATURAL
+NLA12_SC-103,1,RESERVOIR,Good,Good,Good,Fair,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_SD-104,1,NATURAL,Poor,Poor,Fair,Poor,Small,Poor,Poor,Fair,Poor,Medium,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_SD-122,1,NATURAL,Poor,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Medium,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_UT-112,1,NATURAL,Fair,Fair,Poor,Poor,Medium,Poor,Fair,Poor,Good,Low,Low,Low,Moderate,Low,Low,WMT_NATURAL
+NLA12_UT-128,1,MAN_MADE,Fair,Good,Poor,Fair,Small,Fair,Good,Poor,Good,Low,Not Assessed,Low,Moderate,Low,Low,XER_MAN_MADE
+NLA12_PA-107,1,RESERVOIR,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MO-109,1,MAN_MADE,Good,Poor,Good,Fair,Small,Fair,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_IA-132,1,NATURAL,Poor,Poor,Poor,Poor,Medium,Poor,Fair,Fair,Good,Low,Medium,Medium,High,High,Low,TPL_NATURAL
+NLA12_NC-116,1,MAN_MADE,Poor,Good,Poor,Poor,Medium,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_MN-145,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Good,Fair,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-118,1,NATURAL,Not Assessed,Good,Poor,Poor,Small,Poor,Poor,Fair,Poor,High,Low,Medium,High,High,Low,UMW_NATURAL
+NLA12_MN-111,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Poor,Fair,Fair,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_ND-104,1,NATURAL,Fair,Good,Poor,Poor,Small,Fair,Fair,Poor,Fair,Medium,Low,Medium,High,High,High,NPL_NATURAL
+NLA12_ND-118,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Poor,Fair,Poor,Low,Low,Low,Low,Low,Low,NPL_NATURAL
+NLA12_NM-150,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Good,Good,Poor,Good,Low,Not Assessed,Low,Moderate,Moderate,Low,XER_MAN_MADE
+NLA12_UT-104,1,RESERVOIR,Not Assessed,Good,Good,Fair,Small,Good,Good,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_NV-106,1,RESERVOIR,Poor,Good,Fair,Poor,Small,Fair,Good,Fair,Good,High,Not Assessed,Not Assessed,Low,Low,Low,XER_MAN_MADE
+NLA12_NV-101,1,RESERVOIR,Fair,Good,Poor,Poor,Small,Fair,Poor,Good,Poor,Medium,Not Assessed,Low,Low,Low,Low,XER_MAN_MADE
+NLA12_KS-125,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Poor,Good,Low,Not Assessed,Medium,Not Assessed,Low,Low,TPL_MAN_MADE
+NLA12_NM-134,1,RESERVOIR,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,XER_MAN_MADE
+NLA12_NM-138,1,RESERVOIR,Poor,Fair,Fair,Poor,Small,Good,Good,Poor,Good,High,Not Assessed,Low,Low,Low,Low,WMT_MAN_MADE
+NLA12_NC-103,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Low,Low,CPL_MAN_MADE
+NLA12_NM-129,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Poor,Fair,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_MO-107,1,NATURAL,Poor,Poor,Poor,Poor,Small,Fair,Fair,Good,Good,Medium,Medium,Medium,High,High,No Detect,CPL_NATURAL
+NLA12_KS-138,1,MAN_MADE,Fair,Good,Good,Good,Small,Poor,Poor,Poor,Fair,Not Assessed,Not Assessed,Not Assessed,Low,Moderate,No Detect,SPL_MAN_MADE
+NLA12_OK-121,1,RESERVOIR,Good,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,High,Low,SPL_MAN_MADE
+NLA12_MN-132,1,NATURAL,Poor,Good,Poor,Fair,Small,Good,Good,Good,Good,High,Low,Low,Low,Low,No Detect,UMW_NATURAL
+NLA12_UT-102,1,RESERVOIR,Poor,Good,Good,Good,Medium,Good,Good,Fair,Good,High,Not Assessed,Low,Low,Low,Low,XER_MAN_MADE
+NLA12_IA-105,1,NATURAL_ENH,Fair,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Medium,Medium,High,High,Low,TPL_NATURAL
+NLA12_NM-160,1,RESERVOIR,Poor,Good,Good,Poor,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Not Assessed,Low,SPL_MAN_MADE
+NLA12_MS-101,1,NATURAL,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Medium,Medium,Medium,Not Assessed,High,No Detect,CPL_NATURAL
+NLA12_MS-102,1,MAN_MADE,Not Assessed,Not Assessed,Fair,Good,Small,Good,Good,Fair,Fair,Medium,Not Assessed,Medium,Not Assessed,Moderate,No Detect,CPL_MAN_MADE
+NLA12_MS-104,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Poor,Medium,Medium,Medium,Moderate,High,Low,CPL_NATURAL
+NLA12_PA-101,1,RESERVOIR,Good,Good,Poor,Fair,Small,Good,Good,Fair,Fair,Low,Not Assessed,Medium,Low,Moderate,No Detect,SAP_MAN_MADE
+NLA12_ND-139,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Poor,Fair,High,Low,Medium,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_IA-120,1,NATURAL,Not Assessed,Poor,Good,Poor,Small,Poor,Poor,Poor,Fair,Low,Low,Medium,Low,High,Low,TPL_NATURAL
+NLA12_MT-104,1,RESERVOIR,Not Assessed,Good,Good,Good,Small,Fair,Poor,Fair,Poor,High,Not Assessed,Low,Low,Low,Low,NPL_MAN_MADE
+NLA12_SD-114,1,NATURAL,Poor,Poor,Poor,Poor,Large,Fair,Poor,Fair,Poor,Low,Medium,Low,Moderate,High,Low,TPL_NATURAL
+NLA12_SD-115,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Low,Medium,Low,High,Moderate,Low,TPL_NATURAL
+NLA12_ND-146,1,NATURAL,Fair,Poor,Poor,Poor,Small,Good,Fair,Poor,Good,Medium,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_MN-120,1,NATURAL,Poor,Good,Fair,Poor,Small,Fair,Poor,Good,Fair,Low,Low,Low,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-122,1,NATURAL,Poor,Good,Fair,Fair,Small,Good,Good,Poor,Good,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_NH-108,1,NATURAL,Fair,Good,Good,Poor,Small,Good,Good,Good,Good,High,Medium,High,Low,Moderate,No Detect,NAP_NATURAL
+NLA12_OK-101,1,RESERVOIR,Good,Good,Poor,Fair,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Moderate,Low,SPL_MAN_MADE
+NLA12_OK-291,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Good,Good,Low,Low,Low,Moderate,High,Low,SAP_NATURAL
+NLA12_UT-110,1,NATURAL_ENH,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Low,Low,Low,Low,Low,XER_NATURAL
+NLA12_VA-108,1,MAN_MADE,Fair,Good,Good,Poor,Small,Good,Good,Good,Good,Low,Not Assessed,Medium,Low,High,No Detect,SAP_MAN_MADE
+NLA12_WV-102,1,MAN_MADE,Poor,Good,Good,Good,Small,Fair,Fair,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Moderate,Low,SAP_MAN_MADE
+NLA12_OK-108,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Low,No Detect,SPL_MAN_MADE
+NLA12_OK-135,1,RESERVOIR,Good,Good,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Moderate,High,Low,SPL_MAN_MADE
+NLA12_CA-174,1,MAN_MADE,Poor,Poor,Fair,Fair,Small,Fair,Fair,Poor,Good,Low,Not Assessed,Medium,Low,Moderate,Low,XER_MAN_MADE
+NLA12_CA-116,1,NATURAL,Good,Good,Good,Poor,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ND-110,1,NATURAL,Not Assessed,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Low,Medium,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_VA-125,1,MAN_MADE,Good,Poor,Poor,Fair,Small,Good,Good,Good,Good,Medium,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_KS-105,1,RESERVOIR,Good,Good,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_LA-101,1,NATURAL_ENH,Poor,Good,Poor,Poor,Small,Good,Fair,Fair,Fair,Low,Medium,Medium,High,High,Low,CPL_NATURAL
+NLA12_MN-137,1,NATURAL,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Low,Low,Moderate,High,Low,TPL_NATURAL
+NLA12_UT-109,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Good,Fair,Fair,Fair,Low,Not Assessed,Low,Moderate,High,Low,XER_MAN_MADE
+NLA12_NY-0104,1,NATURAL,Poor,Fair,Fair,Poor,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_ND-162,1,NATURAL,Fair,Fair,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Low,Low,Moderate,High,Low,TPL_NATURAL
+NLA12_GA-107,1,MAN_MADE,Fair,Fair,Poor,Poor,Medium,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_TX-121,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Moderate,High,Low,CPL_MAN_MADE
+NLA12_VA-114,1,MAN_MADE,Good,Good,Fair,Poor,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,SAP_MAN_MADE
+NLA12_WV-106,1,MAN_MADE,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Moderate,Low,SAP_MAN_MADE
+NLA12_ND-178,1,NATURAL,Good,Fair,Good,Fair,Small,Good,Good,Good,Good,High,Low,Medium,Low,Low,No Detect,TPL_NATURAL
+NLA12_CA-132,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ND-163,1,RESERVOIR,Good,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Medium,Moderate,High,Low,NPL_MAN_MADE
+NLA12_NH-104,1,NATURAL,Fair,Fair,Good,Fair,Small,Fair,Fair,Fair,Fair,High,High,High,Low,Moderate,No Detect,NAP_NATURAL
+NLA12_MN-107,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Fair,High,Medium,Low,High,High,No Detect,UMW_NATURAL
+NLA12_LA-134,1,NATURAL,Not Assessed,Poor,Fair,Poor,Small,Poor,Poor,Fair,Poor,Low,Low,Medium,Moderate,High,Low,CPL_NATURAL
+NLA12_IA-101,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,High,Low,Low,High,Moderate,Low,TPL_NATURAL
+NLA12_KS-102,1,RESERVOIR,Fair,Poor,Poor,Fair,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Moderate,High,Low,SPL_MAN_MADE
+NLA12_KS-124,1,MAN_MADE,Fair,Fair,Good,Poor,Small,Fair,Good,Poor,Good,Low,Not Assessed,Low,Moderate,High,Low,TPL_MAN_MADE
+NLA12_MO-119,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,High,No Detect,TPL_MAN_MADE
+NLA12_NV-127,1,RESERVOIR,Poor,Good,Fair,Good,Small,Good,Fair,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Low,Low,XER_MAN_MADE
+NLA12_NV-167,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Good,Good,Poor,Poor,High,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_TX-144,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Moderate,No Detect,SPL_MAN_MADE
+NLA12_LA-102,1,MAN_MADE,Poor,Fair,Fair,Poor,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Medium,Low,Moderate,Low,CPL_MAN_MADE
+NLA12_SD-168,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,Low,Low,Low,NPL_MAN_MADE
+NLA12_ND-186,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Poor,Poor,Poor,High,Low,Low,Low,Low,No Detect,NPL_NATURAL
+NLA12_CA-157,1,MAN_MADE,Poor,Good,Good,Good,Small,Good,Good,Poor,Good,Low,Not Assessed,Medium,Moderate,High,No Detect,XER_MAN_MADE
+NLA12_LA-105,1,MAN_MADE,Good,Fair,Good,Poor,Small,Good,Good,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_LA-161,1,NATURAL_ENH,Poor,Fair,Fair,Poor,Small,Good,Good,Fair,Good,Low,Low,Low,Moderate,Low,Low,CPL_NATURAL
+NLA12_ND-108,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Low,Medium,High,High,Low,NPL_NATURAL
+NLA12_OK-134,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Medium,Poor,Good,Good,Good,Low,Not Assessed,Low,Moderate,High,Low,SPL_MAN_MADE
+NLA12_TX-165,1,RESERVOIR,Good,Poor,Good,Good,Medium,Fair,Fair,Good,Good,Low,Not Assessed,Low,Low,Low,Low,CPL_MAN_MADE
+NLA12_ND-126,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Low,Medium,High,Not Assessed,Low,NPL_NATURAL
+NLA12_KS-101,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,High,No Detect,SPL_MAN_MADE
+NLA12_CA-121,1,MAN_MADE,Poor,Good,Good,Good,Small,Good,Poor,Poor,Poor,High,Not Assessed,Low,Low,Moderate,No Detect,XER_MAN_MADE
+NLA12_IA-109,1,NATURAL,Good,Poor,Good,Fair,Small,Good,Good,Good,Good,Low,Medium,Low,Low,Low,No Detect,TPL_NATURAL
+NLA12_LA-103,1,MAN_MADE,Poor,Poor,Fair,Poor,Small,Fair,Fair,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_LA-152,1,MAN_MADE,Fair,Poor,Fair,Fair,Small,Good,Fair,Fair,Good,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_MN-102,1,NATURAL,Fair,Good,Good,Poor,Small,Poor,Fair,Fair,Good,High,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_MT-109,1,RESERVOIR,Fair,Good,Good,Good,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Low,High,No Detect,NPL_MAN_MADE
+NLA12_UT-105,1,RESERVOIR,Fair,Fair,Fair,Good,Large,Good,Good,Fair,Fair,High,Not Assessed,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_TX-117,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,High,Low,Low,CPL_MAN_MADE
+NLA12_OR-110,1,RESERVOIR,Fair,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_OK-120,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Moderate,Low,SPL_MAN_MADE
+NLA12_OK-104,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Fair,Good,Low,Not Assessed,Medium,Moderate,High,No Detect,SPL_MAN_MADE
+NLA12_NH-101,1,NATURAL,Good,Good,Good,Fair,Small,Fair,Fair,Good,Fair,High,Low,Medium,Moderate,Low,No Detect,NAP_NATURAL
+NLA12_SD-172,1,MAN_MADE,Not Assessed,Good,Fair,Fair,Large,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,Not Assessed,Not Assessed,Low,NPL_MAN_MADE
+NLA12_SD-124,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,High,Not Assessed,Medium,High,Moderate,No Detect,NPL_MAN_MADE
+NLA12_SD-140,1,MAN_MADE,Poor,Good,Good,Good,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Medium,Low,High,No Detect,NPL_MAN_MADE
+NLA12_MN-108,1,NATURAL,Poor,Good,Good,Good,Small,Good,Fair,Fair,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_CT-101,1,MAN_MADE,Good,Good,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_WV-101,1,MAN_MADE,Good,Good,Good,Good,Small,Poor,Poor,Fair,Poor,High,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_ND-155,1,NATURAL,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Moderate,Low,NPL_NATURAL
+NLA12_NY-0101,1,NATURAL,Fair,Good,Good,Good,Small,Poor,Poor,Poor,Poor,Low,Low,Low,Low,Moderate,No Detect,NAP_NATURAL
+NLA12_OK-109,1,RESERVOIR,Good,Poor,Good,Good,Small,Good,Good,Fair,Fair,Low,Not Assessed,Low,Low,High,Low,TPL_MAN_MADE
+NLA12_MT-118,1,NATURAL,Fair,Good,Fair,Poor,Small,Fair,Poor,Poor,Poor,Medium,Low,Low,Low,Low,No Detect,NPL_NATURAL
+NLA12_ND-151,1,NATURAL,Good,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Low,Low,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_WV-115,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Fair,Poor,Low,Not Assessed,Medium,Low,Moderate,Low,SAP_MAN_MADE
+NLA12_NH-112,1,MAN_MADE,Good,Good,Good,Fair,Small,Poor,Fair,Fair,Good,High,Not Assessed,Medium,Low,Moderate,No Detect,NAP_MAN_MADE
+NLA12_MN-163,1,NATURAL,Fair,Fair,Poor,Poor,Small,Fair,Poor,Poor,Poor,High,Low,Medium,High,High,Low,UMW_NATURAL
+NLA12_ND-173,1,NATURAL,Good,Good,Poor,Fair,Small,Poor,Poor,Fair,Poor,High,Low,Low,Low,Low,Low,NPL_NATURAL
+NLA12_LA-104,1,MAN_MADE,Poor,Fair,Fair,Poor,Small,Fair,Poor,Poor,Fair,Medium,Not Assessed,High,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_NV-103,1,RESERVOIR,Poor,Good,Good,Good,Small,Good,Good,Good,Good,Low,Not Assessed,Low,No Detect,Low,No Detect,XER_MAN_MADE
+NLA12_NV-102,1,RESERVOIR,Poor,Good,Fair,Poor,Large,Fair,Poor,Good,Poor,Low,Not Assessed,Low,Low,High,No Detect,XER_MAN_MADE
+NLA12_MN-130,1,NATURAL,Good,Fair,Good,Fair,Small,Good,Fair,Good,Fair,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_LA-154,1,MAN_MADE,Poor,Fair,Poor,Poor,Small,Good,Good,Fair,Fair,Low,Not Assessed,Medium,High,Low,Not Assessed,CPL_MAN_MADE
+NLA12_LA-155,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Fair,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_UT-160,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Poor,Fair,High,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_TX-101,1,RESERVOIR,Good,Good,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Not Assessed,Low,Moderate,Moderate,Low,SPL_MAN_MADE
+NLA12_MT-138,1,RESERVOIR,Fair,Good,Fair,Fair,Medium,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Moderate,Low,NPL_MAN_MADE
+NLA12_TX-160,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Fair,Good,Poor,Good,High,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_MO-104,1,MAN_MADE,Poor,Good,Good,Fair,Small,Poor,Poor,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MO-117,1,MAN_MADE,Good,Good,Good,Good,Small,Fair,Poor,Fair,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_CO-124,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Good,Poor,Fair,Poor,Low,Not Assessed,High,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_LA-106,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Medium,Medium,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_LA-109,1,NATURAL_ENH,Poor,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Moderate,Moderate,No Detect,CPL_NATURAL
+NLA12_TX-195,1,RESERVOIR,Good,Poor,Fair,Poor,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_IA-106,1,MAN_MADE,Good,Poor,Fair,Poor,Small,Fair,Good,Fair,Good,Medium,Not Assessed,Low,High,Low,Low,TPL_MAN_MADE
+NLA12_NV-141,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_WI-140,1,NATURAL,Fair,Good,Fair,Fair,Medium,Good,Fair,Fair,Poor,High,Low,Medium,Moderate,Low,No Detect,TPL_NATURAL
+NLA12_MD-102,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Moderate,Low,SAP_MAN_MADE
+NLA12_DE-105,1,MAN_MADE,Good,Poor,Poor,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_KS-126,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_IA-103,1,MAN_MADE_AB,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Low,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_NV-193,1,MAN_MADE,Fair,Fair,Poor,Good,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_TX-187,1,MAN_MADE,Poor,Poor,Poor,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_CO-102,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Good,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_KS-106,1,RESERVOIR,Good,Good,Poor,Poor,Small,Poor,Fair,Poor,Good,High,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_LA-141,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,High,Medium,Medium,High,Low,No Detect,CPL_MAN_MADE
+NLA12_MN-105,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_MT-126,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,Low,NPL_MAN_MADE
+NLA12_NJ-107,1,MAN_MADE,Poor,Good,Fair,Poor,Small,Fair,Poor,Poor,Poor,High,Not Assessed,High,Moderate,Low,No Detect,NAP_MAN_MADE
+NLA12_SD-106,1,NATURAL,Not Assessed,Poor,Good,Good,Small,Fair,Good,Fair,Good,Low,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_TX-157,1,MAN_MADE,Poor,Fair,Fair,Poor,Large,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_WV-113,1,RESERVOIR,Fair,Poor,Good,Fair,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_SD-110,1,NATURAL,Good,Fair,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_IL-110,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_NH-105,1,NATURAL,Fair,Good,Fair,Poor,Small,Fair,Poor,Fair,Poor,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_CT-115,1,MAN_MADE,Good,Good,Good,Good,Small,Poor,Poor,Poor,Poor,High,High,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_MN-109,1,NATURAL,Not Assessed,Good,Poor,Good,Small,Fair,Fair,Good,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_MT-154,1,NATURAL,Poor,Good,Poor,Poor,Medium,Poor,Poor,Fair,Poor,High,Low,Low,High,High,Low,NPL_NATURAL
+NLA12_ID-194,1,RESERVOIR,Good,Good,Fair,Poor,Large,Good,Good,Fair,Poor,High,Not Assessed,Low,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_UT-173,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Good,Fair,Fair,Poor,Medium,Not Assessed,Low,Low,Low,Low,XER_MAN_MADE
+NLA12_UT-165,1,RESERVOIR,Fair,Good,Poor,Fair,Large,Good,Fair,Poor,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WV-111,1,MAN_MADE,Good,Good,Good,Good,Small,Fair,Fair,Fair,Fair,High,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_NV-109,1,NATURAL,Poor,Good,Fair,Fair,Small,Fair,Poor,Fair,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Low,XER_NATURAL
+NLA12_KS-107,1,MAN_MADE,Good,Poor,Good,Good,Small,Poor,Fair,Poor,Good,Medium,Not Assessed,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_RI-104,1,MAN_MADE,Poor,Fair,Good,Fair,Medium,Good,Fair,Fair,Poor,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_PA-118,1,NATURAL_ENH,Not Assessed,Fair,Good,Good,Small,Fair,Poor,Poor,Poor,High,Medium,Medium,Low,High,No Detect,NAP_NATURAL
+NLA12_PA-109,1,NATURAL_ENH,Not Assessed,Good,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_NY-0102,1,NATURAL,Good,Good,Good,Fair,Small,Fair,Fair,Fair,Good,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_DE-102,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Not Assessed,Medium,High,Moderate,Low,CPL_MAN_MADE
+NLA12_MN-150,1,NATURAL,Good,Good,Fair,Good,Small,Good,Poor,Good,Poor,High,Medium,High,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_ND-102,1,NATURAL,Poor,Poor,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_OR-111,1,NATURAL_ENH,Not Assessed,Good,Poor,Poor,Small,Poor,Poor,Fair,Poor,High,Not Assessed,Low,High,High,High,XER_NATURAL
+NLA12_IA-113,1,MAN_MADE,Good,Fair,Good,Good,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_TX-107,1,MAN_MADE,Fair,Good,Fair,Fair,Small,Good,Fair,Good,Fair,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_KS-121,1,MAN_MADE,Good,Fair,Good,Fair,Small,Poor,Fair,Fair,Good,Medium,Not Assessed,Low,Moderate,Low,No Detect,TPL_MAN_MADE
+NLA12_ND-119,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Poor,Fair,Poor,Medium,Low,Low,Moderate,Low,Low,TPL_NATURAL
+NLA12_ND-167,1,NATURAL,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Low,Low,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_CT-102,1,NATURAL,Fair,Good,Good,Good,Small,Good,Poor,Poor,Poor,High,Low,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_NH-103,1,NATURAL_ENH,Good,Good,Good,Good,Small,Fair,Poor,Fair,Fair,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_TX-105,1,RESERVOIR,Not Assessed,Poor,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Medium,Not Assessed,Medium,Moderate,High,No Detect,CPL_MAN_MADE
+NLA12_ND-187,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Good,Poor,Good,Low,Low,Low,Low,Low,Low,NPL_NATURAL
+NLA12_UT-186,1,RESERVOIR,Poor,Fair,Poor,Poor,Medium,Good,Fair,Fair,Poor,High,Not Assessed,Medium,Moderate,Low,No Detect,WMT_MAN_MADE
+NLA12_UT-141,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Low,High,Low,No Detect,XER_MAN_MADE
+NLA12_MN-138,1,NATURAL,Poor,Good,Good,Good,Small,Good,Fair,Good,Poor,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_SD-102,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Fair,High,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_CO-114,1,RESERVOIR,Fair,Poor,Fair,Fair,Medium,Good,Good,Good,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_CO-131,1,RESERVOIR,Fair,Good,Good,Good,Small,Poor,Poor,Good,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_MN-153,1,NATURAL,Poor,Fair,Good,Good,Small,Fair,Good,Good,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_WV-112,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Moderate,Moderate,No Detect,SAP_MAN_MADE
+NLA12_MT-142,1,NATURAL,Fair,Good,Poor,Poor,Small,Good,Fair,Fair,Fair,Low,Low,Low,Low,Low,No Detect,NPL_NATURAL
+NLA12_GA-118,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MD-105,1,MAN_MADE,Good,Fair,Fair,Poor,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_IA-150,1,MAN_MADE,Fair,Poor,Poor,Fair,Small,Fair,Good,Fair,Good,Medium,Not Assessed,Low,High,Low,Low,TPL_MAN_MADE
+NLA12_LA-172,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,High,High,Low,Low,CPL_MAN_MADE
+NLA12_OK-103,1,RESERVOIR,Poor,Good,Poor,Poor,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_OH-103,1,RESERVOIR,Poor,Good,Fair,Good,Small,Good,Fair,Fair,Fair,High,Not Assessed,Medium,Low,High,No Detect,SAP_MAN_MADE
+NLA12_WA-118,1,NATURAL,Fair,Good,Poor,Good,Small,Good,Not Assessed,Fair,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-148,1,NATURAL,Poor,Poor,Poor,Poor,Medium,Good,Good,Fair,Good,Low,Low,Low,High,High,Low,XER_NATURAL
+NLA12_KS-122,1,RESERVOIR,Not Assessed,Good,Good,Poor,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_RI-102,1,MAN_MADE,Poor,Fair,Good,Fair,Small,Good,Fair,Good,Poor,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_ID-168,1,NATURAL,Not Assessed,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-141,1,RESERVOIR,Poor,Good,Good,Fair,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_UT-125,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Poor,Good,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_KY-116,1,MAN_MADE,Good,Fair,Good,Good,Small,Fair,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,Low,TPL_MAN_MADE
+NLA12_VT-112,1,NATURAL,Good,Good,Fair,Fair,Small,Fair,Good,Good,Good,High,Medium,High,Not Assessed,High,Low,NAP_NATURAL
+NLA12_ID-113,1,MAN_MADE,Good,Poor,Fair,Fair,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ID-101,1,RESERVOIR,Good,Good,Good,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_SD-183,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_ND-196,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Low,Low,Moderate,Low,Low,NPL_NATURAL
+NLA12_UT-260,1,RESERVOIR,Poor,Poor,Fair,Good,Large,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_RI-111,1,NATURAL,Poor,Poor,Fair,Poor,Small,Good,Good,Fair,Fair,High,Not Assessed,High,Low,Low,Low,NAP_NATURAL
+NLA12_MD-101,1,MAN_MADE,Good,Good,Good,Good,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_ID-209,1,RESERVOIR,Not Assessed,Good,Good,Fair,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,No Detect,Low,No Detect,WMT_MAN_MADE
+NLA12_ID-175,1,RESERVOIR,Not Assessed,Good,Fair,Poor,Large,Fair,Poor,Good,Poor,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_CO-108,1,RESERVOIR,Not Assessed,Good,Good,Good,Small,Good,Poor,Good,Poor,High,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_IA-152,1,MAN_MADE,Fair,Poor,Fair,Poor,Small,Fair,Fair,Poor,Fair,Low,Low,Medium,High,Low,Low,TPL_MAN_MADE
+NLA12_ND-106,1,NATURAL,Fair,Good,Fair,Poor,Small,Good,Good,Poor,Poor,High,Low,Medium,Low,Low,No Detect,TPL_NATURAL
+NLA12_WA-157,1,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Good,Fair,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WA-121,1,NATURAL,Not Assessed,Poor,Fair,Good,Small,Good,Poor,Poor,Poor,High,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_WY-101,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Fair,Low,Low,Low,No Detect,Low,No Detect,XER_MAN_MADE
+NLA12_MO-108,1,MAN_MADE,Fair,Good,Good,Fair,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_WY-104,1,NATURAL_ENH,Good,Good,Good,Good,Small,Fair,Poor,Fair,Fair,Low,Low,Medium,Low,Low,Low,NPL_NATURAL
+NLA12_WY-107,1,MAN_MADE,Poor,Good,Poor,Poor,Medium,Good,Good,Fair,Good,High,High,High,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_MI-111,1,RESERVOIR,Good,Fair,Good,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,High,Moderate,High,No Detect,TPL_MAN_MADE
+NLA12_MI-114,1,MAN_MADE,Fair,Good,Good,Poor,Small,Good,Good,Fair,Good,High,High,High,Low,Moderate,Low,UMW_MAN_MADE
+NLA12_MI-135,1,NATURAL,Poor,Good,Good,Good,Small,Good,Fair,Fair,Fair,High,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_MI-155,1,NATURAL,Poor,Fair,Poor,Good,Small,Good,Good,Fair,Fair,High,Medium,Medium,Low,Moderate,Low,UMW_NATURAL
+NLA12_WY-130,1,NATURAL,Fair,Good,Poor,Good,Small,Poor,Poor,Poor,Poor,Medium,Low,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_IA-104,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,High,Low,TPL_MAN_MADE
+NLA12_CA-101,1,RESERVOIR,Fair,Good,Fair,Good,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_GA-105,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Poor,Fair,Poor,Low,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MT-107,1,MAN_MADE,Poor,Good,Fair,Good,Small,Good,Fair,Fair,Fair,High,Low,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_OK-105,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Good,Fair,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_WY-105,1,RESERVOIR,Good,Good,Good,Fair,Large,Poor,Poor,Good,Poor,High,Low,Low,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_OR-104,1,RESERVOIR,Poor,Fair,Good,Fair,Small,Good,Good,Fair,Fair,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_OK-106,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Moderate,High,Low,SPL_MAN_MADE
+NLA12_IA-127,1,MAN_MADE,Good,Fair,Good,Fair,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Medium,Moderate,High,No Detect,TPL_MAN_MADE
+NLA12_NJ-131,1,MAN_MADE,Good,Fair,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,Low,CPL_MAN_MADE
+NLA12_MN-147,1,NATURAL,Good,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Medium,Medium,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_VA-111,1,MAN_MADE,Fair,Poor,Fair,Poor,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_VA-101,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Good,Good,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_WA-138,1,NATURAL,Poor,Poor,Fair,Good,Small,Good,Fair,Fair,Poor,High,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-169,1,RESERVOIR,Fair,Good,Good,Good,Large,Poor,Good,Poor,Good,Medium,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_NJ-118,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Moderate,No Detect,NAP_MAN_MADE
+NLA12_OK-117,1,MAN_MADE,Poor,Good,Poor,Poor,Medium,Fair,Poor,Poor,Fair,Low,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_MN-123,1,MAN_MADE,Good,Fair,Fair,Poor,Small,Good,Fair,Fair,Fair,Low,Low,Low,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_SD-126,1,NATURAL,Good,Poor,Poor,Poor,Small,Poor,Poor,Poor,Poor,High,Low,Medium,High,High,Low,TPL_NATURAL
+NLA12_TX-176,1,MAN_MADE,Good,Good,Poor,Poor,Small,Fair,Poor,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_CA-180,1,MAN_MADE,Not Assessed,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_MT-143,1,NATURAL,Poor,Good,Fair,Good,Small,Poor,Poor,Fair,Poor,High,Low,Low,Low,Moderate,No Detect,NPL_NATURAL
+NLA12_ND-134,1,NATURAL,Good,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Medium,Low,Low,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_ND-107,1,NATURAL,Good,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Low,Low,Moderate,High,Low,NPL_NATURAL
+NLA12_WY-135,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Good,Good,Poor,Good,High,Low,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WY-131,1,RESERVOIR,Poor,Good,Good,Good,Small,Fair,Fair,Good,Fair,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_CT-104,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,High,Medium,High,Moderate,High,No Detect,NAP_NATURAL
+NLA12_RI-110,1,NATURAL,Poor,Good,Poor,Poor,Small,Poor,Fair,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_VA-121,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_VA-105,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Fair,Good,Poor,Low,Not Assessed,Low,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_UT-210,1,RESERVOIR,Poor,Fair,Fair,Fair,Large,Good,Good,Poor,Good,High,Not Assessed,Low,Low,Moderate,No Detect,WMT_MAN_MADE
+NLA12_OR-169,1,RESERVOIR,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_CO-115,1,NATURAL,Poor,Fair,Good,Good,Medium,Good,Good,Good,Good,Medium,Low,Medium,Low,Moderate,No Detect,WMT_NATURAL
+NLA12_MI-101,1,NATURAL,Poor,Good,Good,Good,Medium,Poor,Poor,Poor,Poor,High,Medium,High,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_NH-102,1,NATURAL,Good,Fair,Good,Fair,Small,Fair,Good,Good,Good,High,High,High,Low,Moderate,No Detect,NAP_NATURAL
+NLA12_OH-136,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Good,Good,Good,Good,Medium,Not Assessed,Medium,High,High,Low,NAP_MAN_MADE
+NLA12_OK-302,1,MAN_MADE,Good,Good,Poor,Good,Medium,Good,Good,Poor,Good,High,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_SD-158,1,NATURAL,Not Assessed,Fair,Poor,Poor,Small,Fair,Good,Poor,Good,Medium,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_TX-170,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Fair,Poor,Poor,Fair,Low,Not Assessed,Low,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_TX-190,1,RESERVOIR,Good,Good,Good,Good,Small,Poor,Poor,Fair,Poor,Medium,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_PA-105,1,RESERVOIR,Not Assessed,Good,Good,Good,Small,Fair,Fair,Fair,Fair,High,Not Assessed,Medium,Low,Moderate,No Detect,NAP_MAN_MADE
+NLA12_PA-110,1,NATURAL,Not Assessed,Good,Poor,Poor,Small,Good,Good,Fair,Fair,High,High,High,Moderate,Moderate,No Detect,NAP_NATURAL
+NLA12_MN-101,1,NATURAL,Fair,Fair,Good,Good,Small,Good,Good,Fair,Good,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_IA-134,1,MAN_MADE,Poor,Poor,Fair,Poor,Small,Good,Good,Poor,Good,Medium,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_CA-105,1,MAN_MADE,Not Assessed,Good,Fair,Poor,Small,Poor,Good,Poor,Good,Medium,Not Assessed,Low,Moderate,Moderate,Low,XER_MAN_MADE
+NLA12_MO-115,1,MAN_MADE,Good,Fair,Good,Fair,Small,Fair,Fair,Poor,Fair,Low,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_MT-108,1,NATURAL,Poor,Poor,Poor,Poor,Medium,Good,Poor,Fair,Poor,Low,Low,Medium,Low,Moderate,Low,NPL_NATURAL
+NLA12_NV-105,1,RESERVOIR,Poor,Good,Good,Poor,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Medium,Low,Not Assessed,No Detect,XER_MAN_MADE
+NLA12_NV-119,1,RESERVOIR,Fair,Good,Fair,Poor,Small,Fair,Poor,Good,Poor,High,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_NV-104,1,RESERVOIR,Not Assessed,Good,Fair,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_RI-112,1,RESERVOIR,Good,Poor,Fair,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_MN-116,1,NATURAL,Fair,Good,Poor,Fair,Small,Good,Good,Poor,Fair,Medium,High,Medium,Moderate,High,Low,UMW_NATURAL
+NLA12_WA-141,1,NATURAL,Fair,Fair,Fair,Good,Small,Good,Good,Fair,Fair,High,Low,High,Low,Low,Low,WMT_NATURAL
+NLA12_RI-113,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Good,Good,Good,High,Not Assessed,High,Low,Low,Low,NAP_MAN_MADE
+NLA12_SD-111,1,NATURAL,Not Assessed,Poor,Poor,Poor,Small,Good,Fair,Poor,Fair,Low,Low,Medium,High,High,High,TPL_NATURAL
+NLA12_NJ-102,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Low,No Detect,NAP_MAN_MADE
+NLA12_NJ-119,1,MAN_MADE,Poor,Fair,Good,Fair,Small,Good,Poor,Fair,Poor,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_UT-222,1,RESERVOIR,Poor,Fair,Poor,Poor,Large,Good,Poor,Poor,Poor,High,Not Assessed,Low,High,High,Low,WMT_MAN_MADE
+NLA12_UT-137,1,NATURAL_ENH,Poor,Fair,Poor,Poor,Large,Poor,Poor,Poor,Poor,High,Low,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_ID-112,1,NATURAL,Fair,Fair,Fair,Fair,Small,Good,Good,Good,Fair,Medium,Medium,Medium,Low,Not Assessed,No Detect,WMT_NATURAL
+NLA12_ID-102,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-108,1,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Fair,Fair,High,High,Not Assessed,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-207,1,RESERVOIR,Fair,Poor,Good,Fair,Small,Good,Good,Fair,Good,Low,Medium,Medium,Moderate,Low,No Detect,WMT_MAN_MADE
+NLA12_CO-101,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Poor,Good,Good,Good,Low,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_TX-136,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Fair,Fair,Fair,Fair,Medium,Not Assessed,Low,Moderate,Moderate,Low,SPL_MAN_MADE
+NLA12_WA-101,1,NATURAL,Good,Poor,Fair,Good,Small,Fair,Fair,Good,Fair,High,Low,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-165,1,NATURAL,Good,Poor,Poor,Poor,Small,Good,Fair,Fair,Fair,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-121,1,MAN_MADE,Good,Fair,Good,Poor,Small,Fair,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ID-105,1,NATURAL,Good,Fair,Poor,Good,Small,Good,Good,Fair,Fair,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_NY-0106,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_SD-134,1,NATURAL,Good,Good,Poor,Poor,Medium,Poor,Poor,Poor,Poor,Medium,Medium,Medium,High,Moderate,Low,NPL_NATURAL
+NLA12_TX-111,1,RESERVOIR,Not Assessed,Good,Poor,Good,Large,Poor,Fair,Fair,Fair,Low,Not Assessed,Low,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_NY-0110,1,NATURAL,Not Assessed,Good,Good,Good,Small,Good,Good,Good,Good,Medium,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_OR-113,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Fair,Fair,Fair,Medium,Not Assessed,Medium,Low,Moderate,No Detect,WMT_MAN_MADE
+NLA12_CA-190,1,MAN_MADE,Fair,Good,Poor,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,High,Low,Low,XER_MAN_MADE
+NLA12_NJ-104,1,MAN_MADE,Good,Fair,Good,Fair,Medium,Good,Good,Fair,Fair,High,Not Assessed,High,Moderate,Not Assessed,No Detect,CPL_MAN_MADE
+NLA12_NJ-101,1,MAN_MADE,Poor,Good,Fair,Poor,Large,Good,Poor,Fair,Poor,High,Not Assessed,High,Moderate,Low,No Detect,NAP_MAN_MADE
+NLA12_IL-118,1,MAN_MADE,Fair,Poor,Fair,Poor,Small,Fair,Fair,Fair,Good,Low,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_MD-115,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_CT-118,1,NATURAL,Good,Good,Good,Good,Small,Fair,Fair,Fair,Good,High,Low,High,Not Assessed,Low,No Detect,NAP_NATURAL
+NLA12_UT-294,1,RESERVOIR,Poor,Good,Good,Good,Medium,Good,Fair,Fair,Fair,Medium,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_OR-123,1,RESERVOIR,Poor,Fair,Good,Fair,Small,Good,Good,Fair,Good,High,Not Assessed,Low,Low,Moderate,No Detect,WMT_MAN_MADE
+NLA12_AL-102,1,RESERVOIR,Fair,Good,Fair,Good,Small,Good,Good,Fair,Fair,Medium,Not Assessed,Medium,Low,High,Low,SAP_MAN_MADE
+NLA12_CA-154,1,RESERVOIR,Poor,Good,Good,Poor,Large,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Low,High,No Detect,XER_MAN_MADE
+NLA12_NH-111,1,MAN_MADE,Good,Good,Good,Good,Small,Poor,Poor,Fair,Fair,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_OH-118,1,RESERVOIR,Fair,Good,Good,Good,Small,Good,Good,Fair,Fair,Low,Not Assessed,Low,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_RI-103,1,MAN_MADE,Poor,Good,Good,Fair,Small,Good,Good,Fair,Good,Medium,Not Assessed,High,Low,Low,Low,NAP_MAN_MADE
+NLA12_VA-118,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Not Assessed,Medium,High,High,No Detect,SAP_MAN_MADE
+NLA12_SD-108,1,NATURAL,Poor,Poor,Fair,Good,Small,Poor,Fair,Poor,Good,Low,Low,Low,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_MN-113,1,NATURAL,Fair,Fair,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Low,Medium,High,High,Low,TPL_NATURAL
+NLA12_TX-112,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_TX-152,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Poor,Good,Fair,Good,Medium,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_IL-104,1,NATURAL,Fair,Poor,Good,Good,Small,Good,Good,Poor,Good,High,Medium,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_OR-155,1,RESERVOIR,Poor,Fair,Poor,Fair,Large,Good,Good,Fair,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_MI-144,1,MAN_MADE,Poor,Good,Good,Good,Small,Good,Good,Poor,Good,Low,Medium,Medium,Low,Low,Low,UMW_MAN_MADE
+NLA12_MO-103,1,RESERVOIR,Good,Fair,Good,Good,Medium,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_WA-126,1,NATURAL,Good,Poor,Good,Fair,Small,Fair,Fair,Good,Fair,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WA-112,1,NATURAL_ENH,Poor,Poor,Poor,Poor,Small,Good,Good,Good,Good,High,Medium,Medium,Moderate,Moderate,Low,WMT_NATURAL
+NLA12_WA-108,1,NATURAL,Good,Poor,Fair,Fair,Small,Good,Good,Poor,Good,Medium,Low,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_VA-110,1,MAN_MADE,Poor,Poor,Fair,Good,Small,Good,Fair,Fair,Poor,High,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_VA-103,1,MAN_MADE,Poor,Poor,Fair,Fair,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_OK-299,1,MAN_MADE,Poor,Good,Poor,Good,Medium,Good,Good,Good,Poor,Medium,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_CA-167,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_RI-108,1,MAN_MADE,Poor,Good,Good,Fair,Small,Good,Fair,Fair,Good,High,Not Assessed,High,Low,Low,Low,NAP_MAN_MADE
+NLA12_TX-201,1,MAN_MADE,Poor,Fair,Fair,Fair,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Medium,Moderate,High,No Detect,CPL_MAN_MADE
+NLA12_NY-0109,1,NATURAL,Not Assessed,Good,Fair,Poor,Small,Good,Good,Good,Good,High,High,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_SD-105,1,NATURAL,Fair,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,High,Low,Medium,High,Moderate,Low,NPL_NATURAL
+NLA12_IN-146,1,MAN_MADE,Fair,Good,Good,Fair,Small,Good,Good,Good,Good,Medium,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_PA-114,1,NATURAL_ENH,Good,Good,Good,Good,Small,Fair,Poor,Poor,Poor,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_NV-177,1,RESERVOIR,Not Assessed,Good,Good,Poor,Large,Fair,Fair,Fair,Poor,High,Not Assessed,High,Low,Low,Low,XER_MAN_MADE
+NLA12_NV-137,1,RESERVOIR,Not Assessed,Good,Good,Poor,Large,Poor,Poor,Good,Poor,Medium,Not Assessed,Low,Moderate,Low,No Detect,XER_MAN_MADE
+NLA12_IL-106,1,NATURAL,Good,Poor,Fair,Fair,Medium,Good,Good,Poor,Good,Medium,Medium,Medium,High,High,Low,TPL_NATURAL
+NLA12_NY-0111,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Fair,Good,Poor,High,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_OK-296,1,MAN_MADE,Poor,Poor,Poor,Poor,Medium,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,High,Moderate,Low,SPL_MAN_MADE
+NLA12_IN-116,1,MAN_MADE,Fair,Good,Poor,Good,Medium,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_AZ-140,1,MAN_MADE,Good,Good,Fair,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Low,Not Assessed,High,No Detect,XER_MAN_MADE
+NLA12_AL-103,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Not Assessed,Medium,Moderate,High,No Detect,SAP_MAN_MADE
+NLA12_OH-127,1,RESERVOIR,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_NH-109,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_MD-103,1,MAN_MADE,Fair,Good,Good,Good,Small,Fair,Good,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,Low,SAP_MAN_MADE
+NLA12_TX-182,1,RESERVOIR,Good,Good,Good,Fair,Small,Poor,Fair,Fair,Fair,Low,Not Assessed,Low,High,Moderate,Low,SPL_MAN_MADE
+NLA12_NV-144,1,RESERVOIR,Poor,Good,Good,Good,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Low,Low,XER_MAN_MADE
+NLA12_GA-102,1,NATURAL,Fair,Poor,Good,Poor,Large,Good,Good,Good,Fair,High,Medium,High,High,Low,Low,CPL_NATURAL
+NLA12_ME-114,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MT-106,1,RESERVOIR,Good,Good,Good,Good,Large,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_CO-119,1,NATURAL,Poor,Good,Poor,Good,Small,Good,Good,Good,Good,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_CO-106,1,RESERVOIR,Fair,Good,Good,Good,Large,Fair,Fair,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_CA-111,1,MAN_MADE,Poor,Good,Good,Good,Small,Fair,Good,Fair,Good,High,Not Assessed,High,Low,Low,Low,XER_MAN_MADE
+NLA12_NE-101,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Good,Good,Fair,Good,Medium,Not Assessed,Low,Moderate,Moderate,Low,SPL_MAN_MADE
+NLA12_ND-114,1,NATURAL,Good,Good,Fair,Poor,Small,Fair,Good,Fair,Good,High,Low,Medium,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_SD-133,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,High,Low,Low,NPL_MAN_MADE
+NLA12_OK-306,1,MAN_MADE,Good,Good,Good,Good,Medium,Poor,Fair,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,SPL_MAN_MADE
+NLA12_CA-200,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,Medium,Low,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-203,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Good,Fair,Fair,Poor,High,Not Assessed,Medium,No Detect,Low,No Detect,WMT_MAN_MADE
+NLA12_AL-104,1,RESERVOIR,Fair,Poor,Good,Good,Small,Fair,Poor,Fair,Fair,Not Assessed,Not Assessed,Not Assessed,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_NE-106,1,RESERVOIR,Good,Poor,Poor,Poor,Small,Fair,Fair,Poor,Good,High,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_IN-108,1,NATURAL,Poor,Good,Poor,Poor,Medium,Fair,Poor,Poor,Poor,High,Low,Low,Moderate,Moderate,Low,UMW_NATURAL
+NLA12_MS-103,1,NATURAL,Poor,Fair,Good,Poor,Small,Good,Fair,Good,Fair,High,Medium,Medium,Low,Low,Low,CPL_NATURAL
+NLA12_AL-101,2,RESERVOIR,Poor,Good,Fair,Fair,Small,Good,Good,Good,Good,Medium,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_AL-112,1,RESERVOIR,Good,Poor,Good,Good,Small,Fair,Fair,Fair,Good,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,CPL_MAN_MADE
+NLA12_MN-126,1,NATURAL,Good,Good,Fair,Good,Small,Good,Good,Good,Fair,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_WY-124,1,NATURAL_ENH,Not Assessed,Good,Good,Fair,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ND-109,1,NATURAL,Good,Good,Poor,Poor,Small,Poor,Poor,Poor,Fair,Low,Low,Medium,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_IL-120,1,MAN_MADE,Fair,Poor,Fair,Poor,Small,Fair,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_AR-101,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,High,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_AL-105,2,RESERVOIR,Poor,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,Moderate,High,Low,CPL_MAN_MADE
+NLA12_CO-129,1,NATURAL,Good,Poor,Good,Good,Large,Fair,Fair,Good,Good,Low,Low,Low,Low,Low,Low,SPL_NATURAL
+NLA12_OK-119,1,RESERVOIR,Good,Good,Poor,Good,Medium,Poor,Good,Fair,Good,High,Not Assessed,Low,Moderate,Moderate,No Detect,SPL_MAN_MADE
+NLA12_MN-141,1,NATURAL,Fair,Good,Good,Fair,Small,Good,Fair,Fair,Poor,High,Low,Low,Low,Low,No Detect,UMW_NATURAL
+NLA12_MS-126,1,MAN_MADE,Poor,Fair,Fair,Poor,Small,Good,Fair,Fair,Good,High,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_NE-110,1,RESERVOIR,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Medium,Not Assessed,Low,High,Moderate,Low,TPL_MAN_MADE
+NLA12_WY-102,1,RESERVOIR,Not Assessed,Good,Good,Fair,Large,Good,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Moderate,Low,Low,NPL_MAN_MADE
+NLA12_AR-105,1,RESERVOIR,Fair,Poor,Good,Good,Small,Poor,Fair,Fair,Good,High,Not Assessed,High,Low,Low,Low,CPL_MAN_MADE
+NLA12_VA-104,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_MN-110,1,NATURAL,Good,Good,Fair,Fair,Small,Poor,Poor,Poor,Fair,Medium,Low,Medium,Moderate,Low,Low,UMW_NATURAL
+NLA12_ID-210,1,NATURAL,Good,Good,Good,Good,Small,Fair,Good,Good,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-145,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_SD-189,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Low,Low,Moderate,Low,Low,NPL_NATURAL
+NLA12_MO-101,1,MAN_MADE,Good,Poor,Fair,Poor,Medium,Poor,Fair,Fair,Good,Medium,Not Assessed,Low,High,Moderate,No Detect,TPL_MAN_MADE
+NLA12_ND-149,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Good,Poor,Good,Medium,Low,Medium,High,High,Low,NPL_NATURAL
+NLA12_ND-164,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Fair,Fair,Good,High,Low,Low,High,High,Low,NPL_NATURAL
+NLA12_ME-134,1,MAN_MADE,Good,Good,Good,Good,Small,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,Low,NAP_MAN_MADE
+NLA12_CA-166,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Not Assessed,Low,Low,No Detect,WMT_NATURAL
+NLA12_CA-112,1,MAN_MADE,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_MN-157,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Medium,Medium,Moderate,High,Low,UMW_NATURAL
+NLA12_MS-105,1,MAN_MADE,Good,Poor,Good,Good,Small,Fair,Poor,Poor,Poor,High,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_NE-129,1,MAN_MADE,Not Assessed,Fair,Poor,Poor,Small,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_IN-160,1,NATURAL,Fair,Good,Fair,Good,Medium,Good,Good,Fair,Good,High,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_IN-172,1,NATURAL,Poor,Good,Poor,Good,Medium,Poor,Poor,Fair,Poor,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_IN-128,1,NATURAL,Poor,Good,Good,Fair,Medium,Poor,Poor,Fair,Fair,Low,Low,Low,Low,Low,Low,UMW_NATURAL
+NLA12_IL-109,1,MAN_MADE,Fair,Poor,Good,Good,Small,Good,Good,Good,Good,High,Not Assessed,Low,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_ND-193,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,High,Low,Medium,High,High,High,NPL_NATURAL
+NLA12_CT-107,1,MAN_MADE,Poor,Fair,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_SD-165,1,MAN_MADE,Good,Good,Fair,Poor,Small,Good,Fair,Poor,Poor,High,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_GA-104,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_VA-126,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Good,Good,Poor,Low,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_AL-114,1,RESERVOIR,Fair,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,SAP_MAN_MADE
+NLA12_SD-132,1,MAN_MADE,Fair,Good,Poor,Poor,Medium,Good,Poor,Poor,Poor,Medium,Not Assessed,Low,Moderate,Low,Low,NPL_MAN_MADE
+NLA12_IA-102,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Fair,Fair,Fair,Medium,Low,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_ME-109,1,NATURAL,Poor,Fair,Good,Fair,Small,Good,Poor,Fair,Poor,High,Low,High,Low,Low,Low,NAP_NATURAL
+NLA12_MT-160,1,RESERVOIR,Good,Good,Fair,Fair,Large,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_MT-156,1,RESERVOIR,Fair,Good,Good,Good,Large,Fair,Fair,Fair,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_AZ-107,1,RESERVOIR,Poor,Good,Fair,Poor,Large,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Moderate,High,Low,XER_MAN_MADE
+NLA12_CO-125,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Fair,Fair,Fair,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-142,1,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Good,Fair,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ID-158,1,NATURAL,Not Assessed,Good,Good,Good,Small,Good,Good,Good,Good,Medium,Low,Medium,Not Assessed,Low,No Detect,WMT_NATURAL
+NLA12_ID-215,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ND-129,1,NATURAL,Not Assessed,Good,Poor,Poor,Small,Poor,Poor,Fair,Poor,Low,Low,Low,High,High,Low,NPL_NATURAL
+NLA12_TX-114,1,RESERVOIR,Poor,Good,Good,Poor,Small,Good,Good,Poor,Fair,Low,Not Assessed,Medium,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_NY-0108,1,NATURAL,Poor,Fair,Poor,Poor,Small,Good,Good,Fair,Fair,High,Low,Medium,Moderate,Low,No Detect,NAP_NATURAL
+NLA12_TX-205,1,MAN_MADE,Poor,Poor,Poor,Good,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_WY-120,1,NATURAL,Good,Fair,Good,Good,Small,Good,Good,Good,Good,Medium,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WY-117,1,NATURAL,Fair,Fair,Good,Good,Small,Good,Good,Good,Good,Low,Low,Low,Low,Not Assessed,No Detect,WMT_NATURAL
+NLA12_WY-103,1,NATURAL_ENH,Good,Good,Good,Good,Small,Good,Good,Good,Good,Low,Low,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_MS-112,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,Low,CPL_MAN_MADE
+NLA12_MS-125,1,MAN_MADE,Poor,Fair,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Not Assessed,Medium,High,Moderate,No Detect,CPL_MAN_MADE
+NLA12_SD-212,1,MAN_MADE,Good,Good,Fair,Poor,Medium,Good,Good,Poor,Poor,High,Not Assessed,Medium,Moderate,Low,No Detect,NPL_MAN_MADE
+NLA12_ND-103,1,NATURAL,Fair,Good,Poor,Poor,Small,Poor,Good,Fair,Good,Low,Low,Low,Moderate,High,Low,NPL_NATURAL
+NLA12_VT-103,1,NATURAL,Not Assessed,Good,Good,Fair,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Low,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_ND-172,1,NATURAL,Fair,Poor,Poor,Poor,Small,Good,Poor,Fair,Poor,High,Low,Medium,High,High,Low,NPL_NATURAL
+NLA12_MD-118,1,MAN_MADE,Poor,Poor,Poor,Fair,Small,Fair,Poor,Fair,Fair,High,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_CA-145,1,MAN_MADE,Poor,Good,Good,Good,Small,Fair,Fair,Poor,Fair,High,Not Assessed,Not Assessed,Low,Moderate,No Detect,XER_MAN_MADE
+NLA12_FL-103,1,NATURAL,Not Assessed,Poor,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Medium,Medium,Medium,High,High,Low,CPL_NATURAL
+NLA12_FL-108,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Fair,Fair,Fair,Good,Low,Not Assessed,Low,Moderate,Moderate,Low,CPL_MAN_MADE
+NLA12_ID-166,1,RESERVOIR,Poor,Good,Fair,Fair,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_ME-110,1,NATURAL,Fair,Good,Good,Good,Small,Good,Fair,Fair,Fair,High,Low,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_MS-128,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Poor,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_SD-107,1,MAN_MADE,Poor,Fair,Poor,Fair,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_VA-102,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Good,Good,Fair,High,Not Assessed,Medium,Moderate,High,No Detect,SAP_MAN_MADE
+NLA12_ND-160,1,NATURAL,Not Assessed,Good,Poor,Good,Small,Poor,Good,Fair,Good,Low,Low,Low,Low,Low,Low,NPL_NATURAL
+NLA12_NH-107,1,MAN_MADE,Good,Fair,Fair,Fair,Large,Good,Good,Good,Good,Medium,Not Assessed,Medium,Low,Low,Low,NAP_MAN_MADE
+NLA12_IN-127,1,MAN_MADE,Fair,Good,Poor,Poor,Medium,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,SAP_MAN_MADE
+NLA12_ID-110,1,NATURAL_ENH,Poor,Good,Poor,Good,Small,Fair,Good,Fair,Good,High,Medium,Medium,Low,Low,No Detect,XER_NATURAL
+NLA12_SD-119,1,MAN_MADE,Not Assessed,Good,Poor,Poor,Medium,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,High,Low,Low,NPL_MAN_MADE
+NLA12_MD-108,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Low,Moderate,Moderate,Low,SAP_MAN_MADE
+NLA12_ND-194,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Poor,Poor,Poor,Fair,Low,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_OR-129,1,NATURAL,Fair,Fair,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_CA-128,1,NATURAL,Fair,Poor,Fair,Fair,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_VA-119,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Good,Good,Good,Medium,Not Assessed,Low,High,High,Moderate,CPL_MAN_MADE
+NLA12_ME-106,1,NATURAL,Not Assessed,Fair,Good,Good,Small,Good,Fair,Fair,Poor,High,High,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MS-113,1,RESERVOIR,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_OH-102,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,High,Moderate,No Detect,TPL_MAN_MADE
+NLA12_MN-104,1,NATURAL,Good,Good,Good,Fair,Small,Good,Good,Good,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-131,1,NATURAL,Good,Poor,Fair,Fair,Small,Poor,Poor,Good,Poor,Low,Low,Low,Low,Low,No Detect,TPL_NATURAL
+NLA12_IN-111,1,RESERVOIR,Good,Poor,Fair,Good,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_MN-143,1,NATURAL,Fair,Good,Poor,Poor,Small,Fair,Fair,Good,Fair,High,Low,Medium,Moderate,Moderate,Low,UMW_NATURAL
+NLA12_CT-126,1,MAN_MADE,Good,Good,Good,Fair,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_IN-101,1,NATURAL,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,TPL_NATURAL
+NLA12_VA-106,1,MAN_MADE,Good,Poor,Fair,Poor,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_ID-203,1,RESERVOIR,Fair,Fair,Poor,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,WMT_MAN_MADE
+NLA12_ID-122,1,RESERVOIR,Fair,Good,Poor,Fair,Large,Poor,Poor,Good,Poor,Low,Not Assessed,Low,High,Moderate,No Detect,XER_MAN_MADE
+NLA12_IN-130,1,MAN_MADE,Fair,Poor,Poor,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_ID-198,1,RESERVOIR,Good,Good,Fair,Fair,Small,Good,Fair,Good,Poor,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_IN-113,1,NATURAL,Poor,Good,Good,Good,Medium,Poor,Poor,Poor,Fair,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_UT-167,1,NATURAL_ENH,Fair,Good,Fair,Good,Large,Good,Fair,Fair,Poor,Low,Low,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_PA-117,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Fair,Poor,Fair,Poor,Medium,Not Assessed,Medium,High,High,Low,SAP_MAN_MADE
+NLA12_PA-106,1,RESERVOIR,Fair,Good,Poor,Good,Small,Fair,Fair,Fair,Poor,Low,Not Assessed,High,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_ME-103,1,NATURAL,Not Assessed,Good,Good,Good,Small,Fair,Fair,Good,Fair,High,High,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_OK-288,1,MAN_MADE,Fair,Poor,Poor,Good,Large,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,Low,CPL_MAN_MADE
+NLA12_OR-107,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OR-145,1,NATURAL,Good,Fair,Good,Good,Small,Good,Good,Fair,Fair,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_MT-110,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,Low,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_MT-152,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Good,Good,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WY-133,1,NATURAL,Not Assessed,Good,Good,Good,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_IN-147,1,MAN_MADE,Not Assessed,Poor,Poor,Poor,Small,Fair,Fair,Poor,Good,Low,Not Assessed,Medium,High,Low,No Detect,TPL_MAN_MADE
+NLA12_OH-137,1,NATURAL_ENH,Poor,Fair,Poor,Poor,Small,Good,Fair,Poor,Poor,High,High,High,Moderate,High,Low,NAP_NATURAL
+NLA12_TX-113,1,RESERVOIR,Fair,Poor,Poor,Poor,Large,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Moderate,High,Low,CPL_MAN_MADE
+NLA12_UT-196,1,RESERVOIR,Fair,Good,Fair,Good,Small,Good,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ND-202,1,NATURAL,Not Assessed,Good,Poor,Good,Small,Good,Good,Fair,Good,Low,Low,Low,Moderate,High,Low,NPL_NATURAL
+NLA12_ND-198,1,NATURAL,Not Assessed,Poor,Poor,Fair,Small,Good,Good,Fair,Good,Low,Medium,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_ND-190,1,NATURAL,Good,Poor,Poor,Poor,Small,Fair,Good,Fair,Good,Low,Low,Low,High,High,Low,TPL_NATURAL
+NLA12_ME-121,1,NATURAL,Fair,Good,Good,Good,Small,Good,Fair,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_OH-134,1,RESERVOIR,Poor,Poor,Fair,Poor,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_ID-104,1,RESERVOIR,Poor,Poor,Poor,Poor,Large,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Moderate,Low,XER_MAN_MADE
+NLA12_CO-121,1,RESERVOIR,Good,Poor,Fair,Poor,Medium,Fair,Fair,Good,Good,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WA-102,1,NATURAL,Good,Poor,Poor,Poor,Small,Good,Fair,Good,Fair,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_CO-117,1,RESERVOIR,Poor,Poor,Poor,Fair,Medium,Good,Fair,Fair,Poor,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WY-115,1,RESERVOIR,Not Assessed,Good,Fair,Fair,Large,Good,Fair,Fair,Poor,Low,Low,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_ND-145,1,NATURAL,Good,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Low,Medium,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_IN-134,1,NATURAL,Fair,Fair,Fair,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_ME-130,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_ND-131,1,RESERVOIR,Fair,Good,Fair,Good,Medium,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,High,Low,NPL_MAN_MADE
+NLA12_CA-188,1,RESERVOIR,Fair,Good,Fair,Good,Medium,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,Moderate,XER_MAN_MADE
+NLA12_MT-124,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_SD-147,1,MAN_MADE,Good,Good,Poor,Poor,Small,Poor,Poor,Poor,Fair,Low,Not Assessed,Medium,High,Moderate,High,NPL_MAN_MADE
+NLA12_OR-105,1,RESERVOIR,Good,Poor,Fair,Fair,Large,Fair,Poor,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_MN-121,1,NATURAL,Fair,Good,Poor,Poor,Small,Fair,Poor,Poor,Fair,Low,Medium,Low,Moderate,Low,Low,UMW_NATURAL
+NLA12_DE-101,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Medium,High,Moderate,Low,CPL_MAN_MADE
+NLA12_SD-137,1,MAN_MADE,Good,Good,Poor,Poor,Medium,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_TX-104,1,MAN_MADE,Good,Good,Poor,Poor,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Moderate,Moderate,No Detect,SPL_MAN_MADE
+NLA12_WI-144,1,NATURAL,Good,Good,Fair,Good,Small,Good,Poor,Fair,Poor,Medium,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-119,1,MAN_MADE,Fair,Poor,Fair,Poor,Small,Poor,Fair,Poor,Good,Low,Low,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_OK-132,1,MAN_MADE,Good,Good,Poor,Good,Medium,Poor,Fair,Good,Good,Low,Not Assessed,Low,Moderate,Low,No Detect,SPL_MAN_MADE
+NLA12_CA-119,1,MAN_MADE,Fair,Poor,Good,Good,Large,Good,Good,Fair,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,XER_MAN_MADE
+NLA12_OR-154,1,RESERVOIR,Poor,Fair,Poor,Poor,Large,Good,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,Low,WMT_MAN_MADE
+NLA12_MN-103,1,NATURAL,Fair,Good,Good,Fair,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_IN-144,1,NATURAL,Poor,Fair,Fair,Fair,Small,Poor,Poor,Poor,Poor,Medium,Medium,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_IN-110,1,NATURAL,Poor,Good,Good,Good,Small,Poor,Poor,Poor,Fair,Medium,Low,Medium,Low,Moderate,Low,UMW_NATURAL
+NLA12_IN-105,1,NATURAL,Not Assessed,Fair,Good,Good,Small,Good,Fair,Poor,Good,High,Medium,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_OK-292,1,MAN_MADE,Not Assessed,Poor,Poor,Poor,Medium,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_MN-106,1,NATURAL,Poor,Good,Good,Poor,Small,Poor,Poor,Fair,Poor,Low,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-115,1,NATURAL,Fair,Good,Good,Poor,Small,Good,Fair,Fair,Fair,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_AL-113,1,RESERVOIR,Good,Good,Good,Good,Small,Fair,Fair,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_NC-104,1,NATURAL,Not Assessed,Poor,Fair,Good,Small,Good,Good,Good,Good,High,Medium,High,Moderate,Low,No Detect,CPL_NATURAL
+NLA12_IN-164,1,NATURAL,Poor,Good,Good,Good,Small,Fair,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Low,Low,Low,UMW_NATURAL
+NLA12_ME-101,1,NATURAL,Poor,Good,Good,Good,Small,Good,Fair,Fair,Fair,High,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_ME-126,1,NATURAL,Not Assessed,Good,Good,Good,Small,Good,Good,Good,Fair,High,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_NE-107,1,NATURAL,Good,Poor,Good,Good,Medium,Fair,Fair,Good,Good,Low,Low,Low,Moderate,Moderate,Low,SPL_NATURAL
+NLA12_OR-112,1,RESERVOIR,Poor,Poor,Fair,Poor,Large,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,Moderate,Low,Low,WMT_MAN_MADE
+NLA12_VA-112,1,MAN_MADE,Fair,Poor,Good,Good,Small,Good,Poor,Poor,Poor,Low,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_VA-123,1,MAN_MADE,Poor,Fair,Poor,Poor,Small,Poor,Poor,Poor,Poor,High,Not Assessed,High,High,High,Low,CPL_MAN_MADE
+NLA12_MI-150,1,NATURAL,Good,Fair,Good,Good,Small,Poor,Good,Good,Good,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_GA-111,1,MAN_MADE,Poor,Poor,Fair,Fair,Small,Fair,Poor,Poor,Poor,Medium,Not Assessed,High,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_IN-102,1,NATURAL,Poor,Good,Good,Fair,Medium,Poor,Poor,Poor,Poor,Low,Low,Low,Low,Low,Low,UMW_NATURAL
+NLA12_IN-106,1,NATURAL,Poor,Fair,Good,Fair,Small,Good,Good,Good,Good,High,Medium,Medium,Low,High,Low,UMW_NATURAL
+NLA12_MI-125,1,NATURAL,Good,Good,Good,Good,Large,Good,Good,Good,Good,Medium,High,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_CA-108,1,MAN_MADE,Fair,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_UT-118,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Poor,Good,Low,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_CT-103,1,RESERVOIR,Good,Good,Good,Fair,Large,Good,Fair,Fair,Fair,High,High,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_MN-177,1,NATURAL,Poor,Fair,Poor,Poor,Medium,Good,Fair,Fair,Fair,High,Medium,Medium,High,High,No Detect,UMW_NATURAL
+NLA12_TX-116,1,MAN_MADE,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_IN-166,1,MAN_MADE,Good,Poor,Fair,Poor,Small,Good,Good,Good,Good,Medium,Not Assessed,Low,Moderate,High,Low,TPL_MAN_MADE
+NLA12_WI-134,1,NATURAL,Not Assessed,Poor,Poor,Poor,Medium,Poor,Poor,Fair,Poor,High,Medium,Medium,High,High,High,TPL_NATURAL
+NLA12_OR-102,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Fair,Fair,Fair,Good,Low,Not Assessed,Low,High,High,High,XER_MAN_MADE
+NLA12_AR-109,1,MAN_MADE,Good,Good,Fair,Fair,Small,Good,Good,Poor,Good,Medium,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_AR-104,1,RESERVOIR,Poor,Poor,Good,Fair,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_FL-130,1,NATURAL,Fair,Good,Poor,Poor,Large,Good,Poor,Fair,Poor,High,Medium,High,Low,Moderate,No Detect,CPL_NATURAL
+NLA12_MN-167,1,NATURAL,Fair,Poor,Fair,Poor,Small,Fair,Good,Fair,Good,High,Medium,Low,Moderate,High,Low,TPL_NATURAL
+NLA12_NC-127,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_ME-120,1,NATURAL,Fair,Good,Good,Good,Small,Good,Fair,Good,Poor,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_AZ-103,1,RESERVOIR,Poor,Fair,Poor,Poor,Large,Good,Fair,Fair,Poor,Medium,Not Assessed,Medium,Low,Low,Low,WMT_MAN_MADE
+NLA12_FL-102,2,NATURAL,Poor,Poor,Poor,Fair,Medium,Fair,Good,Fair,Good,Medium,Medium,High,Moderate,High,Low,CPL_NATURAL
+NLA12_CO-133,1,MAN_MADE,Not Assessed,Good,Good,Good,Medium,Fair,Fair,Good,Fair,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_MN-160,1,NATURAL,Poor,Good,Fair,Fair,Small,Good,Fair,Good,Poor,High,Medium,High,Moderate,Moderate,Low,UMW_NATURAL
+NLA12_IN-159,1,MAN_MADE,Good,Poor,Fair,Poor,Small,Fair,Good,Fair,Good,High,Medium,Medium,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_NE-111,1,NATURAL_ENH,Fair,Poor,Good,Good,Small,Poor,Good,Fair,Good,Low,Low,Low,Low,Low,No Detect,SPL_NATURAL
+NLA12_FL-109,1,NATURAL,Poor,Poor,Poor,Poor,Small,Fair,Poor,Fair,Good,High,Medium,High,Moderate,High,Low,CPL_NATURAL
+NLA12_FL-105,1,NATURAL,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Good,High,High,High,High,High,Low,CPL_NATURAL
+NLA12_NE-112,1,NATURAL,Good,Poor,Good,Good,Small,Fair,Good,Fair,Good,Low,Low,Low,Moderate,Moderate,Low,SPL_NATURAL
+NLA12_UT-218,1,RESERVOIR,Not Assessed,Poor,Good,Good,Large,Good,Poor,Poor,Poor,Medium,Not Assessed,Medium,Low,Low,Low,WMT_MAN_MADE
+NLA12_SC-112,2,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_NC-124,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Not Assessed,Medium,High,Moderate,Low,SAP_MAN_MADE
+NLA12_NC-115,1,MAN_MADE,Good,Fair,Fair,Poor,Small,Good,Good,Fair,Fair,High,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_SD-131,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Poor,Fair,Poor,Low,Medium,Medium,High,High,Low,NPL_NATURAL
+NLA12_ND-156,1,NATURAL,Fair,Good,Poor,Poor,Small,Good,Poor,Poor,Poor,Low,Medium,Medium,High,High,Low,NPL_NATURAL
+NLA12_WY-116,1,NATURAL,Not Assessed,Not Assessed,Fair,Fair,Small,Good,Good,Good,Good,High,Medium,High,Not Assessed,Low,No Detect,WMT_NATURAL
+NLA12_SC-118,1,RESERVOIR,Not Assessed,Fair,Good,Fair,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_IN-120,1,NATURAL,Poor,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Medium,Medium,Low,Low,Low,UMW_NATURAL
+NLA12_IN-145,1,NATURAL,Not Assessed,Fair,Poor,Poor,Small,Good,Good,Fair,Good,Low,Medium,Medium,High,Low,Low,UMW_NATURAL
+NLA12_FL-126,1,NATURAL,Poor,Good,Poor,Fair,Small,Fair,Good,Good,Good,High,Low,Medium,Moderate,Moderate,Low,CPL_NATURAL
+NLA12_MO-105,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Medium,Moderate,Low,Low,SAP_MAN_MADE
+NLA12_MO-110,1,MAN_MADE,Poor,Poor,Fair,Fair,Medium,Fair,Poor,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_WA-109,1,MAN_MADE,Good,Poor,Fair,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_CA-103,1,RESERVOIR,Not Assessed,Good,Fair,Good,Large,Good,Fair,Fair,Poor,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ME-102,1,NATURAL,Poor,Good,Good,Good,Small,Poor,Fair,Good,Good,Medium,High,High,Low,Low,Low,NAP_NATURAL
+NLA12_OR-109,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,No Detect,Low,No Detect,WMT_NATURAL
+NLA12_IN-149,1,MAN_MADE,Fair,Good,Fair,Poor,Small,Poor,Poor,Poor,Fair,Not Assessed,High,Not Assessed,Moderate,Low,Low,UMW_MAN_MADE
+NLA12_IN-179,1,MAN_MADE,Fair,Fair,Poor,Poor,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_IN-187,1,NATURAL,Good,Poor,Good,Good,Small,Good,Good,Poor,Good,High,Medium,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_ME-116,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MN-152,1,NATURAL,Fair,Good,Poor,Poor,Small,Good,Poor,Fair,Poor,High,Low,Medium,High,Moderate,Low,UMW_NATURAL
+NLA12_MT-140,1,NATURAL,Poor,Good,Good,Good,Large,Good,Good,Good,Good,High,Low,Medium,No Detect,Low,No Detect,WMT_NATURAL
+NLA12_NE-125,1,NATURAL,Poor,Fair,Fair,Good,Large,Fair,Fair,Fair,Fair,Medium,Low,Medium,High,High,Low,SPL_NATURAL
+NLA12_SC-102,1,MAN_MADE,Fair,Poor,Fair,Fair,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_IL-112,1,MAN_MADE,Fair,Poor,Fair,Fair,Small,Poor,Fair,Fair,Good,Medium,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_MN-112,1,NATURAL,Fair,Poor,Poor,Poor,Small,Poor,Poor,Fair,Poor,High,Medium,Low,High,High,Low,UMW_NATURAL
+NLA12_WI-161,1,NATURAL,Poor,Fair,Poor,Good,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Moderate,Low,No Detect,UMW_NATURAL
+NLA12_MN-135,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Not Assessed,Not Assessed,Not Assessed,High,Low,Low,TPL_NATURAL
+NLA12_OR-128,1,NATURAL,Fair,Poor,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Low,Low,Low,Low,WMT_NATURAL
+NLA12_CT-108,1,NATURAL_ENH,Good,Poor,Good,Poor,Small,Good,Poor,Fair,Poor,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_MD-104,1,MAN_MADE,Fair,Fair,Poor,Poor,Small,Poor,Poor,Fair,Fair,High,Not Assessed,High,High,High,Low,CPL_MAN_MADE
+NLA12_WA-133,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Fair,Fair,Fair,High,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_CO-130,1,NATURAL,Not Assessed,Poor,Good,Good,Small,Good,Good,Good,Good,High,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-126,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OK-107,1,RESERVOIR,Poor,Good,Poor,Good,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_NE-121,1,NATURAL,Not Assessed,Fair,Fair,Good,Small,Good,Good,Fair,Good,Medium,Medium,Medium,High,High,Low,SPL_NATURAL
+NLA12_VA-127,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,CPL_MAN_MADE
+NLA12_VA-130,1,MAN_MADE,Good,Good,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Moderate,Low,No Detect,SAP_MAN_MADE
+NLA12_MN-114,1,NATURAL,Poor,Good,Poor,Poor,Small,Fair,Good,Fair,Good,High,Low,Medium,Low,High,Low,UMW_NATURAL
+NLA12_DE-103,1,MAN_MADE,Good,Fair,Poor,Poor,Small,Good,Fair,Fair,Good,High,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_IL-116,1,MAN_MADE,Fair,Good,Fair,Fair,Small,Good,Good,Good,Good,Medium,Not Assessed,Low,No Detect,Low,Low,TPL_MAN_MADE
+NLA12_PA-113,1,NATURAL,Poor,Fair,Good,Good,Small,Good,Poor,Poor,Poor,High,Medium,Medium,Low,Moderate,No Detect,NAP_NATURAL
+NLA12_IN-185,1,NATURAL,Fair,Good,Fair,Poor,Small,Good,Good,Fair,Good,High,Medium,Low,Moderate,High,Low,UMW_NATURAL
+NLA12_CA-135,1,MAN_MADE,Good,Poor,Good,Good,Medium,Good,Good,Good,Good,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_CA-123,1,MAN_MADE,Fair,Fair,Good,Good,Large,Good,Poor,Fair,Poor,High,Not Assessed,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_TX-128,1,RESERVOIR,Good,Good,Good,Fair,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Low,Low,Moderate,No Detect,SPL_MAN_MADE
+NLA12_OR-144,1,NATURAL,Good,Good,Fair,Good,Medium,Good,Good,Good,Good,High,Low,Medium,Moderate,Low,No Detect,WMT_NATURAL
+NLA12_UT-159,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-147,1,NATURAL,Good,Poor,Poor,Good,Large,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_SC-127,1,MAN_MADE,Poor,Good,Fair,Good,Medium,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_MT-144,1,RESERVOIR,Fair,Good,Good,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_SD-143,1,MAN_MADE,Fair,Good,Poor,Good,Small,Good,Fair,Fair,Poor,Low,Not Assessed,Low,Low,Low,Low,NPL_MAN_MADE
+NLA12_SC-104,2,MAN_MADE,Poor,Good,Poor,Poor,Large,Good,Good,Fair,Fair,High,Not Assessed,Medium,Moderate,Low,Low,SAP_MAN_MADE
+NLA12_IN-103,1,NATURAL,Good,Poor,Fair,Fair,Small,Good,Good,Poor,Good,High,Not Assessed,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_ME-129,1,NATURAL,Not Assessed,Fair,Good,Good,Small,Good,Fair,Good,Poor,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_IN-163,1,RESERVOIR,Poor,Poor,Good,Fair,Large,Poor,Good,Fair,Good,Medium,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_ME-118,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Good,Fair,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_AZ-145,1,RESERVOIR,Poor,Poor,Poor,Poor,Medium,Fair,Poor,Fair,Poor,High,Not Assessed,Medium,Moderate,Low,Low,WMT_MAN_MADE
+NLA12_OH-101,1,MAN_MADE,Fair,Poor,Fair,Poor,Medium,Good,Good,Good,Fair,Medium,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_FL-141,1,NATURAL,Fair,Fair,Good,Good,Large,Poor,Poor,Good,Poor,High,Low,High,Low,Low,No Detect,CPL_NATURAL
+NLA12_NE-105,1,NATURAL,Fair,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Moderate,High,Low,SPL_NATURAL
+NLA12_NE-108,1,NATURAL,Not Assessed,Poor,Good,Fair,Large,Fair,Poor,Fair,Poor,Medium,Low,Low,High,High,Moderate,SPL_NATURAL
+NLA12_NM-161,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_NM-162,1,MAN_MADE,Poor,Fair,Poor,Poor,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Low,Low,Low,Low,WMT_MAN_MADE
+NLA12_FL-132,1,NATURAL,Poor,Poor,Poor,Poor,Small,Poor,Poor,Fair,Fair,Low,Low,Low,Moderate,High,No Detect,CPL_NATURAL
+NLA12_FL-123,2,NATURAL,Good,Good,Good,Good,Small,Good,Fair,Good,Fair,Low,Low,Low,Low,Low,No Detect,CPL_NATURAL
+NLA12_NE-113,1,NATURAL,Fair,Fair,Good,Good,Large,Fair,Poor,Poor,Poor,High,Low,Medium,High,High,Moderate,SPL_NATURAL
+NLA12_NE-102,1,NATURAL,Poor,Fair,Good,Fair,Small,Good,Good,Good,Good,High,Low,Medium,High,High,Low,SPL_NATURAL
+NLA12_MT-102,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Poor,Good,Low,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_IN-174,1,MAN_MADE,Good,Poor,Good,Good,Small,Fair,Fair,Fair,Good,High,Not Assessed,Medium,Low,Low,Low,TPL_MAN_MADE
+NLA12_SD-109,1,NATURAL,Fair,Poor,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Medium,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_OR-121,1,NATURAL,Good,Good,Good,Fair,Small,Good,Fair,Good,Fair,High,Low,Medium,Low,Low,Low,WMT_NATURAL
+NLA12_OH-107,1,MAN_MADE,Fair,Good,Poor,Poor,Large,Good,Good,Good,Good,Medium,Not Assessed,Medium,High,High,Low,NAP_MAN_MADE
+NLA12_CA-206,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Good,Poor,Good,Poor,Low,Not Assessed,Medium,Low,Moderate,No Detect,WMT_MAN_MADE
+NLA12_IN-171,1,MAN_MADE,Fair,Good,Fair,Fair,Medium,Poor,Poor,Good,Fair,High,Not Assessed,Medium,Low,Moderate,No Detect,SAP_MAN_MADE
+NLA12_MN-127,1,NATURAL,Fair,Poor,Poor,Poor,Small,Good,Fair,Good,Fair,Low,Low,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_IN-186,1,NATURAL,Fair,Good,Good,Good,Medium,Poor,Poor,Fair,Fair,Low,Low,Low,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_DE-104,1,MAN_MADE,Good,Poor,Poor,Poor,Small,Fair,Fair,Fair,Good,High,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_IN-180,1,MAN_MADE,Fair,Good,Good,Good,Medium,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Moderate,No Detect,TPL_MAN_MADE
+NLA12_MO-123,1,MAN_MADE,Good,Poor,Fair,Poor,Small,Good,Fair,Poor,Fair,Medium,Not Assessed,Medium,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_AR-106,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,High,High,Low,SAP_MAN_MADE
+NLA12_GA-103,1,MAN_MADE,Not Assessed,Fair,Good,Good,Medium,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_NC-114,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE
+NLA12_NE-135,1,NATURAL,Poor,Poor,Poor,Poor,Large,Poor,Poor,Poor,Poor,Low,Low,Low,High,High,Low,SPL_NATURAL
+NLA12_SD-170,1,NATURAL,Poor,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Medium,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_ND-113,1,NATURAL,Good,Good,Fair,Good,Medium,Good,Good,Good,Good,Low,Low,Low,Low,Low,Low,TPL_NATURAL
+NLA12_ME-104,1,NATURAL,Not Assessed,Good,Fair,Good,Small,Fair,Fair,Good,Fair,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_MT-136,1,NATURAL,Not Assessed,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Low,Medium,No Detect,Low,No Detect,WMT_NATURAL
+NLA12_MN-136,1,NATURAL,Fair,Good,Fair,Poor,Small,Good,Poor,Good,Poor,High,Medium,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_MN-158,1,NATURAL,Fair,Poor,Poor,Poor,Medium,Fair,Fair,Fair,Fair,High,Low,Medium,High,High,Low,TPL_NATURAL
+NLA12_ME-105,1,NATURAL,Good,Fair,Fair,Good,Small,Good,Fair,Good,Good,High,Medium,High,Low,Moderate,Low,NAP_NATURAL
+NLA12_AR-102,1,RESERVOIR,Poor,Poor,Poor,Poor,Medium,Fair,Poor,Poor,Fair,Low,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_AR-111,1,MAN_MADE,Poor,Fair,Fair,Poor,Small,Fair,Good,Poor,Good,Low,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_CA-141,1,MAN_MADE,Fair,Good,Poor,Good,Small,Good,Good,Fair,Fair,High,Not Assessed,Medium,Moderate,Low,No Detect,XER_MAN_MADE
+NLA12_CA-208,1,NATURAL_ENH,Poor,Poor,Poor,Fair,Medium,Poor,Poor,Fair,Poor,Medium,Not Assessed,Low,Low,Moderate,No Detect,WMT_NATURAL
+NLA12_ND-199,1,NATURAL,Poor,Poor,Poor,Fair,Small,Fair,Poor,Poor,Poor,Low,Low,Low,Low,Low,Low,TPL_NATURAL
+NLA12_OH-104,1,RESERVOIR,Fair,Poor,Fair,Poor,Small,Good,Good,Poor,Good,Medium,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_ME-122,1,NATURAL,Fair,Good,Fair,Good,Small,Good,Good,Good,Fair,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MT-120,1,NATURAL,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,Low,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_ND-105,1,NATURAL,Not Assessed,Poor,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Not Assessed,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_NE-127,1,NATURAL,Poor,Fair,Poor,Fair,Large,Good,Good,Fair,Good,Low,Low,Low,Moderate,Moderate,Low,SPL_NATURAL
+NLA12_OR-160,1,NATURAL,Good,Good,Good,Fair,Medium,Good,Good,Good,Good,High,Low,Medium,No Detect,Low,No Detect,WMT_NATURAL
+NLA12_OR-103,1,NATURAL,Good,Good,Good,Poor,Small,Good,Good,Fair,Good,High,High,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_IN-104,1,MAN_MADE,Good,Fair,Good,Good,Small,Fair,Fair,Poor,Fair,Medium,Not Assessed,Medium,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_IN-115,1,RESERVOIR,Not Assessed,Good,Fair,Fair,Medium,Fair,Good,Good,Good,Low,Not Assessed,Medium,Low,Moderate,No Detect,SAP_MAN_MADE
+NLA12_NC-134,1,RESERVOIR,Fair,Good,Poor,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE
+NLA12_SD-154,1,NATURAL,Poor,Poor,Poor,Poor,Small,Good,Good,Poor,Fair,Medium,Low,Medium,Moderate,High,Low,TPL_NATURAL
+NLA12_GA-127,1,MAN_MADE,Fair,Fair,Poor,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Moderate,Low,Moderate,CPL_MAN_MADE
+NLA12_WA-125,1,NATURAL,Good,Poor,Good,Poor,Small,Good,Good,Fair,Good,High,Medium,Medium,Low,Not Assessed,No Detect,WMT_NATURAL
+NLA12_CO-109,1,RESERVOIR,Good,Poor,Good,Good,Large,Good,Poor,Good,Poor,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ME-107,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Fair,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_NE-160,1,RESERVOIR,Not Assessed,Good,Good,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,High,No Detect,SPL_MAN_MADE
+NLA12_WI-179,1,NATURAL,Good,Fair,Good,Good,Small,Fair,Good,Fair,Good,High,Low,High,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_WI-109,1,RESERVOIR,Fair,Good,Fair,Poor,Medium,Good,Poor,Good,Poor,High,Not Assessed,Medium,Moderate,Low,Low,UMW_MAN_MADE
+NLA12_WI-115,1,NATURAL,Not Assessed,Good,Fair,Fair,Small,Good,Fair,Fair,Poor,High,High,Medium,Moderate,High,No Detect,UMW_NATURAL
+NLA12_MT-164,1,NATURAL,Good,Good,Poor,Good,Small,Good,Poor,Poor,Poor,Medium,Low,Low,Low,Low,No Detect,WMT_NATURAL
+NLA12_PA-111,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Good,Fair,Fair,Poor,Low,Not Assessed,Medium,High,High,Low,SAP_MAN_MADE
+NLA12_PA-115,1,MAN_MADE,Poor,Good,Good,Fair,Small,Good,Good,Good,Good,Low,Not Assessed,Medium,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_TX-218,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Fair,Poor,Poor,Poor,Medium,Not Assessed,Medium,High,High,No Detect,SPL_MAN_MADE
+NLA12_OH-115,1,RESERVOIR,Good,Good,Good,Good,Medium,Good,Good,Fair,Fair,Low,Not Assessed,Medium,Low,Low,Low,SAP_MAN_MADE
+NLA12_AR-103,1,RESERVOIR,Fair,Good,Fair,Good,Small,Good,Good,Poor,Good,Low,Not Assessed,Medium,Low,Moderate,Low,SAP_MAN_MADE
+NLA12_AZ-106,1,MAN_MADE,Poor,Good,Fair,Good,Small,Fair,Poor,Fair,Poor,Low,Low,Low,Moderate,High,No Detect,XER_MAN_MADE
+NLA12_AZ-123,1,NATURAL_ENH,Not Assessed,Good,Poor,Poor,Small,Fair,Poor,Good,Poor,Low,Medium,Medium,High,High,No Detect,XER_NATURAL
+NLA12_NE-154,1,RESERVOIR,Good,Good,Poor,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_NE-156,1,NATURAL,Not Assessed,Poor,Fair,Poor,Small,Good,Good,Fair,Good,High,Low,Medium,High,High,Low,SPL_NATURAL
+NLA12_WA-103,1,NATURAL,Fair,Good,Fair,Good,Small,Fair,Poor,Fair,Fair,Medium,High,Medium,Low,High,No Detect,WMT_NATURAL
+NLA12_NE-166,1,MAN_MADE,Poor,Good,Poor,Poor,Medium,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,High,No Detect,SPL_MAN_MADE
+NLA12_NE-149,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_SD-157,1,NATURAL,Fair,Good,Poor,Poor,Small,Good,Fair,Fair,Poor,Low,Low,Low,Moderate,High,Low,NPL_NATURAL
+NLA12_NE-170,1,RESERVOIR,Not Assessed,Poor,Poor,Poor,Small,Fair,Good,Fair,Good,Medium,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_SD-162,1,NATURAL_ENH,Poor,Poor,Poor,Poor,Small,Good,Fair,Poor,Fair,Medium,Low,Medium,High,High,Low,TPL_NATURAL
+NLA12_MT-151,1,RESERVOIR,Fair,Good,Poor,Poor,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,NPL_MAN_MADE
+NLA12_AZ-157,1,MAN_MADE,Poor,Fair,Poor,Poor,Large,Fair,Poor,Poor,Poor,Not Assessed,Not Assessed,Not Assessed,High,High,No Detect,WMT_MAN_MADE
+NLA12_OH-106,1,RESERVOIR,Fair,Poor,Poor,Fair,Medium,Good,Good,Good,Good,High,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_CA-102,1,RESERVOIR,Not Assessed,Poor,Poor,Good,Large,Poor,Poor,Fair,Poor,Low,Not Assessed,Low,High,Moderate,Low,WMT_MAN_MADE
+NLA12_CA-156,1,MAN_MADE,Not Assessed,Good,Good,Fair,Small,Fair,Poor,Poor,Poor,Low,Not Assessed,Low,Moderate,Low,No Detect,XER_MAN_MADE
+NLA12_SD-103,1,NATURAL,Good,Good,Poor,Fair,Small,Fair,Poor,Poor,Fair,High,Medium,Medium,Moderate,Moderate,Low,TPL_NATURAL
+NLA12_SD-150,1,NATURAL,Poor,Good,Poor,Poor,Large,Poor,Poor,Poor,Poor,High,Medium,Low,Moderate,Moderate,Low,NPL_NATURAL
+NLA12_SD-141,1,NATURAL,Poor,Good,Poor,Good,Small,Poor,Poor,Fair,Poor,Low,Low,Low,Low,Moderate,Low,NPL_NATURAL
+NLA12_MT-135,1,RESERVOIR,Poor,Good,Poor,Poor,Medium,Fair,Poor,Poor,Poor,Medium,Not Assessed,Low,High,High,Low,NPL_MAN_MADE
+NLA12_MN-171,1,NATURAL,Good,Fair,Poor,Fair,Large,Poor,Poor,Good,Poor,Low,Low,Medium,Moderate,Low,Low,TPL_NATURAL
+NLA12_MO-122,1,MAN_MADE,Good,Poor,Poor,Poor,Medium,Good,Good,Poor,Good,Low,Not Assessed,Medium,High,Low,Low,TPL_MAN_MADE
+NLA12_MO-126,1,NATURAL_ENH,Fair,Good,Poor,Poor,Large,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,High,Low,Low,TPL_NATURAL
+NLA12_WA-146,1,NATURAL,Fair,Good,Good,Fair,Large,Poor,Fair,Fair,Good,Medium,Low,Low,Low,Not Assessed,No Detect,WMT_NATURAL
+NLA12_IN-142,1,MAN_MADE,Good,Good,Fair,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,High,Moderate,No Detect,TPL_MAN_MADE
+NLA12_MN-144,1,NATURAL,Fair,Good,Good,Good,Small,Good,Poor,Poor,Poor,Medium,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_CO-107,1,RESERVOIR,Not Assessed,Good,Good,Good,Medium,Good,Poor,Fair,Fair,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_TX-199,1,MAN_MADE,Poor,Fair,Poor,Poor,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Medium,High,High,Low,CPL_MAN_MADE
+NLA12_NE-157,1,MAN_MADE_AB,Poor,Fair,Good,Good,Small,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,Moderate,High,No Detect,TPL_MAN_MADE
+NLA12_MT-103,1,RESERVOIR,Poor,Good,Fair,Poor,Medium,Good,Fair,Poor,Poor,Medium,Not Assessed,Low,Moderate,Moderate,Low,NPL_MAN_MADE
+NLA12_IL-114,1,MAN_MADE,Good,Fair,Good,Good,Small,Good,Good,Good,Good,Low,Not Assessed,Low,Low,Low,Low,TPL_MAN_MADE
+NLA12_IN-117,1,MAN_MADE_AB,Good,Poor,Fair,Good,Small,Good,Fair,Poor,Good,Medium,Not Assessed,Low,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_SD-198,1,NATURAL_ENH,Good,Good,Poor,Poor,Small,Good,Poor,Poor,Poor,Medium,Low,Medium,Low,Low,Low,TPL_NATURAL
+NLA12_ME-115,1,NATURAL,Fair,Good,Good,Good,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_GA-114,1,MAN_MADE,Good,Good,Fair,Fair,Small,Good,Fair,Poor,Poor,High,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_IN-191,1,MAN_MADE,Poor,Poor,Poor,Poor,Medium,Poor,Fair,Fair,Good,Low,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_WA-114,1,MAN_MADE,Poor,Poor,Poor,Poor,Small,Good,Fair,Poor,Fair,Low,Not Assessed,Low,Moderate,Low,No Detect,WMT_MAN_MADE
+NLA12_AZ-143,1,MAN_MADE,Poor,Fair,Poor,Poor,Large,Good,Fair,Fair,Fair,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_UT-374,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Poor,Good,High,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_PA-103,1,NATURAL,Good,Good,Poor,Poor,Small,Good,Good,Fair,Fair,High,Medium,High,Moderate,High,Low,NAP_NATURAL
+NLA12_CO-105,1,RESERVOIR,Not Assessed,Fair,Poor,Poor,Large,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,High,Moderate,Low,WMT_MAN_MADE
+NLA12_NE-158,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Small,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,Low,High,No Detect,SPL_MAN_MADE
+NLA12_IL-103,1,MAN_MADE,Good,Poor,Fair,Fair,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Moderate,Low,TPL_MAN_MADE
+NLA12_MT-119,1,MAN_MADE,Poor,Good,Poor,Poor,Medium,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,High,High,Low,NPL_MAN_MADE
+NLA12_UT-122,1,NATURAL,Poor,Poor,Good,Good,Small,Good,Good,Good,Good,Medium,Medium,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_TX-118,1,MAN_MADE,Poor,Fair,Poor,Poor,Small,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,Moderate,High,No Detect,CPL_MAN_MADE
+NLA12_CA-181,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Poor,Fair,High,Not Assessed,Medium,Low,Low,Low,XER_MAN_MADE
+NLA12_IN-126,1,MAN_MADE,Fair,Poor,Good,Poor,Large,Poor,Poor,Fair,Fair,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_TX-202,1,RESERVOIR,Good,Good,Poor,Poor,Medium,Poor,Poor,Poor,Fair,High,Not Assessed,Medium,Moderate,High,Low,SPL_MAN_MADE
+NLA12_OK-133,1,MAN_MADE,Fair,Poor,Poor,Poor,Medium,Fair,Fair,Good,Good,High,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_UT-324,1,RESERVOIR,Poor,Fair,Good,Good,Large,Poor,Poor,Fair,Poor,High,Not Assessed,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_ME-135,1,NATURAL,Good,Good,Good,Good,Small,Fair,Fair,Fair,Good,Medium,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_MT-161,1,MAN_MADE,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,NPL_MAN_MADE
+NLA12_UT-325,1,RESERVOIR,Poor,Poor,Fair,Fair,Large,Good,Poor,Fair,Poor,Low,Not Assessed,Low,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WA-115,1,NATURAL,Good,Good,Poor,Fair,Small,Fair,Good,Good,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OK-286,1,MAN_MADE,Poor,Good,Poor,Poor,Large,Poor,Poor,Fair,Poor,Medium,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_UT-229,1,RESERVOIR,Poor,Poor,Poor,Fair,Small,Good,Good,Poor,Good,Medium,Not Assessed,Medium,Low,Low,Low,WMT_MAN_MADE
+NLA12_MN-181,1,NATURAL,Poor,Good,Poor,Poor,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-180,1,NATURAL,Poor,Good,Poor,Fair,Small,Fair,Poor,Fair,Poor,Medium,Medium,Low,Moderate,Moderate,Low,UMW_NATURAL
+NLA12_CA-212,1,MAN_MADE,Good,Fair,Good,Good,Medium,Good,Good,Good,Good,Low,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_MN-162,1,NATURAL,Fair,Fair,Fair,Good,Small,Fair,Fair,Fair,Fair,High,Medium,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_MN-170,1,NATURAL,Good,Good,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Low,Low,No Detect,UMW_NATURAL
+NLA12_ME-108,1,NATURAL,Poor,Fair,Good,Good,Small,Poor,Fair,Fair,Good,High,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_IN-162,1,MAN_MADE,Good,Fair,Good,Good,Medium,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,Low,Low,TPL_MAN_MADE
+NLA12_IN-112,1,RESERVOIR,Fair,Poor,Good,Fair,Medium,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_IN-131,1,MAN_MADE,Good,Good,Good,Good,Medium,Fair,Good,Fair,Good,Low,Not Assessed,Medium,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_TX-137,1,RESERVOIR,Good,Fair,Fair,Good,Small,Fair,Fair,Poor,Good,Medium,Not Assessed,Medium,Low,Moderate,Low,CPL_MAN_MADE
+NLA12_CO-127,1,RESERVOIR,Not Assessed,Poor,Poor,Poor,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Medium,High,High,High,SPL_MAN_MADE
+NLA12_MO-120,1,RESERVOIR,Good,Poor,Fair,Fair,Large,Poor,Poor,Fair,Poor,High,Not Assessed,Low,Moderate,High,No Detect,TPL_MAN_MADE
+NLA12_PA-119,1,RESERVOIR,Good,Good,Poor,Good,Large,Poor,Poor,Fair,Poor,Medium,Not Assessed,Medium,No Detect,Low,No Detect,SAP_MAN_MADE
+NLA12_OH-112,1,MAN_MADE,Fair,Poor,Good,Good,Large,Good,Good,Poor,Poor,High,Not Assessed,Medium,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_CA-138,1,NATURAL,Good,Fair,Fair,Good,Large,Fair,Fair,Good,Fair,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_WI-133,1,NATURAL,Good,Fair,Fair,Good,Small,Good,Good,Fair,Good,High,Medium,Medium,Low,Moderate,Low,TPL_NATURAL
+NLA12_WI-132,1,RESERVOIR,Good,Fair,Poor,Poor,Small,Good,Poor,Fair,Poor,High,Not Assessed,Medium,High,Low,Low,UMW_MAN_MADE
+NLA12_WI-181,1,NATURAL,Good,Fair,Good,Good,Small,Good,Good,Fair,Good,High,Medium,Medium,Moderate,Low,Low,TPL_NATURAL
+NLA12_WI-135,1,NATURAL,Good,Fair,Fair,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,UMW_NATURAL
+NLA12_WI-111,1,NATURAL,Good,Good,Fair,Good,Large,Fair,Poor,Not Assessed,Poor,High,Medium,High,Low,Low,Low,UMW_NATURAL
+NLA12_MT-177,1,RESERVOIR,Fair,Good,Fair,Good,Medium,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Low,Low,NPL_MAN_MADE
+NLA12_MA-101,1,NATURAL,Fair,Fair,Good,Good,Small,Fair,Poor,Fair,Good,High,Low,High,Moderate,Low,No Detect,CPL_NATURAL
+NLA12_MA-105,1,RESERVOIR,Good,Fair,Good,Poor,Small,Good,Fair,Fair,Fair,High,Not Assessed,High,Moderate,Low,No Detect,NAP_MAN_MADE
+NLA12_IN-183,1,MAN_MADE,Fair,Good,Fair,Poor,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Medium,High,Low,Low,TPL_MAN_MADE
+NLA12_WA-124,1,NATURAL,Poor,Good,Fair,Good,Medium,Good,Fair,Fair,Fair,Low,Low,Medium,Low,Moderate,Low,XER_NATURAL
+NLA12_MA-111,1,RESERVOIR,Good,Poor,Good,Good,Small,Fair,Fair,Fair,Fair,Low,Not Assessed,Low,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_WA-120,1,NATURAL,Poor,Good,Good,Fair,Small,Fair,Poor,Fair,Poor,Low,Low,Low,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-290,1,NATURAL_ENH,Fair,Good,Poor,Fair,Large,Poor,Poor,Fair,Poor,Low,Low,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_MA-108,1,MAN_MADE,Poor,Good,Fair,Poor,Small,Fair,Fair,Fair,Fair,High,Not Assessed,High,High,Low,No Detect,NAP_MAN_MADE
+NLA12_WY-125,1,NATURAL,Good,Fair,Fair,Good,Small,Good,Fair,Good,Fair,High,Low,High,Low,Moderate,No Detect,WMT_NATURAL
+NLA12_OK-102,1,RESERVOIR,Poor,Good,Poor,Poor,Large,Fair,Poor,Fair,Poor,Low,Not Assessed,Low,High,High,Low,SPL_MAN_MADE
+NLA12_OK-285,1,MAN_MADE,Good,Good,Poor,Good,Medium,Fair,Fair,Fair,Fair,Medium,Not Assessed,Medium,Moderate,Moderate,No Detect,SPL_MAN_MADE
+NLA12_CA-107,1,MAN_MADE,Good,Poor,Good,Good,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_DE-121,1,MAN_MADE,Good,Fair,Poor,Poor,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,No Detect,CPL_MAN_MADE
+NLA12_WV-105,1,MAN_MADE,Fair,Good,Fair,Poor,Small,Good,Fair,Fair,Fair,High,Not Assessed,Medium,Low,Low,No Detect,SAP_MAN_MADE
+NLA12_MT-105,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_CO-111,1,RESERVOIR,Fair,Good,Good,Good,Large,Good,Good,Fair,Good,Low,Not Assessed,Medium,Low,Moderate,Low,SPL_MAN_MADE
+NLA12_OR-126,1,NATURAL,Poor,Good,Good,Good,Small,Good,Good,Fair,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OR-173,1,NATURAL,Good,Good,Good,Good,Medium,Good,Good,Good,Good,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_TX-159,1,RESERVOIR,Good,Good,Poor,Poor,Medium,Fair,Fair,Fair,Fair,Low,Not Assessed,Medium,Moderate,Low,Low,SPL_MAN_MADE
+NLA12_OK-311,1,MAN_MADE,Poor,Good,Poor,Good,Small,Fair,Fair,Good,Good,High,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE
+NLA12_CA-104,1,NATURAL,Not Assessed,Fair,Poor,Good,Medium,Good,Fair,Fair,Fair,Medium,Low,Medium,Low,Moderate,No Detect,WMT_NATURAL
+NLA12_MT-111,1,NATURAL,Fair,Good,Good,Good,Medium,Good,Good,Poor,Good,Medium,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OH-122,1,RESERVOIR,Fair,Poor,Fair,Poor,Medium,Good,Good,Fair,Good,High,Not Assessed,Medium,High,High,No Detect,TPL_MAN_MADE
+NLA12_ME-137,1,NATURAL,Fair,Fair,Good,Fair,Small,Good,Good,Good,Fair,High,Medium,High,Low,Low,No Detect,NAP_NATURAL
+NLA12_IN-196,1,NATURAL,Poor,Good,Good,Good,Large,Poor,Poor,Poor,Poor,High,Medium,Medium,Low,Moderate,No Detect,UMW_NATURAL
+NLA12_MA-102,1,RESERVOIR,Fair,Good,Good,Good,Small,Fair,Poor,Poor,Poor,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_WA-116,1,RESERVOIR,Good,Good,Fair,Good,Small,Good,Good,Good,Good,Low,Not Assessed,Low,Low,Low,No Detect,XER_MAN_MADE
+NLA12_WA-104,1,NATURAL_ENH,Fair,Good,Fair,Poor,Small,Good,Fair,Fair,Fair,Low,Not Assessed,Low,Low,Low,No Detect,XER_NATURAL
+NLA12_MA-104,1,NATURAL,Poor,Fair,Poor,Poor,Small,Poor,Poor,Fair,Poor,High,Low,High,Moderate,Low,Low,NAP_NATURAL
+NLA12_IL-111,1,MAN_MADE,Good,Poor,Good,Poor,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_CT-105,1,NATURAL_ENH,Poor,Good,Poor,Poor,Small,Good,Poor,Good,Poor,High,Medium,Medium,Moderate,Moderate,Low,NAP_NATURAL
+NLA12_TN-106,1,MAN_MADE,Good,Fair,Good,Fair,Small,Good,Fair,Fair,Good,Low,Not Assessed,Medium,Moderate,Low,No Detect,CPL_MAN_MADE
+NLA12_UT-264,1,RESERVOIR,Poor,Fair,Poor,Poor,Large,Good,Good,Poor,Good,High,Not Assessed,Medium,High,High,No Detect,WMT_MAN_MADE
+NLA12_CO-103,1,RESERVOIR,Not Assessed,Good,Good,Good,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Low,No Detect,SPL_MAN_MADE
+NLA12_UT-343,1,NATURAL,Poor,Good,Poor,Poor,Large,Poor,Poor,Poor,Poor,Medium,Medium,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-359,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,High,High,Low,XER_MAN_MADE
+NLA12_IN-193,1,MAN_MADE,Good,Poor,Good,Good,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Medium,Low,Low,Low,TPL_MAN_MADE
+NLA12_NJ-105,1,MAN_MADE,Good,Good,Fair,Good,Small,Good,Good,Poor,Poor,Medium,Not Assessed,Medium,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_IN-199,1,NATURAL,Fair,Good,Good,Fair,Small,Fair,Fair,Fair,Good,Low,Medium,Low,Moderate,Moderate,No Detect,UMW_NATURAL
+NLA12_WA-159,1,NATURAL,Fair,Poor,Fair,Fair,Small,Good,Good,Poor,Good,Low,Not Assessed,Low,Low,High,Low,XER_NATURAL
+NLA12_TN-122,1,MAN_MADE,Good,Fair,Good,Fair,Small,Good,Good,Fair,Good,Low,Not Assessed,Medium,Moderate,Low,Low,CPL_MAN_MADE
+NLA12_MO-106,1,RESERVOIR,Poor,Poor,Poor,Poor,Small,Good,Good,Good,Good,Low,Not Assessed,Medium,High,High,No Detect,SAP_MAN_MADE
+NLA12_MA-106,1,MAN_MADE,Good,Fair,Good,Good,Small,Good,Fair,Fair,Fair,High,Not Assessed,High,Low,Low,Low,NAP_MAN_MADE
+NLA12_IL-105,1,MAN_MADE,Good,Good,Good,Good,Small,Good,Good,Fair,Good,High,Not Assessed,Medium,Moderate,High,Low,TPL_MAN_MADE
+NLA12_MA-109,1,NATURAL,Fair,Good,Good,Good,Small,Poor,Poor,Poor,Poor,High,Medium,High,Low,Low,Low,NAP_NATURAL
+NLA12_NJ-106,1,MAN_MADE,Fair,Good,Poor,Poor,Small,Good,Fair,Poor,Fair,Medium,Not Assessed,Medium,Moderate,Low,Low,NAP_MAN_MADE
+NLA12_DE-107,1,MAN_MADE,Good,Poor,Fair,Good,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_WY-137,1,NATURAL,Good,Good,Good,Good,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Low,Low,Low,XER_NATURAL
+NLA12_CO-104,1,RESERVOIR,Not Assessed,Good,Poor,Poor,Large,Poor,Poor,Fair,Fair,Low,Not Assessed,Low,High,High,High,SPL_MAN_MADE
+NLA12_NY-0112,1,NATURAL,Fair,Fair,Fair,Poor,Small,Good,Good,Fair,Good,Medium,Medium,Medium,Low,Low,No Detect,NAP_NATURAL
+NLA12_ME-113,1,NATURAL,Poor,Good,Good,Fair,Small,Good,Good,Good,Good,High,Medium,High,Moderate,Moderate,No Detect,NAP_NATURAL
+NLA12_MA-110,1,NATURAL,Good,Fair,Good,Good,Small,Poor,Poor,Fair,Poor,High,Medium,Medium,Low,Low,Low,NAP_NATURAL
+NLA12_TN-119,1,MAN_MADE,Poor,Good,Poor,Poor,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,High,SAP_MAN_MADE
+NLA12_TN-108,2,MAN_MADE,Poor,Poor,Poor,Poor,Large,Poor,Poor,Poor,Poor,Medium,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE
+NLA12_MA-103,1,RESERVOIR,Good,Fair,Good,Fair,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_TN-103,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Moderate,High,No Detect,SAP_MAN_MADE
+NLA12_SD-146,1,NATURAL,Fair,Poor,Poor,Good,Small,Fair,Poor,Poor,Poor,Medium,Medium,Medium,Low,Low,No Detect,TPL_NATURAL
+NLA12_TN-101,2,MAN_MADE,Fair,Poor,Poor,Poor,Small,Good,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE
+NLA12_WA-151,1,RESERVOIR,Not Assessed,Good,Good,Good,Medium,Good,Good,Good,Good,High,Not Assessed,Medium,No Detect,Low,No Detect,WMT_MAN_MADE
+NLA12_WY-147,1,RESERVOIR,Good,Good,Good,Good,Large,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,Moderate,No Detect,XER_MAN_MADE
+NLA12_OR-163,1,NATURAL,Good,Poor,Good,Good,Small,Good,Good,Fair,Good,High,Low,Medium,Low,Low,No Detect,WMT_NATURAL
+NLA12_OR-158,1,NATURAL_ENH,Poor,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Medium,Low,High,Not Assessed,No Detect,WMT_NATURAL
+NLA12_OH-105,1,RESERVOIR,Not Assessed,Good,Fair,Poor,Medium,Good,Fair,Poor,Poor,Low,Not Assessed,Medium,High,High,Low,TPL_MAN_MADE
+NLA12_MT-162,1,NATURAL,Fair,Good,Good,Good,Large,Good,Good,Good,Good,Medium,Medium,Medium,Low,Not Assessed,No Detect,WMT_NATURAL
+NLA12_OH-113,1,MAN_MADE,Poor,Poor,Poor,Poor,Medium,Poor,Poor,Fair,Poor,Low,Not Assessed,Medium,Moderate,Moderate,Low,SAP_MAN_MADE
+NLA12_IN-135,1,MAN_MADE,Good,Poor,Good,Good,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_TX-232,1,MAN_MADE,Good,Fair,Poor,Good,Medium,Good,Good,Fair,Good,Medium,Not Assessed,Medium,Low,High,No Detect,CPL_MAN_MADE
+NLA12_NY-0103,1,MAN_MADE,Good,Good,Good,Good,Small,Fair,Fair,Fair,Fair,High,Medium,High,Low,Low,No Detect,NAP_MAN_MADE
+NLA12_AZ-102,1,RESERVOIR,Poor,Poor,Poor,Poor,Large,Good,Good,Fair,Good,Low,Not Assessed,Medium,High,Low,Low,WMT_MAN_MADE
+NLA12_IN-155,1,MAN_MADE,Good,Poor,Good,Good,Medium,Good,Good,Good,Good,Medium,Not Assessed,Medium,Low,Low,No Detect,TPL_MAN_MADE
+NLA12_IN-201,1,MAN_MADE,Good,Poor,Poor,Fair,Small,Good,Good,Good,Good,High,Not Assessed,Medium,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_TX-161,1,MAN_MADE,Poor,Fair,Fair,Poor,Small,Good,Good,Fair,Good,Low,Not Assessed,Low,Moderate,High,No Detect,CPL_MAN_MADE
+NLA12_TN-104,1,RESERVOIR,Poor,Good,Good,Good,Large,Good,Good,Fair,Fair,Not Assessed,Not Assessed,Not Assessed,Low,Moderate,No Detect,SAP_MAN_MADE
+NLA12_TX-235,1,MAN_MADE,Fair,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Medium,High,Low,No Detect,CPL_MAN_MADE
+NLA12_NJ-103,1,MAN_MADE,Poor,Good,Poor,Poor,Large,Poor,Poor,Poor,Poor,High,Not Assessed,High,Moderate,High,Low,SAP_MAN_MADE
+NLA12_IN-202,1,MAN_MADE,Good,Good,Good,Fair,Medium,Poor,Fair,Fair,Good,Low,Not Assessed,Medium,Moderate,Moderate,No Detect,TPL_MAN_MADE
+NLA12_NJ-108,1,MAN_MADE,Good,Poor,Fair,Good,Small,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_TX-129,1,RESERVOIR,Fair,Fair,Poor,Poor,Small,Good,Good,Good,Good,Low,Not Assessed,Low,Low,Low,No Detect,CPL_MAN_MADE
+NLA12_IL-123,1,MAN_MADE,Not Assessed,Poor,Poor,Poor,Small,Good,Good,Fair,Good,Medium,Not Assessed,Low,High,High,Low,TPL_MAN_MADE
+NLA12_UT-397,1,RESERVOIR,Fair,Good,Fair,Good,Large,Poor,Poor,Poor,Poor,Medium,Not Assessed,Low,Low,Not Assessed,No Detect,WMT_MAN_MADE
+NLA12_UT-412,1,RESERVOIR,Poor,Poor,Fair,Poor,Small,Good,Poor,Poor,Poor,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_UT-424,1,RESERVOIR,Poor,Poor,Poor,Fair,Large,Poor,Poor,Poor,Poor,High,Not Assessed,Medium,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_UT-392,1,RESERVOIR,Not Assessed,Good,Fair,Fair,Large,Poor,Poor,Poor,Poor,Low,Not Assessed,Low,Low,Moderate,Low,XER_MAN_MADE
+NLA12_CA-223,1,MAN_MADE,Good,Good,Good,Good,Medium,Good,Good,Fair,Good,High,Not Assessed,High,Low,Low,No Detect,WMT_MAN_MADE
+NLA12_WA-154,1,NATURAL,Good,Fair,Poor,Fair,Small,Fair,Good,Fair,Good,High,Low,Medium,Moderate,Low,No Detect,WMT_NATURAL
+NLA12_WA-110,1,NATURAL,Good,Fair,Good,Good,Small,Good,Good,Fair,Good,High,Low,High,Low,Low,No Detect,WMT_NATURAL
+NLA12_UT-409,1,NATURAL_ENH,Poor,Good,Poor,Poor,Medium,Good,Poor,Fair,Poor,Low,Medium,Medium,Moderate,High,No Detect,XER_NATURAL
+NLA12_TX-234,1,MAN_MADE,Good,Poor,Poor,Fair,Medium,Good,Good,Poor,Fair,Medium,Not Assessed,Low,Low,Moderate,No Detect,SPL_MAN_MADE
+NLA12_TX-196,1,RESERVOIR,Good,Good,Poor,Poor,Large,Fair,Fair,Fair,Fair,Medium,Not Assessed,Low,Moderate,High,No Detect,SPL_MAN_MADE
+NLA12_UT-400,1,NATURAL_ENH,Poor,Good,Poor,Poor,Small,Good,Good,Poor,Good,Low,Low,Low,Low,High,No Detect,XER_NATURAL
+NLA12_MO-102,1,RESERVOIR,Poor,Good,Poor,Poor,Small,Poor,Poor,Fair,Fair,Medium,Not Assessed,Medium,Moderate,High,Low,SAP_MAN_MADE

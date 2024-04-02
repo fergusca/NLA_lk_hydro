@@ -25,6 +25,7 @@ rm(list=ls())
 ###########
 # Libraries
 ###########
+library(tidyverse)
 library(maps)
 library(mapdata)
 library(scales)
@@ -48,7 +49,7 @@ library(gridExtra)
 
 ## NLA07 PROCESSED DATASET
 # 7/8/19 - updated zmax for 24 lakes
-nla07 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
+nla07 <- read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
 
 table(nla07$RESAMPLED12)
 # DRP  NO YES 
@@ -58,7 +59,7 @@ table(nla07$RESAMPLED12)
 ## NLA 2012 data - PROCESSED DATASET 
 # FULL Dataset n = 1038 observations 
 # 7/8/19 Updated zmax for 8 lakes
-nla12<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
+nla12<-read_csv("data_processed/nla12/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv")
 todrop <- names(nla12)%in% c("X")
 nla12 <- nla12[!todrop]
 table(nla12$RESAMPLED12)
@@ -68,7 +69,7 @@ table(nla12$RESAMPLED12)
 
 # ChangeData set - Original saved in "L:/Priv/ARM Data/NLA 2012/NLA 2012 Change Estimation/NLA2012_ChangeData_2016-08-23.orig.csv"
 #  n = 2066
-ch0712<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/NLA2012_ChangeData_2016-08-23.orig.csv")
+ch0712<- read_csv("data/NLA2012_ChangeData_2016-08-23.orig.csv")
 head(ch0712)
 myvars<- c("SITE_ID","CH0712_CAT")
 
@@ -257,10 +258,10 @@ var_names_07 <- names(nla07_red)
 
 # Check to make sure variables are lined up - YES LOOKS GOOD
 #vars_07 <- names(nla07_red)
-#write.csv(vars_07,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/vars_07.csv")
+#write_csv(vars_07,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/vars_07.csv")
 
 #vars_12 <- names(nla12_red)
-#write.csv(vars_12,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/vars_12.csv")
+#write_csv(vars_12,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/vars_12.csv")
 
 ##############
 # RELABEL all of nla12_red column names to match nla07_red column names
@@ -299,10 +300,10 @@ summary(nla07_12$P_E)
 
 ##############
 # WRITE Row Bound dataset 12/13/17 - updated 6/7/19 (updated) 8/2/18 (updated E:I) 5/29/18 (Palmer drought); 5/15/18; 5/14/18; 2/9/18 
-write.csv(nla07_12, "C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_ALL_01JUL19.csv") # OLD 02AUG18 _SINGLE_14MAY18 13DEC17
+write_csv(nla07_12, "data_processed/nla07_12/nla07_12_rbind_LONG_ALL_01JUL19.csv") # OLD 02AUG18 _SINGLE_14MAY18 13DEC17
 
-var_names<-names(nla07_12)
-write.csv(var_names,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_ALL_SINGLE_VARIABLES_14MAY18.csv")
+var_names<-as.data.frame(names(nla07_12))
+write_csv(var_names,"data_processed/nla07_12/nla07_12_rbind_LONG_ALL_SINGLE_VARIABLES_14MAY18.csv")
 
 table(nla07_12$RESAMPLED12)
 #    DRP   NO   YES 
@@ -349,7 +350,7 @@ table(repeatdf$YEAR)
 ##                Each resampled lake has two rows (one for 2007 and 2012)
 ###########
 # SINGLE Long format
-write.csv(repeatdf,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
+write_csv(repeatdf,"data_processed/nla07_12/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
 
 
 ############################
@@ -360,7 +361,7 @@ write.csv(repeatdf,"C:/Users/EFergus/OneDrive - Environmental Protection Agency 
 ############################
 # LOAD DATA
 ## Resampled lakes - long format (row bound)
-nla07_12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
+nla07_12 <- read_csv("data_processed/nla07_12/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
 # n = 696 observations (348 lakes resampled)
 
 t<-nla07_12 %>%
@@ -395,6 +396,6 @@ nla07_12_red <- merge(nla07_red,nla12_red, by="SID")
 ## WRITE WIDE-FORMATE RESAMPLED LAKES DATASET
 #  Small subset of variables
 ################
-write.csv(nla07_12_red,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_RESAMPLED_WIDE_for_PLOTS_01JUL19.csv") # OLD 02AUG18
+write_csv(nla07_12_red,"data_processed/nla07_12/nla07_12_RESAMPLED_WIDE_for_PLOTS_01JUL19.csv") # OLD 02AUG18
 
 

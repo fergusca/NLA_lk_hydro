@@ -51,6 +51,7 @@ rm(list=ls())
 
 ############
 # Load the spsurvey library
+library(tidyverse)
 library(spsurvey)
 library(dplyr)
 library(reshape2)
@@ -62,7 +63,7 @@ citation(package="spsurvey")
 # 6/25/19 - data processed NLA 2007 lakes with updated weights
 #   n=1028 w/556 variables
 #   USE WGT_SP for population weights
-nla07<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
+nla07<-read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
 
 names(nla07)
 
@@ -247,12 +248,12 @@ write.csv(Cont_var_Estimates$Pct,file="C:/Users/EFergus/OneDrive - Environmental
 # Create separate dataframe
 library(dplyr)
 # Read cdf output
-cont_vars_red_a <- read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_Var_Estimates_05MAR18.csv")
+cont_vars_red_a <- read_csv("Routput/pop_calculations/NLA07_CONTINUOUS_Var_Estimates_05MAR18.csv")
 cont_vars_red_a <- Cont_var_Estimates$CDF
 cont_vars_red <- subset(cont_vars_red_a, Indicator %in% c("vert_log","horiz_log","E_I","RT"))
 
 # PLOTS
-cont.cdfplot(pdffile="M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/cdfs_2007_26SEPT18.pdf", #18SEPT17
+cont.cdfplot(pdffile="Routput/pop_calculations/figs/cdfs_2007_26SEPT18.pdf", #18SEPT17
              cont_vars_red, units.cdf="Percent", 
              xlbl="", ylbl="Percent", ylbl.r=NULL, legloc="BR")
 
@@ -270,7 +271,7 @@ cont.cdfplot(pdffile="M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_cal
 library(reshape2)
 library(dplyr)
 
-p<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_25JUN19.csv")
+p<-read_csv("Routput/pop_calculations/NLA07_CONTINUOUS_percentile_25JUN19.csv")
 names(p)
 table(p$Type)
 
@@ -326,28 +327,28 @@ table(p10$Indicator)
 # ECOREGION_LAKE ORIGIN
 # EI
 E_I <- dcast(p3, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(E_I,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_E_I_percentile_CAST_25JUN19.csv") #08FEB18
+write.csv(E_I,"Routput/pop_calculations/NLA07_LK_ECOREG_E_I_percentile_CAST_25JUN19.csv") #08FEB18
 
 # Horizontal DD - NON TRANSFORMED
 Horiz <- dcast(p5, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Horiz,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_HorizDD_RAW_percentile_CAST_25JUN19.csv")
+write.csv(Horiz,"Routput/pop_calculations/NLA07_LK_ECOREG_HorizDD_RAW_percentile_CAST_25JUN19.csv")
 
 # Vertical DD - NON TRANSFORMED
 Vert <- dcast(p6, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_VertDD_RAW_percentile_CAST_25JUN19.csv")
+write.csv(Vert,"Routput/pop_calculations/NLA07_LK_ECOREG_VertDD_RAW_percentile_CAST_25JUN19.csv")
 
 # Water residence time
 WRT <- dcast(p7, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(WRT,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_WRT_percentile_CAST_25JUN19.csv")
+write.csv(WRT,"Routput/pop_calculations/NLA07_LK_ECOREG_WRT_percentile_CAST_25JUN19.csv")
 
 # SCALED Horizontal DD
 Horiz_sc <- dcast(p8, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Horiz_sc,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_HorizDD_percentile_CAST_25JUN19.csv")
+write.csv(Horiz_sc,"Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_HorizDD_percentile_CAST_25JUN19.csv")
 
 # SCALED Vertical DD
 Vert_sc <- dcast(p9, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert_sc,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_VertDD_percentile_CAST_25JUN19.csv")
+write.csv(Vert_sc,"Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_VertDD_percentile_CAST_25JUN19.csv")
 
 # SCALED Vertical DD
 Vert_sc_mod <- dcast(p10, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert_sc_mod,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_VertDD_MOD_percentile_CAST_25JUN19.csv")
+write.csv(Vert_sc_mod,"Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_VertDD_MOD_percentile_CAST_25JUN19.csv")

@@ -19,11 +19,11 @@ rm(list=ls())
 ########
 ## NLA 2007 n = 1028 observations w/556 variables
 
-nla07 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv") # OLD NLA_07_VISIT_1_WGT_USE.csv 
+nla07 <- read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv") # OLD NLA_07_VISIT_1_WGT_USE.csv 
 nla07$ECOREG_use <- ordered(nla07$ECOREG_use, levels=c("WMT","XER","NPL","SPL","TPL","UMW","SAP","NAP","CPL"))
 
 ## NLA 2012 - Size adjusted # n=951
-nla12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv") # OLD NLA12_merge_transform_SINGLE_SIZE_ADJUST_USE.csv
+nla12 <- read_csv("data_processed/nla12/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv") # OLD NLA12_merge_transform_SINGLE_SIZE_ADJUST_USE.csv
 nla12$ECOREG_use <- ordered(nla12$ECOREG_use, levels=c("WMT","XER","NPL","SPL","TPL","UMW","SAP","NAP","CPL"))
 
 

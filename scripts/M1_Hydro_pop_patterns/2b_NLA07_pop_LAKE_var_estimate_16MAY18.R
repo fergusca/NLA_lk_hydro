@@ -18,6 +18,7 @@
 rm(list=ls())
 
 # Load the spsurvey library
+library(tidyverse)
 library(spsurvey)
 library(dplyr)
 library(reshape2)
@@ -27,7 +28,7 @@ citation(package="spsurvey")
 ###########
 ## LOAD DATASET - SINGLE OBSERVATION dataset
 # NLA 2007 with connectivity type added on
-nla07<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
+nla07<- read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
 
 # Check to make sure right dataset - looks good - lake depth supplemented from lit
 y=c("NLA06608-0021","NLA06608-0041","NLA06608-0079","NLA06608-0129",
@@ -112,7 +113,7 @@ Cont_var_Estimates <- cont.analysis(sites, subpop, design, data.cont) # dropped 
 # WRITE CONTINOUOUS PERCENTILE OUTPUT
 # 6/27/19 
 # 7/16/19 - updated zmax
-write.csv(Cont_var_Estimates$Pct,file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_LAKE_VARS_27JUN19.csv",
+write_csv(Cont_var_Estimates$Pct,file="Routput/pop_calculations/NLA07_CONTINUOUS_percentile_LAKE_VARS_27JUN19.csv",
           row.names=FALSE)
 
 
@@ -129,7 +130,7 @@ Condition_Estimates
 
 # Write results as a comma-separated value (csv) file
 # 6/27/19
-write.csv(Condition_Estimates, file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_Condition_Estimates_LAKE_VARS_27JUN19.csv", # OLD 14FEB18 (10JAN18) NLA07_Condition_Estimates_10OCT17.csv
+write_csv(Condition_Estimates, file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_Condition_Estimates_LAKE_VARS_27JUN19.csv", # OLD 14FEB18 (10JAN18) NLA07_Condition_Estimates_10OCT17.csv
           row.names=FALSE)
 
 
@@ -146,7 +147,7 @@ library(reshape2)
 library(dplyr)
 
 # CONTINUOUS LAKE VARIABLES
-p<-read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_LAKE_VARS_16MAY18.csv")#
+p<-read_csv("Routput/pop_calculations/NLA07_CONTINUOUS_percentile_LAKE_VARS_16MAY18.csv")#
 names(p)
 table(p$Type)
 table(p$Subpopulation)
@@ -194,19 +195,19 @@ table(p7$Indicator)
 # ECOREGION_LAKE ORIGIN
 # AREA
 area <- dcast(p3, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(area,"M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_AREA_KM2_percentile_CAST_29MAY18.csv")
+write_csv(area,"Routput/pop_calculations/NLA07_LK_ECOREG_AREA_KM2_percentile_CAST_29MAY18.csv")
 
 # DEPTH
 depth <- dcast(p5, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(depth,"M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_DEPTH_percentile_CAST_29MAY18.csv")
+write_csv(depth,"Routput/pop_calculations/NLA07_LK_ECOREG_DEPTH_percentile_CAST_29MAY18.csv")
 
 # Vol
 vol <- dcast(p6, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(vol,"M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_VOLUME_percentile_CAST_29MAY18.csv")
+write_csv(vol,"Routput/pop_calculations/NLA07_LK_ECOREG_VOLUME_percentile_CAST_29MAY18.csv")
 
 # SLD
 SLD <- dcast(p7, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(SLD,"M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SLD_percentile_CAST_29MAY18.csv")
+write_csv(SLD,"Routput/pop_calculations/NLA07_LK_ECOREG_SLD_percentile_CAST_29MAY18.csv")
 
 
 ###########
@@ -280,7 +281,7 @@ names(SLD)[names(SLD)=="X95Pct"] <- "95Pct"
 windowsFonts(RMN=windowsFont("Times New Roman")) #RMN = Times New Roman
 
 # Set working directory for output
-setwd("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/BOXPLOTS")
+setwd("Routput/figs")
 
 ################################################
 # Function to plot multiple plots in ggplot

@@ -27,13 +27,14 @@ rm(list=ls())
 
 # Load the spsurvey library
 library(spsurvey)
+library(tidyverse)
 
 #######################################
 ################
 ## NLA 2007
 ################
 # 6/26/19 -UPDATED WEIGHTS (n = 1028 with 556 variables)
-condition <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
+condition <- read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv")
 
 ######################
 # PRECIPITATION CLASS ## - quartile slightly adjusted to whole values
@@ -187,8 +188,7 @@ data.cat <- data.frame(siteID=condition$SITE_ID,
 Condition_Estimates <- cat.analysis(sites, subpop, design, data.cat)
 
 # Write results as a comma-separated value (csv) file
-write.csv(Condition_Estimates, file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_Condition_Estimates_26JUN19.csv", # OLD M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_Condition_Estimates_31OCT18.csv14MAY18 14FEB18 (10JAN18) NLA07_Condition_Estimates_10OCT17.csv
-          row.names=FALSE)
+write_csv(Condition_Estimates, file="Routput/pop_calculations/NLA07_Condition_Estimates_26JUN19.csv")
 
 
 
@@ -200,7 +200,7 @@ write.csv(Condition_Estimates, file="C:/Users/EFergus/OneDrive - Environmental P
 library(reshape2)
 library(dplyr)
 
-p<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_Condition_Estimates_26JUN19.csv")#NLA07_CONTINUOUS_percentile_22DEC17.csv
+p<-read_csv("Routput/pop_calculations/NLA07_Condition_Estimates_26JUN19.csv")#NLA07_CONTINUOUS_percentile_22DEC17.csv
 names(p)
 table(p$Type)
 table(p$Subpopulation)
@@ -230,7 +230,7 @@ table(p2$Indicator)
 
 # ECOREGION_LAKE ORIGIN
 # DRAWDOWN
-write.csv(DRAWDOWN_ECO_LK,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_DRAWDOWN_CONDITION_CAST_26JUN19.csv") #20MAR18
+write_csv(DRAWDOWN_ECO_LK,"Routput/pop_calculations/NLA07_LK_ECOREG_DRAWDOWN_CONDITION_CAST_26JUN19.csv") #20MAR18
 
 #########
 ## Subset data "Type" = "National" - ALL LAKES
@@ -248,7 +248,7 @@ table(p3$Indicator)
 
 # NATIONAL
 # DRAWDOWN
-write.csv(DRAWDOWN_ALL,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_NATIONAL_DRAWDOWN_CONDITION_CAST_26JUN19.csv") #20MAR18
+write_csv(DRAWDOWN_ALL,"Routput/pop_calculations/NLA07_NATIONAL_DRAWDOWN_CONDITION_CAST_26JUN19.csv") #20MAR18
 
 
 #########
@@ -267,7 +267,7 @@ table(p4$Indicator)
 
 # LAKE ORIGIN
 # DRAWDOWN
-write.csv(DRAWDOWN_LK_TYPE,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_TYPE_DRAWDOWN_CONDITION_CAST_26JUN19.csv")
+write_csv(DRAWDOWN_LK_TYPE,"Routput/pop_calculations/NLA07_LK_TYPE_DRAWDOWN_CONDITION_CAST_26JUN19.csv")
 
 
 
@@ -281,7 +281,7 @@ rm(list=ls())
 # LOAD DATA - SINGLE OBSERVATION dataset - SIZE ADJUSTED
 # SIZE ADJUSTED 2012 (n = 951 lakes)
 # 6/26/19 UPDATED POP WGTS
-condition <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv")
+condition <- read_csv("data_processed/nla12/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv")
 
 ######################
 # PRECIPITATION CLASS ## - quartile slightly adjusted to whole values
@@ -425,8 +425,7 @@ Condition_Estimates
 ###############
 # 6/26/19 - SIZE ADJUSTED - n=951 lakes
 # SIZE ADJUSTED
-write.csv(Condition_Estimates, file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_SIZADJ_Condition_Estimates_26JUN19.csv", #NLA12_Condition_Estimates_08NOV17.csv
-          row.names=FALSE)
+write_csv(Condition_Estimates, file="Routput/pop_calculations/NLA12_SIZADJ_Condition_Estimates_26JUN19.csv")
 
 # USE THIS FILE TO CREATE PIE CHARTS
 

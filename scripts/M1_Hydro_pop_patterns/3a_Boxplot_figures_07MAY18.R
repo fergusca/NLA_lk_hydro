@@ -24,6 +24,7 @@ rm(list=ls())
 ###########
 # Libraries
 ###########
+library(tidyverse)
 library(plyr)
 library(ggplot2)
 library(reshape2)
@@ -42,25 +43,25 @@ library(gridExtra)
 
 ### NLA 2007 ###
 # E:I
-E_I <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_E_I_percentile_CAST_25JUN19.csv") # Old 18JAN18M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_E_I_percentile_CAST_08FEB18.csv
+E_I <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_E_I_percentile_CAST_25JUN19.csv") # Old 18JAN18M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_E_I_percentile_CAST_08FEB18.csv
 
 # NLA 2007 NON-TRANSFORMED Horizontal DD
-Horiz <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_HorizDD_RAW_percentile_CAST_25JUN19.csv")
+Horiz <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_HorizDD_RAW_percentile_CAST_25JUN19.csv")
 
 # NLA 2007 NON-TRANSFORMED Vert DD 
-Vert <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_VertDD_RAW_percentile_CAST_25JUN19.csv")
+Vert <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_VertDD_RAW_percentile_CAST_25JUN19.csv")
 
 # NLA 2007 WATER RESIDENCE TIME 
-WRT <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_WRT_percentile_CAST_25JUN19.csv")
+WRT <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_WRT_percentile_CAST_25JUN19.csv")
 
 # NLA 2007 NON-TRANSFORMED Horizontal DD
-Horiz_sc <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_HorizDD_percentile_CAST_25JUN19.csv")
+Horiz_sc <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_HorizDD_percentile_CAST_25JUN19.csv")
 
 # NLA 2007 NON-TRANSFORMED Vert DD 
-Vert_sc <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_VertDD_percentile_CAST_25JUN19.csv")
+Vert_sc <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_VertDD_percentile_CAST_25JUN19.csv")
 
 # 4/12/18 - MOdified VertDD
-Vert_sc_mod <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_LK_ECOREG_SCALED_VertDD_MOD_percentile_CAST_25JUN19.csv")
+Vert_sc_mod <- read_csv("Routput/pop_calculations/NLA07_LK_ECOREG_SCALED_VertDD_MOD_percentile_CAST_25JUN19.csv")
 
 
 ################
@@ -69,23 +70,23 @@ Vert_sc_mod <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Ag
 ##  Old 6/24/19
 ################
 # NLA12 EI
-E_I_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_E_I_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 24JUN19 18JAN18
+E_I_12_adj <- read_csv("Routput/pop_calculations/NLA12_E_I_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 24JUN19 18JAN18
 # NLA 2012 Untransformed Horizontal Drawdown
-Horiz_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+Horiz_12_adj <- read_csv("Routput/pop_calculations/NLA12_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 # NLA 2012 Untransformed Vertical Drawdown
-Vert_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+Vert_12_adj <- read_csv("Routput/pop_calculations/NLA12_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 # NLA 2012 WRT
-WRT_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_WRT_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+WRT_12_adj <- read_csv("Routput/pop_calculations/NLA12_WRT_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # NLA 2012 untrans SCALED HORIZDD
-Horiz_sc_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_SCALED_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+Horiz_sc_12_adj <- read_csv("Routput/pop_calculations/NLA12_SCALED_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # NLA 2012 untrans SCALED VERTDD
-Vert_sc_12_adj <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_SCALED_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+Vert_sc_12_adj <- read_csv("Routput/pop_calculations/NLA12_SCALED_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # NLA 2012 untrans SCALED VERTDD - MODIFIED DEPTH
 # 4/12/18
-Vert_sc_12_adj_MOD<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_LK_ECOREG_SCALED_VertDD_MODIFIED_percentile_CAST_27JUN19.csv")
+Vert_sc_12_adj_MOD<-read_csv("Routput/pop_calculations/NLA12_LK_ECOREG_SCALED_VertDD_MODIFIED_percentile_CAST_27JUN19.csv")
 
 
 ###########

@@ -41,6 +41,7 @@
 # See for R documentation of spsurvey package
 # https://www.rdocumentation.org/packages/spsurvey/versions/3.3
 
+library(tidyverse)
 citation(package="spsurvey")
 
 # Load the spsurvey library
@@ -49,7 +50,7 @@ library(spsurvey)
 ###################
 ## LOAD DATA
 ### FULL NLA 2012 - n = 1038 observations
-#nla12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv") #NLA12_merge_transform_SINGLE_USE.csv
+#nla12 <- read_csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA_12_FULL_VISIT_1_WGT_USE_PHDI_lkcat_wgt_26JUN19.csv") #NLA12_merge_transform_SINGLE_USE.csv
 
 #####################################################
 ## SIZE ADJUSTED 2012 dataset (lakes >= 4 ha) to compare with 2007
@@ -67,7 +68,7 @@ library(spsurvey)
 #####################################################
 # LOAD SIZE ADJUSTED NLA 2012 dataset n = 951 lakes
 
-nla12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv") # OLD C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_merge_transform_SINGLE_SIZE_ADJUST_USE_24JUN19.csv
+nla12 <- read_csv("data_processed/nla12/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv")
 # n=951 with 545 variables
 test<-subset(nla12,UID==7769) # AL-113 Should have E:I = 0
 
@@ -201,11 +202,11 @@ Cont_var_Estimates
 #   These are the cumulative distribution function values 
 #     Estimate.P = probability that that it is on or less than the value.
 #     Estimate.U = number of lakes or less than that are that value or less than that value
-write.csv(Cont_var_Estimates$CDF,file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_Var_Estimates_27JUN19.csv", # 24JUN19 07MAR18 22DEC17.csv old 12DEC17
+write.csv(Cont_var_Estimates$CDF,file="Routput/pop_calculations/NLA12_CONTINUOUS_SIZEADJ_Var_Estimates_27JUN19.csv", # 24JUN19 07MAR18 22DEC17.csv old 12DEC17
           row.names=FALSE)
 
 # Write the Pct within Cont_var_Estimates  - USE this one for boxplots
-write.csv(Cont_var_Estimates$Pct,file="C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv", # 07MAR18 old 12DEC17
+write.csv(Cont_var_Estimates$Pct,file="Routput/pop_calculations/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv", # 07MAR18 old 12DEC17
           row.names=FALSE)
 
 
@@ -215,7 +216,7 @@ write.csv(Cont_var_Estimates$Pct,file="C:/Users/EFergus/OneDrive - Environmental
 library(reshape2)
 library(dplyr)
 
-p<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv") #22DEC17 #M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_07MAR18.csv
+p<-read.csv("Routput/pop_calculations/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv") #22DEC17 #M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_07MAR18.csv
 names(p)
 table(p$Subpopulation)
 
@@ -275,31 +276,31 @@ table(p10$Indicator)
 ## SIZE ADJUSTED ## n=951
 # EI
 E_I <- dcast(p3, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(E_I,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_E_I_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 24JUN19 18JAN18 06AUG18
+write.csv(E_I,"Routput/pop_calculations/NLA12_E_I_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 24JUN19 18JAN18 06AUG18
 
 # HorizDD
 Horiz <- dcast(p5, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Horiz,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+write.csv(Horiz,"Routput/pop_calculations/NLA12_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # VertDD
 Vert <- dcast(p6, Type + ECOREG_use  + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+write.csv(Vert,"Routput/pop_calculations/NLA12_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # WRT
 WRT <- dcast(p7, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(WRT,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_WRT_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+write.csv(WRT,"Routput/pop_calculations/NLA12_WRT_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # SCALED HorizDD untrans
 Horiz <- dcast(p8, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Horiz,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_SCALED_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 07MAR18
+write.csv(Horiz,"Routput/pop_calculations/NLA12_SCALED_HorizDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv") # 07MAR18
 
 # SCALED VertDD untrans
 Vert_sc <- dcast(p9, Type + ECOREG_use  + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_SCALED_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
+write.csv(Vert,"Routput/pop_calculations/NLA12_SCALED_VertDD_SIZEADJ_LK_ECO_percentile_CAST_27JUN19.csv")
 
 # SCALED Vertical DD
 Vert_sc_mod <- dcast(p10, Type + ECOREG_use + Lake_Origin_use + Indicator ~ Statistic, value.var="Estimate")
-write.csv(Vert_sc_mod,"C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_LK_ECOREG_SCALED_VertDD_MODIFIED_percentile_CAST_27JUN19.csv")
+write.csv(Vert_sc_mod,"Routput/pop_calculations/NLA12_LK_ECOREG_SCALED_VertDD_MODIFIED_percentile_CAST_27JUN19.csv")
 
 
 
@@ -315,7 +316,7 @@ cont_vars_red_a <- Cont_var_Estimates$CDF
 cont_vars_red <- subset(cont_vars_red_a, Indicator %in% c("vert_log","horiz_log","E_I"))
 
 # PLOTS
-cont.cdfplot(pdffile="M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/cdfs_2012_10OCT17.pdf",
+cont.cdfplot(pdffile="Routput/pop_calculations/figs/cdfs_2012_10OCT17.pdf",
              cont_vars_red, units.cdf="Percent", 
              xlbl="", ylbl="Percent", ylbl.r=NULL, legloc="BR")
 

@@ -12,7 +12,7 @@ rm(list=ls())
 ###########
 # Libraries
 ###########
-
+library(tidyverse)
 
 ######################
 ## LOAD DATA to create modified dataset
@@ -20,7 +20,7 @@ rm(list=ls())
 
 ##############
 ## LONG FORMAT 2007 + 2012 all lakes (n = 2066 obs) 205 variables (NLA+lkCat+pop wgts)
-nla07_12 <-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_ALL_01JUL19.csv")
+nla07_12 <-read_csv("data_processed/nla07_12/nla07_12_rbind_LONG_ALL_01JUL19.csv")
 length(unique(nla07_12$SID)) # 1716
 table(nla07_12$YEAR)
 # 2007 2012 

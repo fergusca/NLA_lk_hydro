@@ -31,11 +31,12 @@ rm(list=ls())
 #############
 ## LOAD DATA - Percentile spsurvey output (from Continuous_variable_Estimates_EF_NLA07_07SEPT17.R)
 #############
+library(tidyverse)
 library(reshape2)
 library(dplyr)
 
 #p<-read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_05MAR18.csv")
-p<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_25JUN19.csv")
+p<-read_csv("Routput/pop_calculations/NLA07_CONTINUOUS_percentile_25JUN19.csv")
 
 names(p)
 table(p$Type)
@@ -75,7 +76,7 @@ p2 <-subset(p1,Statistic=="Mean")
 # 5/10/18 - log transformed
 # 5/15/18 - Full datasets 
 
-p<-read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA07/NLA07_CONTINUOUS_percentile_SCALED_VERT_NA_10MAY18.csv")#12APR18; NLA07_CONTINUOUS_percentile_22DEC17.csv
+p<-read_csv("Routput/pop_calculations/NLA07_CONTINUOUS_percentile_SCALED_VERT_NA_10MAY18.csv")#12APR18; NLA07_CONTINUOUS_percentile_22DEC17.csv
 #############
 # Subset by lake type and ecoregion
 p1<-subset(p,Type=="WSA9_by_Lake_Origin")

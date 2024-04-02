@@ -51,7 +51,7 @@ library(dplyr)
 ######################
 ## LOAD NLA 2012 SIZE ADJUSTED (n = 951)
 #p<-read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_06AUG18.csv") #OLD p<-read.csv("M:/Net MyDocuments/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_percentile_10OCT17.csv")
-p<-read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/NLA_weighted_calculations/R_output/NLA12/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv")
+p<-read_csv("Routput/pop_calculations/NLA12_CONTINUOUS_SIZEADJ_percentile_27JUN19.csv")
 names(p)
 table(p$Subpopulation)
 table(p$Type)

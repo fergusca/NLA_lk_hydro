@@ -8,7 +8,7 @@
 ##########################
 
 rm(list=ls())
-
+library(tidyverse)
 library(ggplot2)
 library(ggpubr) # for correlation coeff in ggplot
 
@@ -17,7 +17,7 @@ library(ggpubr) # for correlation coeff in ggplot
 ##############
 ## NLA 2007 ##
 # n = 1028 observations with 555 variables
-nla07 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2007_merge/NLA07_processed_data_USE/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv") # NLA_07_VISIT_1_WGT_USE.csv Dropping obs NLA_07_transformed_SINGLE_USE.csv
+nla07 <- read_csv("data_processed/nla07/NLA_07_transformed_CONN_PHDI_ISO_lkcat_WGTS.csv") # NLA_07_VISIT_1_WGT_USE.csv Dropping obs NLA_07_transformed_SINGLE_USE.csv
 
 # Clean up dataset
 todrop <- names(nla07)%in% c("X")
@@ -26,7 +26,7 @@ nla07 <- nla07[!todrop]
 ###########
 # SIZE ADJUSTED NLA 2012 dataset
 ###########
-nla12 <- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Data/NLA_2012/Processed_data_TO_USE/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv") #NLA12_merge_transform_SINGLE_SIZE_ADJUST_USE.csv
+nla12 <- read_csv("data_processed/nla12/NLA12_SINGLE_SIZE_ADJUST_lkcat_wgt_USE_26JUN19.csv") #NLA12_merge_transform_SINGLE_SIZE_ADJUST_USE.csv
 # n=951 with 545 variables
 test<-subset(nla12,UID==7769) # AL-113 Should have E:I = 0
 #test <-subset(nla12,SID=="NLA06608-2193")

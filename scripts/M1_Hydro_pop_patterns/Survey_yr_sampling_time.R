@@ -5,6 +5,7 @@
 ###########################
 rm(list=ls())
 
+library(tidyverse)
 library(ggplot2)
 library(ggpubr) # for correlation coeff in ggplot
 
@@ -14,7 +15,7 @@ library(ggpubr) # for correlation coeff in ggplot
 ##  RESAMPLED LAKES LONG FORMAT - lakes sampled 2007 & 2012
 #n = 348 lakes resampled in both surveys
 
-nla0712_merge<- read.csv("C:/Users/EFergus/OneDrive - Environmental Protection Agency (EPA)/a_Water_Level/Analysis/Year_comparisons/Data/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
+nla0712_merge<- read_csv("data_processed/nla07_12/nla07_12_rbind_LONG_REVISITS_SINGLE.csv")
 names(nla0712_merge)
 
 ## CLEAN UP ##
